@@ -1,0 +1,6705 @@
+commit 40f3422c2057f6a45aeae6d8852d6ba475a7f44c
+Author: traccytian <646576956@qq.com>
+Date:   Mon Feb 6 16:31:48 2023 +0800
+
+    Update README.md
+    
+    修改依赖项信息
+
+commit d51dfd6636ba676a8deb9e8d23bd4ce9667e3c7a
+Author: bgamard <b.gamard@sismics.com>
+Date:   Fri Aug 26 18:18:06 2022 +0200
+
+    #647: fix doc
+
+commit ca85c1fa9fddc20f3108c7ec9b642545f061d7de
+Author: bgamard <b.gamard@sismics.com>
+Date:   Fri Aug 26 18:15:49 2022 +0200
+
+    #647: always return OK on password lost route
+
+commit 5e7f06070ef9cc022118263c602bab6cc03f05b4
+Author: bgamard <b.gamard@sismics.com>
+Date:   Mon May 16 19:22:54 2022 +0200
+
+    keep filename in temporary file
+
+commit dc0c20cd0c55964073f43f27fbcb773704721760
+Author: bgamard <b.gamard@sismics.com>
+Date:   Mon May 16 18:53:08 2022 +0200
+
+    moved tests
+
+commit 98aa33341ac4007b07249a2b7266a9467ed6a90a
+Author: bgamard <b.gamard@sismics.com>
+Date:   Mon May 16 18:50:19 2022 +0200
+
+    moved tests
+
+commit 1f7c0afc1e0a503c2afa5cca07a9bba81a74f8ae
+Author: bgamard <b.gamard@sismics.com>
+Date:   Mon May 16 18:44:26 2022 +0200
+
+    Closes #639: rework mime type resolution using java api
+
+commit 1ccce3f94210fc57a73a9341a321f629e9e02731
+Author: bgamard <b.gamard@sismics.com>
+Date:   Thu May 5 18:15:24 2022 +0200
+
+    rename
+
+commit 90d5bc8de7eba8dffd2ecbfd20a1f1379b8b2c71
+Author: Uli <email@kiot.eu>
+Date:   Thu May 5 17:48:45 2022 +0200
+
+    Allow the . (dot) and @ (at) character in usernames (#637)
+    
+    Co-authored-by: Uli Koeth <uli@kiot.eu>
+
+commit c6a685d7c04ce6c3d632016240648142ec46d956
+Author: bgamard <b.gamard@sismics.com>
+Date:   Sun Apr 17 13:35:29 2022 +0200
+
+    Closes #620: delete a non-existing document should return 404
+
+commit e6cfd899e557497c1eba451e008b7b140c2a95d1
+Author: bgamard <b.gamard@sismics.com>
+Date:   Sun Apr 17 13:23:22 2022 +0200
+
+    Closes #632: validate POST /app/config_inbox and update documentation
+
+commit bd23f14792567d228f83d8a3e9147d7e053e1575
+Author: Julien Kirch <julien.kirch@enercoop.org>
+Date:   Sun Apr 17 13:10:01 2022 +0200
+
+    Add doc for search syntax (#634)
+
+commit 46f6b9e5376fbe2b467ffadcfa140e9f402a0266
+Author: Julien Kirch <julien.kirch@enercoop.org>
+Date:   Fri Apr 15 10:18:39 2022 +0200
+
+    Download zip of files not in same document (#591)
+
+commit d5832c48e13c048bed4b36990183a7eb063da6be
+Author: Julien Kirch <julien.kirch@enercoop.org>
+Date:   Mon Mar 21 11:36:25 2022 +0100
+
+    Small code cleaning
+
+commit 64ec0f63cae16478a933ef7d454fe1d28c8fa18a
+Author: Julien Kirch <julien.kirch@enercoop.org>
+Date:   Sun Mar 20 11:36:28 2022 +0100
+
+    Add parameter to return the files when searching for a document (#582)
+
+commit 0b7c42e81459543be3b789ab9047f585f4fbc4ab
+Author: Ben Grabham <Ben.Grabham@gmail.com>
+Date:   Sun Feb 20 09:48:37 2022 -0500
+
+    Check if environment variables are not empty strings as well as not null (#623)
+
+commit d8dc63fc989d1551c9a32922f3c5ca5401a11eba
+Merge: 81a7f154 af3263d4
+Author: bgamard <b.gamard@sismics.com>
+Date:   Wed Feb 2 21:18:06 2022 +0100
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 81a7f154c254b40c5095f3cadda388ca717c4de6
+Author: bgamard <b.gamard@sismics.com>
+Date:   Wed Feb 2 21:17:58 2022 +0100
+
+    logs only for admin
+
+commit af3263d471c34e184f73e53f8593360a63dd2ce9
+Author: StaryVena <StaryVena@users.noreply.github.com>
+Date:   Wed Jan 26 15:27:14 2022 +0100
+
+    Add OCR support for Czech language (#613)
+    
+    Co-authored-by: Vaclav Uher <vaclav.uher@bruker.com>
+
+commit bbe5f199974f4c8d736f2d229cbba25636a04515
+Author: Dan Schaper <dan.schaper@pi-hole.net>
+Date:   Tue Jan 25 01:37:47 2022 -0800
+
+    Tag latest on master, tag version on github tag. (#612)
+    
+    Signed-off-by: Dan Schaper <dan.schaper@pi-hole.net>
+
+commit f33650c099ce62a7f30f30c4cfc09c57105a3f41
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Jan 21 13:51:16 2022 +0100
+
+    fix action
+
+commit 58f81ec8514cf5faa694a8a6485b19944b690fb6
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Jan 21 13:37:31 2022 +0100
+
+    fix action
+
+commit c9262eb204df246fac7d33e1909e250a375652bc
+Author: Dan Schaper <dan.schaper@pi-hole.net>
+Date:   Fri Jan 21 04:35:39 2022 -0800
+
+    Add build tags and labels (#608)
+    
+    Fixes Docker images always build as 'latest' #607
+    
+    Signed-off-by: Dan Schaper <dan.schaper@pi-hole.net>
+
+commit 3637b832e56b66da0d5fe5a153e626a6bea4b764
+Author: bgamard <b.gamard@sismics.com>
+Date:   Mon Jan 17 14:37:22 2022 +0100
+
+    test the new mime type detection
+
+commit ee56cfe2b4d46d5546a676c73a05236bace62f7e
+Author: Joost Timmerman <joost@tmmrman.nl>
+Date:   Mon Jan 17 14:24:50 2022 +0100
+
+    Support audio mime (#574)
+
+commit 721410c7d0d4553113d8fda9491f707e9258ea1a
+Author: bgamard <b.gamard@sismics.com>
+Date:   Thu Jan 13 00:15:37 2022 +0100
+
+    add test dependencies
+
+commit f0310e39333b54e57a01ca7ce1a4abba981786c8
+Author: bgamard <b.gamard@sismics.com>
+Date:   Thu Jan 13 00:06:29 2022 +0100
+
+    add test dependencies
+
+commit 302d7cccc46f6851e148d7f43f3a04a8f57428cf
+Author: bgamard <b.gamard@sismics.com>
+Date:   Wed Jan 12 23:59:43 2022 +0100
+
+    run tests + fix docker username
+
+commit f9977d5ce6f17554b4f2d1c6461c3ce159bf1850
+Author: Dan Schaper <dan@glacialmagma.com>
+Date:   Wed Jan 12 14:49:34 2022 -0800
+
+    Actions workflow (#601)
+    
+    Signed-off-by: Dan Schaper <dan@glacialmagma.com>
+
+commit 0a927fd3204d2f95ade8bbb18d89e8a811b6face
+Author: bgamard <b.gamard@sismics.com>
+Date:   Sun Jan 2 16:46:20 2022 +0100
+
+    add application/x-www-form-urlencoded to delete requests
+
+commit 523501a59200fb3a12d4c7b47bca93c1bc38966e
+Author: bgamard <b.gamard@sismics.com>
+Date:   Sun Jan 2 16:40:01 2022 +0100
+
+    consumes application/x-www-form-urlencoded
+
+commit ff8155be6ace7ccdafd9e6b14d3c2a88018157bf
+Author: bgamard <b.gamard@sismics.com>
+Date:   Sun Jan 2 16:06:36 2022 +0100
+
+    upgrade docker image to use jetty 9.4.36
+
+commit 6c5d697051d0cbb937edad5b50b0b128724bae3e
+Merge: b1914516 c7ada71e
+Author: bgamard <b.gamard@sismics.com>
+Date:   Sun Jan 2 15:39:11 2022 +0100
+
+    Merge remote-tracking branch 'origin/master'
+
+commit b19145160ee5db9c04ccd23d1ea856e61d166e58
+Author: bgamard <b.gamard@sismics.com>
+Date:   Sun Jan 2 15:39:00 2022 +0100
+
+    release 1.10
+
+commit c7ada71ef5b3473460141e0e103cc9b70bcaafcf
+Author: Roland Illig <roland.illig@gmx.de>
+Date:   Sat Nov 20 20:34:36 2021 +0100
+
+    proofread German translation (#566)
+    
+    * plural forms
+    * spelling of composed words
+    * spaces between numbers and measurement units
+    * typographic ellipsis (\u2026) instead of three dots
+
+commit 4951229576d6892dc58ab8c572e73639ca82d80c
+Author: bgamard <b.gamard@sismics.com>
+Date:   Tue Nov 16 20:01:36 2021 +0100
+
+    escape ngTranslate parameters
+
+commit d98c1bddec454006f185f2e25f94cdd63ae05572
+Author: Julien Kirch <julien.kirch@enercoop.org>
+Date:   Tue Oct 12 13:50:32 2021 +0200
+
+    Add custom parameter for exact search by title
+
+commit b0d0e93364b2d586dfa4fdf2d647eb0306ed37f6
+Author: Dan Schaper <dan.schaper@pi-hole.net>
+Date:   Thu Sep 30 04:23:58 2021 -0700
+
+    Remove duplicate tesseact language and alphabetize (#579)
+    
+    Signed-off-by: Dan Schaper <dan@glacialmagma.com>
+
+commit f20a56243945fd75e1221c99c259a64b6072c72f
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Aug 20 10:45:08 2021 +0200
+
+    remove form url encoded from baseresource
+
+commit 4ae8475f5e13b0962e23ab1194477c00120ab48d
+Author: Hung Nguyen <hungnguyenm@users.noreply.github.com>
+Date:   Mon Jun 21 01:51:31 2021 -0700
+
+    Add Vietnamese language support (#549)
+
+commit fd4c627c61ce40b5431d9a7e091043faa8a1dd30
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed May 12 19:38:58 2021 +0200
+
+    remove travis
+
+commit a867d482322dcf8868296e3d3ebfc880bfc8b0fd
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed May 12 19:38:45 2021 +0200
+
+    remove travis
+
+commit f6bf61fce9345e3f08b24ec97d051878c977f7f2
+Author: Somebodyisnobody <35230554+Somebodyisnobody@users.noreply.github.com>
+Date:   Wed Mar 31 19:08:58 2021 +0200
+
+    Update de.json (#532)
+    
+    Fix typo
+
+commit c60c9a8f742f8a8818dd38cfd9c682014b7ad76d
+Merge: dc021ab7 18b5551f
+Author: bgamard <b.gamard@sismics.com>
+Date:   Fri Feb 12 21:54:33 2021 +0100
+
+    Merge remote-tracking branch 'origin/master'
+
+commit dc021ab71e82d790d5b3a9398c3a081a65fbcc23
+Author: bgamard <b.gamard@sismics.com>
+Date:   Fri Feb 12 21:54:25 2021 +0100
+
+    Closes #520: downgrade H2 to 1.4.199
+
+commit 18b5551f6c3a0b888bca92cbcfc6ec3b10e9c206
+Author: Pascal Pischel <mail@pascal-pischel.de>
+Date:   Fri Feb 12 21:48:57 2021 +0100
+
+    Fix german translation
+
+commit 6fcd8771a5e15cd16b8b4f35ae01520eb0c87865
+Author: bgamard <b.gamard@sismics.com>
+Date:   Mon Jan 25 22:40:58 2021 +0100
+
+    upgrade to java 11 + upgrade libraries
+
+commit 1fef4c3d2e48e8d6d00e9c91c499b8af8a166444
+Author: bgamard <b.gamard@sismics.com>
+Date:   Mon Jan 25 21:31:14 2021 +0100
+
+    next dev iteration + cleanup stress project
+
+commit ee6ed2bf0b8dde699878b33fca212eeb9993dc74
+Author: bgamard <b.gamard@sismics.com>
+Date:   Mon Jan 25 21:27:22 2021 +0100
+
+    v1.9
+
+commit 57b67fee09e52988bd2ba4de728b0f07da9cc357
+Author: bgamard <b.gamard@sismics.com>
+Date:   Thu Jan 21 18:14:39 2021 +0100
+
+    Closes #458: fix css glitch on mobile
+
+commit a6cbacae727649dec34c2d8e17bddbc199dd03b0
+Author: bgamard <b.gamard@sismics.com>
+Date:   Thu Jan 21 17:58:36 2021 +0100
+
+    Closes #509: guest users cannot share and unshare
+
+commit 1e0f8e2484e7395f029764b5f7a240346d2604c6
+Author: Vec7or <43302112+Vec7or@users.noreply.github.com>
+Date:   Thu Jan 21 17:44:48 2021 +0100
+
+    Closes #472: redirect to previous URL after login
+
+commit bcb4c6d7b03215c44528d436cfbbb89d0d661fb0
+Merge: ea1d5907 05bac38f
+Author: bgamard <b.gamard@sismics.com>
+Date:   Thu Jan 21 17:39:23 2021 +0100
+
+    Merge remote-tracking branch 'origin/master'
+
+commit ea1d5907c1b89d3bb742eb738bffb57e389724ad
+Author: bgamard <b.gamard@sismics.com>
+Date:   Thu Jan 21 17:39:01 2021 +0100
+
+    #497: fix npe in unauthenticated cases
+
+commit 05bac38fc3ae99c2d94064e8b6797db3977c23b9
+Author: Vegard Hoff Walmsness <vegardhw@gmail.com>
+Date:   Thu Jan 14 20:20:16 2021 +0100
+
+    Norwegian language support
+
+commit 69746cd369fae87f64072bb2467ea1c9d9a44443
+Author: Cornelicorn <40914430+Cornelicorn@users.noreply.github.com>
+Date:   Wed Jan 6 13:51:29 2021 +0100
+
+    #486: Fix importer default file filter
+
+commit ff3db531e588eff9c7c78ea55361d8231c292f2c
+Author: Vec7or <43302112+Vec7or@users.noreply.github.com>
+Date:   Tue Jan 5 18:59:18 2021 +0100
+
+    Configure bcrypt work
+
+commit 558de7ba3fa2a88e6522e491936635e9a2ae978b
+Author: bgamard <b.gamard@sismics.com>
+Date:   Thu Dec 31 07:50:04 2020 +0100
+
+    README.md
+
+commit af15116bf9976c5c07f2341fc97bfdca0f5f7c19
+Author: Vec7or <43302112+Vec7or@users.noreply.github.com>
+Date:   Thu Dec 31 07:46:00 2020 +0100
+
+    Upgrade bcrypt library + explain env variables
+
+commit 36e5a9747bcfc77de2ef85cd90dadfa127182712
+Merge: 1346dd36 1d66b47f
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Dec 30 23:45:57 2020 +0100
+
+    Merge pull request #489 from Vec7or/fix-color-bug
+    
+    Fix tag-colors inside inherited acl
+
+commit 1d66b47f5fe7cc364b486312a947ccaa393ddc5c
+Author: Vec7or <carlo@kirchmeier.co>
+Date:   Wed Dec 30 17:33:24 2020 +0100
+
+    Fix tag-colors inside inherited acl
+
+commit 1346dd3616f2951735fc93425b5985fa2b4d419a
+Author: Evil McJerkface <evil@scary.town>
+Date:   Sun Nov 22 06:39:39 2020 -0600
+
+    Add option to specify a particular IMAP folder (aka "label" in Gmail) (#477)
+
+commit b6ec5e108b4a2dba1a52c55d7369139a1953e886
+Author: Evil McJerkface <evil@scary.town>
+Date:   Thu Nov 19 03:15:40 2020 -0600
+
+    Added support for TLS & STARTTLS for SMTP connections. If port 465 is configured, TLS will be assumed. If port 587 is used, STARTTLS is assumed. (#478)
+    
+    Closes #353: Added support for TLS & STARTTLS for SMTP connections
+
+commit 5b2833350c09e93c0c579916b6b7e264f1d7eea8
+Author: bgamard <b.gamard@sismics.com>
+Date:   Sat Oct 31 20:20:11 2020 +0100
+
+    Closes #391: change english date format to yyyy/mm/dd
+
+commit 66acb380ab5442f885717ff0d250b67ebb4a4bb3
+Author: bgamard <b.gamard@sismics.com>
+Date:   Sat Oct 31 20:14:06 2020 +0100
+
+    Closes #451: convert lob content to text for pgsql
+
+commit 00c62f2ad4fff2afd5119ae90919080f592e3490
+Author: bgamard <b.gamard@sismics.com>
+Date:   Sat Oct 31 20:11:55 2020 +0100
+
+    Closes #467: italian translation
+
+commit 7205863d95ab1379d68325c45b7f68bfc9ccadf4
+Author: bgamard <b.gamard@sismics.com>
+Date:   Fri Oct 23 19:31:27 2020 +0200
+
+    Closes #469: make sure the IP sent by the forward proxy is not bigger than 45 chars
+
+commit 2a4274d58336b06f3e873fc90285da7f57d9d289
+Author: Pyrox <Pyr0x1@users.noreply.github.com>
+Date:   Fri Oct 16 13:54:49 2020 +0200
+
+    Italian translation (#465)
+
+commit 087184b598935d287fb88f1e578e39641c2dcf16
+Author: bgamard <b.gamard@sismics.com>
+Date:   Fri Oct 16 13:53:12 2020 +0200
+
+    Closes #466: remove duplicate translation resources
+
+commit e5600e0be77b3aa83b3bb134af699c3fa84a2bf0
+Author: bgamard <b.gamard@sismics.com>
+Date:   Wed Oct 14 22:54:22 2020 +0200
+
+    add fallback for el language
+
+commit 964f3128d2b8159c3e2fbea9f5d07a9319e21dee
+Merge: eaa7cca2 69905cdc
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Oct 14 22:49:57 2020 +0200
+
+    Merge pull request #463 from kazelot/dev-language-pl
+    
+    Add  polish language
+
+commit 69905cdc555678ddedbdd4eb8e9bc0f532bfaf86
+Merge: eaa7cca2 bf4e277d
+Author: marcin <m.kazimierczak@make-soft.pl>
+Date:   Wed Oct 14 22:42:59 2020 +0200
+
+    Merge with last changes in master branch
+    Fix polish translation
+
+commit bf4e277db787c3c9f218901178a1c7e39db98656
+Author: marcin <m.kazimierczak@make-soft.pl>
+Date:   Wed Oct 14 19:07:40 2020 +0200
+
+    Add translation to timeago.js
+    Update translation
+
+commit eaa7cca27879c69677ffce84c6c7ef4bcdd272c0
+Author: bgamard <b.gamard@sismics.com>
+Date:   Wed Oct 14 18:45:18 2020 +0200
+
+    Closes #460: minification error following #455
+
+commit 0e115bb808eb28cec0621115df8d45848ebd0f05
+Author: marcin <m.kazimierczak@make-soft.pl>
+Date:   Wed Oct 14 11:57:00 2020 +0200
+
+    Translate to polish
+
+commit 1897f5567b302815fd271e8278fa518d5febf0bf
+Author: marcin <m.kazimierczak@make-soft.pl>
+Date:   Wed Oct 14 10:49:08 2020 +0200
+
+    Initial commit
+
+commit d647528b3ce5bb2e9f4db3e8ee99aa40fdade3c7
+Author: bgamard <b.gamard@sismics.com>
+Date:   Mon Oct 12 19:36:59 2020 +0200
+
+    #455: greek translation of angular-timeago by @gdepountis
+
+commit 07d42cdb9c1688dd14ca586f0d7125fc13fd298d
+Merge: dabb960c c71e7940
+Author: bgamard <b.gamard@sismics.com>
+Date:   Mon Oct 12 10:44:41 2020 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit dabb960c943085430dda003bf9c2bdefeb55e603
+Author: bgamard <b.gamard@sismics.com>
+Date:   Mon Oct 12 10:44:28 2020 +0200
+
+    #455: greek translation by @gdepountis
+
+commit c71e794051d9c742e3bc6a480ef98b01a3df6198
+Merge: 22f0f1ab 1584c0cb
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Oct 8 12:52:43 2020 +0200
+
+    Merge pull request #454 from vmario89/patch-3
+    
+    Update de.json
+
+commit 1584c0cbb2d6047d08d2ea4fea3ff42b4da9fbf9
+Author: Mario Voigt <opensource@leyghis.de>
+Date:   Thu Oct 8 09:52:38 2020 +0200
+
+    Update de.json
+    
+    Small lang fix in de.json
+
+commit 22f0f1abf4dbee523f1f87ea60e6aa34eabe10c4
+Author: bgamard <b.gamard@sismics.com>
+Date:   Tue Oct 6 16:37:52 2020 +0200
+
+    Closes #453: load gravatar icons in HTTPS
+
+commit 205f92d093f39db7afbdea6ae532a09116be8734
+Author: Jean-Marc Tremeaux <jm.tremeaux@sismics.com>
+Date:   Thu Sep 24 13:12:45 2020 +0200
+
+    Upgrade to JDK 11.0.8
+
+commit 7488ac15a7b14e754caa7e586d66830205a38b4f
+Merge: 94252de7 44f5db99
+Author: Jean-Marc Tremeaux <jm.tremeaux@sismics.com>
+Date:   Thu Sep 24 12:45:08 2020 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 44f5db993a7fab7d510bb753bdb7ac48cf09b980
+Author: bgamard <b.gamard@sismics.com>
+Date:   Sun Sep 13 17:58:28 2020 +0200
+
+    #451: remove @Lob on file content
+
+commit f76eae23caec52b33a6eeeff573d08b7252fa648
+Merge: 5e2a18f8 2f6e5d53
+Author: bgamard <b.gamard@sismics.com>
+Date:   Thu Sep 10 20:44:20 2020 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 5e2a18f819f37b0199dc1eead31d98cf1f8ac806
+Author: bgamard <b.gamard@sismics.com>
+Date:   Thu Sep 10 20:42:51 2020 +0200
+
+    #451: update the file content with an Hibernate query instead of a native query
+
+commit 2f6e5d53c2a84e370c1c661eccb13104d4b0f495
+Merge: 3ad0554a 50e6c4d9
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Sep 8 02:02:59 2020 +0200
+
+    Merge pull request #449 from muhsinkutay/patch-1
+    
+    Fix typo in English translation
+
+commit 50e6c4d965a6ef77ed4a58d638d98c1c411550c7
+Author: muhsinkutay <33558081+muhsinkutay@users.noreply.github.com>
+Date:   Tue Sep 8 02:51:53 2020 +0300
+
+    Update en.json
+    
+    Line 6: Misspelling
+
+commit 3ad0554a7daa47a3c604e520ffe964c3f2140f09
+Author: bgamard <b.gamard@sismics.com>
+Date:   Sat Aug 29 19:10:14 2020 +0200
+
+    use org.apache.directory.api for LDAP instead of apacheds
+
+commit 113ec78c67b47f91cd0f3f974668a1b13959925e
+Author: bgamard <b.gamard@sismics.com>
+Date:   Fri Aug 28 19:33:58 2020 +0200
+
+    import less apacheds dependencies
+
+commit f814927eca8db8ee05f4fd711e9a73c6d5afc747
+Author: bgamard <b.gamard@sismics.com>
+Date:   Fri Aug 28 18:10:28 2020 +0200
+
+    update README.md
+
+commit a9719feeec3eb838b4c2ed81b63a207804511802
+Author: bgamard <b.gamard@sismics.com>
+Date:   Fri Aug 28 18:09:54 2020 +0200
+
+    LDAP support, courtesy of an anonymous donator
+
+commit 6dc4f1b448b16931fed74f80a7c1e5dd42aea7f4
+Author: bgamard <b.gamard@sismics.com>
+Date:   Fri Aug 28 17:47:07 2020 +0200
+
+    #423: fulltext search by default
+
+commit e1fa17691d6baeca793ba29a7a4cbee1de9b314b
+Merge: 42e61d6e 2bf3e6bd
+Author: bgamard <b.gamard@sismics.com>
+Date:   Fri Aug 28 17:34:03 2020 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 42e61d6e1fedb018465d8e2428edbfc550202fc1
+Author: bgamard <b.gamard@sismics.com>
+Date:   Fri Aug 28 17:33:27 2020 +0200
+
+    #423: fulltext search by default
+
+commit 2bf3e6bd3cfeae8afd0030722ec5c3392a934d69
+Author: Jamie Magee <JamieMagee@users.noreply.github.com>
+Date:   Sun Aug 2 23:32:29 2020 +0200
+
+    Danish language support (#438)
+
+commit 608b2f868d23e729da52880b04eb7063235f055c
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Jun 24 21:54:09 2020 +0200
+
+    Doc about prebuilt Docker image for bulk importer
+
+commit 46638bab5b39c2765f46ef108ceb51626c32d5bf
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Jun 24 21:18:37 2020 +0200
+
+    Build and push docs-importer to Docker Hub
+
+commit 4607362e46b314453f0d54e7d177bd74cd91ecf2
+Author: Carl Reid <33623601+carlreid@users.noreply.github.com>
+Date:   Tue Jun 23 22:31:49 2020 +0200
+
+    Add file filter to importer (#426)
+
+commit 041b2dfcc13ea4d089d85eebdc319cba2278e11b
+Author: Cornelicorn <40914430+Cornelicorn@users.noreply.github.com>
+Date:   Sun Jun 21 14:48:13 2020 +0200
+
+    Fix tag-adding bugs of the importer (#427)
+
+commit 7ad0dd43e236c2da528a8affacac68490045d612
+Author: Carl Reid <33623601+carlreid@users.noreply.github.com>
+Date:   Sun Jun 21 13:45:23 2020 +0200
+
+    Remove COPY node_modules from Dockerfile (#425)
+
+commit 35339f73286acdb211c3dca77abb5df8d7cb206d
+Author: buherman11 <66716828+buherman11@users.noreply.github.com>
+Date:   Wed Jun 10 17:04:09 2020 +0700
+
+    Fixed sending workflow emails to previous assignee (#422)
+
+commit e474e7cd75868a815415e4cfd69e19ebf99b97b0
+Author: Gabisonfire <gab.despres@gmail.com>
+Date:   Sun Jun 7 14:13:04 2020 -0400
+
+    Added option to copy a file before it is deleted after being imported (#418)
+
+commit 612fab2aefa48e9b62a4750e6b94128fa8f44a5d
+Author: Cornelicorn <40914430+Cornelicorn@users.noreply.github.com>
+Date:   Fri May 22 15:18:19 2020 +0200
+
+    Improve the file importer (#415)
+    
+    Improve the bulk importer (tags by filename, document language, Docker container)
+
+commit 3f67bd471bc4a9c2a28a192b306c5895d4a347b7
+Author: bgamard <b.gamard@sismics.com>
+Date:   Tue May 19 15:33:23 2020 +0200
+
+    increase default heap space to 1GB
+
+commit cb29dcd6ccee90ebe7be74dcddc7b89c9014be3f
+Author: bgamard <b.gamard@sismics.com>
+Date:   Tue May 19 15:11:05 2020 +0200
+
+    handle all content extraction errors
+
+commit d428e89c305bc7f0605c94262a40fe680dddfda7
+Author: bgamard <b.gamard@sismics.com>
+Date:   Tue May 19 14:44:41 2020 +0200
+
+    #412: process files outside of a transaction
+
+commit 9b2aeb7480521cb7d20074d7879e70171ef63133
+Author: bgamard <b.gamard@sismics.com>
+Date:   Tue May 19 14:05:34 2020 +0200
+
+    add temporary logs
+
+commit d9ad69c7ffb52b2fe1cc3c25b0985c293bf1ff77
+Author: bgamard <b.gamard@sismics.com>
+Date:   Sun May 17 21:58:13 2020 +0200
+
+    add more log to debug processing indicator
+
+commit 16fc05826473f2519c7cafefc079b636cd95e9a3
+Merge: 520b1431 95c37a03
+Author: bgamard <b.gamard@sismics.com>
+Date:   Sun May 17 21:00:30 2020 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 520b1431650f055bbd68f388717ac658da8fa5f1
+Author: bgamard <b.gamard@sismics.com>
+Date:   Sun May 17 21:00:01 2020 +0200
+
+    #412: better handle concurrent updates and async listeners
+
+commit 95c37a03f8ce31841f43fdfd5e75927b53b6b0b8
+Author: cadast <37808546+cadast@users.noreply.github.com>
+Date:   Thu May 14 13:59:11 2020 +0200
+
+    Improve Inbox Scanning (#407)
+    
+    closes #386: delete emails after import + closes #405: auto tag documents imported by email
+
+commit 0d058b9c9cb13d96594cba3e38ab7b0adcf7f39a
+Author: bgamard <b.gamard@sismics.com>
+Date:   Thu May 7 11:09:11 2020 +0200
+
+    at least 2 threads for background work
+
+commit 7c72b5e69ba813a8785857bc5ec6c2bf106d079b
+Author: bgamard <b.gamard@sismics.com>
+Date:   Wed May 6 13:56:45 2020 +0200
+
+    #401: importer: truncate document title to allowed size
+
+commit 3ec254e908473b370b395e035b55ab73134bc16c
+Author: bgamard <b.gamard@sismics.com>
+Date:   Wed May 6 11:35:45 2020 +0200
+
+    #400: limit async bus to (cpu cores / 2) threads
+
+commit fda13c004ee58c1617feecab36431c622261b7a9
+Merge: 3af85eee c08616e6
+Author: bgamard <b.gamard@sismics.com>
+Date:   Tue Apr 21 21:13:54 2020 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 3af85eeea6317224d12b06cad34dce8358dd5d50
+Author: bgamard <b.gamard@sismics.com>
+Date:   Tue Apr 21 21:13:20 2020 +0200
+
+    bump importer version
+
+commit c08616e6dfa478c100ec4b5d9565aae1fe7c9112
+Author: lord-lawnmower <57138942+lord-lawnmower@users.noreply.github.com>
+Date:   Mon Apr 13 22:04:47 2020 +0300
+
+    Latvian Language Support (#390)
+
+commit 7faa0f8a5491cc7e1c27845aa7b2ab53e03842be
+Author: Antti Tapio <github@mail.tapio.xyz>
+Date:   Sun Apr 12 19:27:06 2020 +0300
+
+    Finnish and Swedish language support (#389)
+
+commit 26c5fe2e6943e558f8249b2bfbe1edf0e5b6a908
+Author: bgamard <b.gamard@sismics.com>
+Date:   Thu Mar 26 20:06:58 2020 +0100
+
+    next dev iteration
+
+commit 6bdaa8352bbd01a81a3a17c6344a030656876deb
+Author: bgamard <b.gamard@sismics.com>
+Date:   Thu Mar 26 20:00:44 2020 +0100
+
+    update README.md
+
+commit 6367a1fd1592816dadc4ae9a97b8c215c50a3e9e
+Author: bgamard <b.gamard@sismics.com>
+Date:   Thu Mar 26 19:57:10 2020 +0100
+
+    v1.8
+
+commit 2c5ff64d42c7ede431ebbcc226cd0ccbd0952667
+Author: bgamard <b.gamard@sismics.com>
+Date:   Wed Mar 25 19:02:50 2020 +0100
+
+    Closes #387: validation username and group name in UI
+
+commit e614cb41d8ed02125f6a04d50c49b7629397a240
+Author: bgamard <b.gamard@sismics.com>
+Date:   Wed Mar 25 18:13:49 2020 +0100
+
+    update feedback api url
+
+commit 82737e22807860d3ae6118eae3a5ec37241f0544
+Author: bgamard <b.gamard@sismics.com>
+Date:   Sat Mar 7 17:56:01 2020 +0100
+
+    Closes #334: highlight previously opened file
+
+commit 3b5c27096bd2d9cd5aab10bc01d149fa00d9ffe4
+Author: bgamard <b.gamard@sismics.com>
+Date:   Sat Mar 7 17:46:40 2020 +0100
+
+    Closes #350: better relations widget
+
+commit 8a85830bd3aad3976bddc97f95acfcffb3db26b2
+Author: bgamard <b.gamard@sismics.com>
+Date:   Sat Mar 7 00:36:03 2020 +0100
+
+    #381: date fields manually editable
+
+commit 19ac90688e411b290181c09d7062442a0244e4d0
+Author: bgamard <b.gamard@sismics.com>
+Date:   Wed Feb 19 20:47:26 2020 +0100
+
+    upgrade guava
+
+commit 5f4a6bc4629d78f2ddfa925bab2dc5b3a847b0aa
+Author: bgamard <b.gamard@sismics.com>
+Date:   Wed Feb 19 18:00:13 2020 +0100
+
+    #336: fix search by type
+
+commit 4c7f3166d4d46535d5b1e0adb46de80c2d135b9e
+Author: bgamard <b.gamard@sismics.com>
+Date:   Sat Feb 15 23:00:35 2020 +0100
+
+    Closes #332: tag text color legibility
+
+commit 4233f4dd88c3e4d3433dbb15e2c24609c97d176a
+Author: bgamard <b.gamard@sismics.com>
+Date:   Sat Feb 15 22:38:06 2020 +0100
+
+    Closes #317: edit tag color hex code manually
+
+commit bd0931241845bc7fb0f745093ec5f96608a6115e
+Author: bgamard <b.gamard@sismics.com>
+Date:   Sat Feb 15 22:05:04 2020 +0100
+
+    Closes #336: search document by file mime type
+
+commit 11ab07b2381ecd9495cb989602dbd051cd154ceb
+Author: bgamard <b.gamard@sismics.com>
+Date:   Sat Feb 15 15:44:32 2020 +0100
+
+    Closes #333: fix overflow in document table with a lot of tags
+
+commit d2e2f089fb4f770906b41f19d918530fd98b6cc7
+Author: bgamard <b.gamard@sismics.com>
+Date:   Fri Feb 14 21:48:45 2020 +0100
+
+    update README for build deps
+
+commit d619f98de71a7b04069879147fc069fb355aa9cd
+Author: bgamard <b.gamard@sismics.com>
+Date:   Fri Feb 14 21:40:13 2020 +0100
+
+    Closes #379: spaces and colons not allowed in tag name
+
+commit 89228a52dc3d1cfb734c4173c7b0ab68457eccbf
+Author: bgamard <b.gamard@sismics.com>
+Date:   Fri Feb 14 21:33:34 2020 +0100
+
+    Closes #378: silence useless log from Jersey
+
+commit 90a49efa4a27b20641da94fa236a77d8190938e7
+Author: bgamard <b.gamard@sismics.com>
+Date:   Thu Feb 13 17:43:07 2020 +0100
+
+    Closes #373: high quality PDF to image conversion before OCR
+
+commit a7423caeb1464254e2e42d599ee6e1fddfefe978
+Author: junpet <junpet@users.noreply.github.com>
+Date:   Wed Jan 29 15:44:44 2020 +0100
+
+    Add Hungarian Language Support (#369)
+    
+    Add Hungarian language support
+
+commit 6f31a2c228fbac5eeba7df2fba5c09dff6eaaa7a
+Author: bgamard <b.gamard@sismics.com>
+Date:   Tue Jan 21 12:54:50 2020 +0100
+
+    Closes #366: get the private key from the right user when processing files
+
+commit fc98b0882f6240e3a440ee83a3d4903ca594f435
+Merge: dff05967 ec836a2f
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Dec 28 13:54:45 2019 +0100
+
+    Merge remote-tracking branch 'origin/master'
+
+commit dff05967ea630ef8a8ca803b95a9b5d1432fbd86
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Dec 28 13:53:42 2019 +0100
+
+    Closes #363: pgsql compatibility for table alias in update queries
+
+commit ec836a2f9d6d7aac009361aa1f7c1d754feb2b7f
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Oct 13 01:24:10 2019 +0200
+
+    Update README.md
+
+commit 737c85cf0001d2a9d0d98b4b8d45009114797a77
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Oct 13 01:23:03 2019 +0200
+
+    Update README.md
+
+commit ff7b07f4645468bda1bcdb37b408ef87c0fa5c43
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Oct 12 23:05:35 2019 +0200
+
+    Create FUNDING.yml
+
+commit 19422b5afa76f576e228a4a163d01e3e9286a43e
+Author: Mario Voigt <mariovoigt89@t-online.de>
+Date:   Mon Aug 26 14:19:19 2019 +0200
+
+    Fixed some language issue (#352)
+
+commit 6b93e413b6dfaee62a64300d996d7dff20a11622
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Jun 3 11:45:38 2019 +0200
+
+    #321: remove duplicate contributors
+
+commit ab72736bcc4cd75e604ec6e533be94a96c313cc1
+Author: Mario Voigt <mariovoigt89@t-online.de>
+Date:   Sat May 25 18:53:02 2019 +0200
+
+    Update de.json (#322)
+    
+    Added missing german translation strings
+
+commit 38939e5d05cb9bbeebd1c69cfe40d285f18a42b2
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed May 22 15:36:50 2019 +0200
+
+    #314: force file content in utf8
+
+commit 1a90a0e0ada0b08b4a5c637db37a886c78e0ddd3
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue May 21 16:17:54 2019 +0200
+
+    next dev iteration
+
+commit 7aa9fa464622db69da98fe7ca54263b4968cc6c0
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue May 21 15:55:41 2019 +0200
+
+    v1.7
+
+commit 82d788c8d31aa044ebc33ab597f779cd55fffe28
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue May 21 15:53:54 2019 +0200
+
+    Closes #300: adjust tests
+
+commit ab8176efcbd24a6dbb4a51a1b6cec47660141e76
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue May 21 15:44:23 2019 +0200
+
+    #300: custom metadata fields: UI read/write
+
+commit b4c3e7a928ff8ab100bd577fe02ce1a90f8f3ef9
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon May 20 15:18:08 2019 +0200
+
+    update Docker image infos
+
+commit 2db263fb68f80d8534973c618849ed69073268b8
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon May 20 15:08:16 2019 +0200
+
+    #300: custom metadata fields: API read
+
+commit 5fd4d37972779bf55eb0a24a08c4b4eda654047d
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri May 17 16:00:03 2019 +0200
+
+    #300: custom metadata fields: API write
+
+commit 9b1dbf351a88a981c4513a7f4feb1cba0b70a262
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed May 15 14:15:55 2019 +0200
+
+    #300: custom metadata fields: UI admin
+
+commit 4c7c058e0d716c4d01eb092f158a555c7692b4ef
+Merge: f8dc08b0 0e6bc3ce
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed May 15 13:34:21 2019 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit f8dc08b02b451e165dad7e4bdca2b4670c09a374
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed May 15 13:34:01 2019 +0200
+
+    #300: custom metadata fields: API admin
+
+commit 0e6bc3ce54ee651e1371f4c08900252e5f587d3d
+Author: yosef langer <yosef@doar.systems>
+Date:   Sat May 11 17:26:01 2019 +0300
+
+    Hebrew Language Support (#320)
+
+commit fcb018406d9db07e917bf64bd838cf292343e613
+Merge: 40756a5e 61b12bde
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue May 7 14:38:15 2019 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 40756a5e4b7af0ed20727723dc5c5e822efbc090
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue May 7 14:38:05 2019 +0200
+
+    Fix for https://bugs.openjdk.java.net/browse/JDK-8216039
+
+commit 61b12bdebd5fc786abc58b0187433726b53bc749
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon May 6 18:12:44 2019 +0200
+
+    Closes #309: store onboarding status server side
+
+commit 8b1c41ae1ea0ee18ef4cd5017d943148ad902423
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri May 3 15:35:47 2019 +0200
+
+    Closes #305: exclude tags from search
+
+commit d654564f6b8a67ccbee58cd1d4efa5808b612ad2
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri May 3 15:09:43 2019 +0200
+
+    Closes #318: Sort file list on drag & drop before sending to server
+
+commit 8bd22ebafa21ebf461e56bc9cda23ed170d697a2
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri May 3 14:09:35 2019 +0200
+
+    Closes #301: download link in overflow menu
+
+commit 647e66d57bad66121318ff1ae185c8dbd451d0c4
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri May 3 13:55:18 2019 +0200
+
+    update api doc
+
+commit 67c8ac1aa3211d74f1a6b1829b83daec65078979
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri May 3 13:54:10 2019 +0200
+
+    Closes #307: log workflow create/delete in document logs
+
+commit f336c7ae539e53b6c1d9c2fcd496740dd6ee77be
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri May 3 13:27:23 2019 +0200
+
+    Closes #313: remove administrators from ACL targets search
+
+commit 9ea1dad62d6286a4df9d2bf2d743521bfa2b8db3
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri May 3 13:19:21 2019 +0200
+
+    Closes #296: firefox hack to prevent file open on drag & drop
+
+commit 58bc374e640b5848527182a35ad9bfb57772e8b6
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu May 2 16:19:50 2019 +0200
+
+    Closes #306: Prevent deleting/renaming users/groups used in route models
+
+commit cea0d4887d38298d6d06f903eb34e94e28a152b9
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu May 2 11:19:08 2019 +0200
+
+    Closes #302: increase version history modal size
+
+commit d5e73ecd8bb30f1bf98f0aef57d67f0b4e1ae1f9
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu May 2 11:13:16 2019 +0200
+
+    Closes #308: update user quota when deleting a document
+
+commit 2235a0498bc754a2b1e92b33d06c400707e12e07
+Merge: 3f9b9283 5680750c
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu May 2 10:54:28 2019 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 3f9b92831c4bcf321ad4a96de034cbfea8c4e1e4
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu May 2 10:54:19 2019 +0200
+
+    Closes #312: fix file importer description
+
+commit 5680750c82d56283a674c85c577507354e15a4ec
+Merge: 298e3efe 7b2bd6f9
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed May 1 17:36:27 2019 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 298e3efe49d690e4f9aa68f913d437bbb9b14672
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed May 1 17:35:35 2019 +0200
+
+    Spanish translation
+
+commit 7b2bd6f9ebfedb844977dbb009b082d52f87fe7d
+Author: Burak Sormageç <bsormagec@users.noreply.github.com>
+Date:   Thu Mar 7 22:34:02 2019 +0300
+
+    Turkish Language Support (#304)
+    
+    Add turkish language support
+
+commit d935e0799025a4aa0e84ce58c8ceaf34f819f3fa
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Feb 12 14:55:12 2019 +0100
+
+    pgsql compatibility
+
+commit 868a74c184d52ce03e29e407083a120c83010956
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Feb 12 13:57:54 2019 +0100
+
+    sismics docs -> teedy
+
+commit a86af9736bd130d9ee409ec85fce346d053225f2
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Feb 7 16:55:58 2019 +0100
+
+    fix test
+
+commit 8bd4d27d2fe5192762b05cb47c71bb6f7c213c81
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Feb 7 15:17:38 2019 +0100
+
+    increase h2 lock timeout
+
+commit 94951c59f35f1c66402950b898aecc1046b252c8
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Feb 7 15:08:17 2019 +0100
+
+    quick test
+
+commit e39c83a5a69d98da23c39258289d7c37142dacc3
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Feb 7 14:50:47 2019 +0100
+
+    update the file ID on a document with a native query
+
+commit 516a5f03e3182d8dbd6266ea5d33f0cbc788f65e
+Merge: 99215080 be236313
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Feb 5 17:46:32 2019 +0100
+
+    Merge remote-tracking branch 'origin/sismics_prod' into sismics_prod
+
+commit 992150804ac8e0ca94c398b3c80f1ce5c63a4d6a
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Feb 5 17:45:07 2019 +0100
+
+     #236: onboarding localization
+
+commit e905aa76a0f23e5e5d83d566d115b2507b5d6d92
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Feb 5 17:38:58 2019 +0100
+
+    fr translations
+
+commit 940b365447ed637f7da8caf74facb2ed76cf0a65
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Feb 5 17:32:47 2019 +0100
+
+    Closes #236: onboarding wizard
+
+commit d4d1c3526449ed7bd5594f363222f02ad7dde68a
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Feb 5 15:37:46 2019 +0100
+
+    Closes #260: Re-index all if the Lucene directory is unusable
+
+commit 5b818c825838e589575056c6b22e7291fc7d4df2
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Feb 5 14:14:06 2019 +0100
+
+    Closes #277: display files in list
+
+commit dedfae7b33d5770a410f90c01c28c69e17165988
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Feb 4 17:46:21 2019 +0100
+
+    update french translation
+
+commit aa91a7fe248930b494d753055d3410ca9b55d84e
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Feb 4 16:51:29 2019 +0100
+
+    Closes #291: feedback modal only for admin users
+
+commit 822a4ae776552aa4bd4237cfebef410a4b17b041
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Feb 4 16:47:43 2019 +0100
+
+    Closes #268: test TOTP after activation
+
+commit c6eb1c813cb0b1af1e18085d8e69be0023a49797
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Feb 1 14:47:18 2019 +0100
+
+    #268: endpoint to test TOTP code
+
+commit 0d50676586653739c1a964c43ad155f3aaa039ec
+Author: Mario Voigt <mariovoigt89@t-online.de>
+Date:   Fri Feb 1 11:44:05 2019 +0100
+
+     Added translations strings for german lang, docs-android and docs-web  (#294)
+
+commit a2a3297986ae807e5d56d4f73c17db46ff8f1c29
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Jan 31 15:44:58 2019 +0100
+
+    Closes #256: display version history
+
+commit 8bdab73ae9fc692439ca8bc0e54d3f180636b212
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Jan 30 21:14:07 2019 +0100
+
+    #256: list versions of a file (API)
+
+commit 4469bb7beef47065951d45a114a00d1e1946a51d
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Jan 30 18:15:00 2019 +0100
+
+    #256: upload a new version UI
+
+commit b2dc460b4be93a5de77f2cb18a07fd64f44c8a14
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Jan 30 17:38:30 2019 +0100
+
+    Closes #269: translate audit log
+
+commit 3b281a8c3f6fb90ae2089b1c152e9ab9f3c8fad2
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Jan 30 16:53:07 2019 +0100
+
+    Closes #270: add notification channel for android > 26
+
+commit fe40a0a677d7d902cc8ac08b7ad0fe01eccc708a
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Jan 24 20:20:03 2019 +0100
+
+    Closes #168: UI for disabling TOTP as admin
+
+commit b8c2bd356440edbc515f2e48e124577e574972dc
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Jan 24 20:03:10 2019 +0100
+
+    Closes #267: spaces not allowed in group names
+
+commit be236313e99e89f2f9541041ec3b419bb16fec32
+Merge: 5169deb0 7a285d11
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Jan 24 17:38:00 2019 +0100
+
+    Merge branch 'master' into sismics_prod
+
+commit 7a285d11a530ea52831d585323cd1769d5c48451
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Jan 24 17:34:44 2019 +0100
+
+    Closes #270: missing permission for android 28
+
+commit 6e56a0f5689feddd02058c23ce53b83bf5589713
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Jan 24 17:26:46 2019 +0100
+
+    #289: better search parsing (including wildcard and fuzzy)
+
+commit 10d5c4334b059362c4bf24b271a912632dd92b41
+Author: Mario Voigt <mariovoigt89@t-online.de>
+Date:   Thu Jan 24 11:53:45 2019 +0100
+
+    Fixed some spelling mistakes + added translated properties for german… (#266)
+    
+    german fixes
+
+commit 8a5e90e56237c4a0e059aadd211ba339b3b60e10
+Author: Freekers <1370857+Freekers@users.noreply.github.com>
+Date:   Thu Jan 24 11:52:44 2019 +0100
+
+    Added OCR support for Dutch (Nederlands) (#286)
+    
+    Dutch support for OCR
+
+commit c7c7badaf04fcf8663c38997657b43bacd4b88e5
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Jan 24 11:49:45 2019 +0100
+
+    fix travis build for PR
+
+commit 183e86aad6602e2e85acae429b6f2d4b11562d22
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Jan 24 11:48:42 2019 +0100
+
+    fix travis build for PR
+
+commit 5fbbcfc888418aba6d83c06832fd085b6cfc8ce3
+Author: Mario Voigt <mariovoigt89@t-online.de>
+Date:   Thu Jan 24 11:38:17 2019 +0100
+
+    Open jdk11 (#287)
+    
+    Java 11 compat
+
+commit 5169deb005b1324af9e44d729a920d37bf993ef6
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Dec 5 17:23:19 2018 +0100
+
+    fix workflow form
+    
+    (cherry picked from commit db4f5f9011c5222f665b4caecccb99474f2a5d58)
+
+commit 98fa89bd809044eb13da85a198fe9d62041cef5c
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Nov 28 13:09:20 2018 +0100
+
+    css fix
+    
+    (cherry picked from commit 33aaf8afd28c73ca4f72dd57da301ac296d3e3f1)
+
+commit db4f5f9011c5222f665b4caecccb99474f2a5d58
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Dec 5 17:23:19 2018 +0100
+
+    fix workflow form
+
+commit 33aaf8afd28c73ca4f72dd57da301ac296d3e3f1
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Nov 28 13:09:20 2018 +0100
+
+    css fix
+
+commit 3902d6361ea0ef02d56cfff4069a3ae19a72b36e
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Nov 23 14:54:11 2018 +0100
+
+    #256: versioning API
+
+commit d8d5249a2328767e7b60b165d6699786d6ccdc8c
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Nov 9 14:49:34 2018 +0100
+
+    Closes #257: admin users can see all logs
+
+commit 42828efa19ecedc9efe82c28ac5eff5a75c5b733
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Nov 7 13:42:43 2018 +0100
+
+    #168: disable TOTP as admin for a specific user
+
+commit a75b40bbfb9dcdcc6f2a9f929301c5594899f251
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Nov 1 16:40:55 2018 +0100
+
+    fix tests
+
+commit 4ebf621e1131e9dd844efd3942f7793003b9abb7
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Nov 1 16:29:22 2018 +0100
+
+    #254: no 404 if no main file for a document
+
+commit cee82f39c285b8510dd53d551c9cae3c0489e7e2
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Nov 1 16:27:35 2018 +0100
+
+    #254: display documents in grid + concept of main file
+
+commit eb9e0e0543c7d11b8eb34c751a4e185302477797
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Oct 29 19:01:32 2018 +0100
+
+    Closes #219: button to force full reindexing
+
+commit 35c3ee023b369bcf9b16e2c52bd9d6d27cf95dbc
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Oct 29 18:32:39 2018 +0100
+
+    Closes #222: full reindexing scalable + concurrent Lucene merges
+
+commit 2134f116dafd6f632ba20ea0e7c7041b079d4e81
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Oct 28 17:26:34 2018 +0100
+
+    #252: fix route test
+
+commit feb3d15968328e48f901e17d4fdc92d668eade5d
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Oct 28 17:18:50 2018 +0100
+
+    #252: info when no route model available
+
+commit 4910dfd5273ccf46dceb97b993b988d69fbd4d9f
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Oct 28 17:03:21 2018 +0100
+
+    Closes #252: route model permissions
+
+commit 94252de73fbe36981dd59b13c771122957d53cba
+Merge: d4307266 dc5a157d
+Author: Jean-Marc Tremeaux <jm.tremeaux@sismics.com>
+Date:   Tue Oct 23 18:16:35 2018 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit dc5a157dad64968f6587c15300fb0b462d0d70e0
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Oct 21 14:29:26 2018 +0200
+
+    fix dockerfile
+
+commit bf8411cc240372c31e6d0a045b83ab2bcbb66656
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Oct 21 13:04:59 2018 +0200
+
+    fix dockerfile
+
+commit a9648f803c757387cc67707843f61a301fe7497e
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Oct 21 11:54:19 2018 +0200
+
+    #247: upgrade dependencies
+
+commit b2b4eed4fa15fb38e0a94abe19bd5544be9c52c6
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Oct 21 01:24:59 2018 +0200
+
+    #241: update README.md
+
+commit 7665eb6bf2e2849b8b9d356b07bf8420c0ad9a7b
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Oct 21 01:23:45 2018 +0200
+
+    #241: update API doc
+
+commit 40c1ff0e1acca0b84d6f3bfa985289a5a52319b4
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Oct 21 01:22:31 2018 +0200
+
+    #241: test highlights and suggestions
+
+commit 6ceb1f6c021718e9fb4a01cbbdb0145412fc644a
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Oct 20 21:16:06 2018 +0200
+
+    Closes #241: search highlighting
+
+commit 8c37af62077fd2f41c65345fe53f3973c386bb3d
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Oct 19 19:13:39 2018 +0200
+
+    #241: search suggestions
+
+commit 7baf5e44fd79c2678cea207ac0e5f9d10f943f3a
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Oct 19 17:04:49 2018 +0200
+
+    Closes #237: prevent tag circular reference
+
+commit 8fff672d2f0abee5d56ab72ad3818d0111235cb0
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Oct 19 16:10:39 2018 +0200
+
+    Closes #244: feedback when saving inbox scanning configuration
+
+commit d4fe719a2cc45c0cbc8117d92293be1898287d2a
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Oct 19 13:34:45 2018 +0200
+
+    hide toolbar and fab on doc list scroll
+
+commit 108d5ae8301254c1df9cd11317bb432aced8fce5
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Oct 18 23:57:08 2018 +0200
+
+    Android: target api 28
+
+commit 867c3207c5bf4953c3232989f1bab0a9e9275795
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Oct 18 22:22:40 2018 +0200
+
+    #246: CURL examples for API authentication
+
+commit 0c257b763d5f32fa8009aa65092e48a382829e86
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Oct 18 18:57:06 2018 +0200
+
+    Closes #245: admin group undeletable + admin can see all
+
+commit 58af2b00cb5f8bc5d37bc6e1e4835531c3fdb1f4
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Oct 18 11:32:42 2018 +0200
+
+    fix api doc
+
+commit 1d78ce4b72721877ac30eb7c6801bfd97839858b
+Merge: 26d9d826 bb9957be
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Oct 17 16:51:48 2018 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 26d9d826a3e287752df11007bbe9e0514c7df330
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Oct 17 16:51:07 2018 +0200
+
+    fix permission query
+
+commit bb9957be24ef008af135ab86623d583a8df06cb7
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Oct 17 11:40:42 2018 +0200
+
+    Update README.md
+
+commit 0dce279fd0e78582b8bbcf59b2ac2ec666f5bae6
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Oct 17 11:31:49 2018 +0200
+
+    Closes #243: webhooks UI
+
+commit 884239bc261f8efccea472a8ad1ab4973d371c76
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Oct 16 22:49:29 2018 +0200
+
+    #243: call webhooks
+
+commit dfdd5f8d205116e91f70a81da07dc6dbbec9564a
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Oct 16 19:04:04 2018 +0200
+
+    #243: webhook CRUD
+
+commit b5f0612e781310bbd13197e5131f59c214b96ac0
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Jul 25 13:11:51 2018 +0200
+
+    add a new MP4 magic number
+
+commit dc044e684dd82580ebb47ca380ff52a2e8511f43
+Author: James Smith <psych0ticus.aus@gmail.com>
+Date:   Wed Jul 18 19:35:17 2018 +1000
+
+    Added required environment variable to startup (#240)
+    
+    Added DOCS_BASE_URL to the environment variables in the Docker documentation
+
+commit 8f1dddb8a35dd6b72f14219c3ef09c7cf65c7204
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed May 30 13:53:04 2018 +0200
+
+    update fr/de translations
+
+commit 763f91fd4ca6b09524c75e160893fbed82ba5f7a
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Apr 22 11:12:09 2018 +0200
+
+    Closes #220: background tasks count
+
+commit dd1c06013be407df342c816354e5d23cdcc1d589
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Apr 11 16:17:37 2018 +0200
+
+    #230: Add a check all/none button on "quick upload"
+
+commit 748659e78eb3be1e47241f542c65e5f5034e5754
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Apr 11 12:38:03 2018 +0200
+
+    create a single index writer for Lucene + Closes #231
+
+commit b265b8b1e0c26ee5cc245109f1ab3a877871e45f
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Apr 11 11:27:55 2018 +0200
+
+    process events concurrently
+
+commit 7b3c0915d8adf7d95ef648a86a85f339b9cc6a95
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Apr 9 13:11:33 2018 +0200
+
+    fix tests
+
+commit d0335b6b161058250ec8cc44eeb2357f96176f54
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Apr 9 13:02:39 2018 +0200
+
+    Closes #206: action to process all files
+
+commit 6d350208406b53c47c6234727dbdd878617ca89b
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Apr 6 23:37:54 2018 +0200
+
+    Closes #227: fix searching by tag
+
+commit cedd4b47b315576c63956ea969e55ee78c83d71b
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Apr 6 13:18:47 2018 +0200
+
+    #227: revert waiting for better solution
+
+commit 45a672ab0d5a7d5dee58abaac39f8fd5ab014053
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Apr 6 12:58:18 2018 +0200
+
+    Closes #227: AND tags search criteria
+
+commit 6798e01f492773305ec89030628d684156b84b80
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Apr 5 19:19:22 2018 +0200
+
+    Closes #224: scan for indexing handler
+
+commit c0678e9a90e235118886c7dbe5ed630f5c5b6c38
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Apr 5 12:45:04 2018 +0200
+
+    #221: increase ThreadPoolExecutor size to 8 threads
+
+commit 156e67bc52a8899c8cbb5a3ec494da7de1cc6a84
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Apr 3 20:40:24 2018 +0200
+
+    upgrade opensagres.xdocreport
+
+commit 9b1456e1a706f1a2704470196edfd37ad68c4c15
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Apr 2 16:39:38 2018 +0200
+
+    Closes #223: open document after creation
+
+commit f9b61546ab5c0974c39159c51b41549c2b52a178
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Apr 2 11:09:21 2018 +0200
+
+    richer acl event
+
+commit 1b3a33104a66f24ec0775814d243309fe729db43
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Apr 2 10:47:43 2018 +0200
+
+    richer acl event + upgrade json lib
+
+commit d819c05669bc4c4afe3adb6026cb0562fad2f1b1
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Apr 1 23:06:45 2018 +0200
+
+    Fire some more indexing events
+
+commit 68729e3b54425dedee748211192ac87103a20a21
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Apr 1 21:00:26 2018 +0200
+
+    more tests + 1M tested
+
+commit 90a3d7aa68b56eaf439e056049834d0d016bcf81
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Mar 31 22:53:49 2018 +0200
+
+    add missing index
+
+commit b3349176d9f5b14f066db660493db69286f8269a
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Mar 31 13:24:25 2018 +0200
+
+    fix reindexing on application startup
+
+commit e72dab2a6e24ade227cc884246e41837ed1011f1
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Mar 31 13:22:59 2018 +0200
+
+    indexing in transactional context
+
+commit b54debe2e5edcad2e889d5553e87515509eb73cf
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Mar 31 11:01:27 2018 +0200
+
+    handle index rebuilding
+
+commit 95ce4f0dc023f70c2e9500fa7d4df47c422087be
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 30 21:36:44 2018 +0200
+
+    indexing in transactional context
+
+commit c9ba182a2e488956a8bfe8c05dc7491c46e7f1a2
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 30 21:22:28 2018 +0200
+
+    search acl without type
+
+commit 716954aa9af3ed1c4a224886f303bce1e96b7d6c
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 30 21:16:13 2018 +0200
+
+    indexing in transactional context
+
+commit 5c5a3f614f6c78825617885950ca5549e38dbfcf
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 30 14:45:25 2018 +0200
+
+    indexing in transactional context
+
+commit 229d845a423edb1943cbe74a85d68d8e23ede3a1
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 30 12:37:10 2018 +0200
+
+    missing document updated events
+
+commit d1a8fa38b05f0c6594ddc5b0364e7f0cacc62f68
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Mar 29 17:59:47 2018 +0200
+
+    Refactor documents and files indexing
+
+commit 899f13cb35c25511b059d48dfc385a39146845e9
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Mar 29 11:34:25 2018 +0200
+
+    Closes #201: reprocess file manually
+
+commit 0409c2ef79d43ce1391b64f2c6ed6bbe61564ccd
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Mar 28 16:48:16 2018 +0200
+
+    Closes #210: choose a tag applied on documents
+
+commit 83b065180f3b1c6f4a6b524914dbee0838d7a2ce
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Mar 27 23:11:06 2018 +0200
+
+    typo
+
+commit 34a003d0e5a64badd93407f6d9dad8dcdd677433
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Mar 27 19:20:12 2018 +0200
+
+    typo
+
+commit 7b89bb449d948cb6a473586aea3009830554b3fc
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Mar 27 18:58:08 2018 +0200
+
+    set the admin email by env var
+
+commit 4aca4ad495b0b68f0c328143c65f40a6d142599e
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Mar 26 22:28:22 2018 +0200
+
+    cleanup user creation
+
+commit 99d44f2a92886e8c717a81913de02ebc334fe9c1
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Mar 26 22:07:26 2018 +0200
+
+    extensible authentication system
+
+commit c9606f98d31d00f1ca628417dd91c3a479d2391c
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Mar 26 20:51:53 2018 +0200
+
+    scan classpath for format handlers
+
+commit af217b4831105c0efd20c2a50026c6b6fa8fa516
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Mar 26 19:10:28 2018 +0200
+
+    fix fulltext search with advanced form
+
+commit f45f2d5df91612893964dbc65053b67a7b8a2492
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Mar 26 17:15:36 2018 +0200
+
+    fix content disposition header
+
+commit c8c4208bb41ac82e41e446fab9d1af89da122c3e
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Mar 26 17:00:31 2018 +0200
+
+    dead code
+
+commit dc8b8ae6c4b509d773f2086d168f7c997bec64e1
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Mar 26 17:00:14 2018 +0200
+
+    #210: create documents with file importer
+
+commit 7aa4a1bf82a15ce4169f1114f482b7ec0d4e6dde
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Mar 24 21:46:23 2018 +0100
+
+    fix ui for readonly documents
+
+commit e2548ef6b1a79b5885abd8927803d5b861bc3830
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Mar 24 21:42:34 2018 +0100
+
+    Closes #190: lightweight text editor on description field
+
+commit abde9b7897fc4515cd2043471efa81415c276da4
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 23 22:12:55 2018 +0100
+
+    Closes #200: use tesseract command line
+
+commit be1c2a7b904a7f6539f2e5afd048abcecc82c77d
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 23 16:41:02 2018 +0100
+
+    Closes #208: display file content + fix filename encoding
+
+commit 55a4bb76213030fd0ebbc503462647b62b405e24
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 23 12:52:42 2018 +0100
+
+    #208: rename files
+
+commit 37ca5ff84e408052e6e69033f60ee0385daf0d6c
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 23 11:29:10 2018 +0100
+
+    #208: overflow menu on files
+
+commit d2256eabfa8a666070a0a9580b640182b26174f9
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 23 09:53:18 2018 +0100
+
+    Closes #216: redirect to login if not connected
+
+commit cbb8d4e1b6c3dc752e657d41a2a5f2a2ef976550
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Mar 22 16:11:25 2018 +0100
+
+    Closes #216: redirect to login if not connected
+
+commit 785ad7f3a1a2fc22660407bc01609b20032eee23
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Mar 22 15:05:24 2018 +0100
+
+    Closes #216: redirect to login if not connected
+
+commit 5d9b87dace539c12221630429d3cabeec96afe0a
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Mar 21 22:44:23 2018 +0100
+
+    Closes #114: fix query for h2
+
+commit feb5484cf6f6b301971946d98781e8b2c2c362f9
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Mar 21 21:48:19 2018 +0100
+
+    Closes #114: Better PostgreSQL performance
+
+commit 3821a15f9d8f7cec700ef10005faaba911d77ff6
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Mar 21 18:58:50 2018 +0100
+
+    Closes #114: PostgreSQL compatibility
+
+commit e5f85c931c034698de24eb5b59060c51211c7496
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Mar 21 12:19:44 2018 +0100
+
+    stop polling for errors
+
+commit 6c99de1e89d3de90d590cdceea1ce3c5813869fb
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Mar 20 23:15:46 2018 +0100
+
+    fix tests
+
+commit 3613f6f8de33c36ae0f6e7c42b48d1815d6176d6
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Mar 20 22:46:56 2018 +0100
+
+    Closes #215: handle pptx files
+
+commit 945e619d55ba9d6b6e8b3f0eff730a33ae2e2f21
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Mar 18 22:23:29 2018 +0100
+
+    java 8 minimum
+
+commit 5220b13e7d3fecbffd75e07846e88cf91b278eca
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sun Mar 18 22:21:31 2018 +0100
+
+    Java 8, Tesseract 4, Ubuntu (#214)
+    
+    Java 8, Tesseract 4, Ubuntu 18.04
+
+commit 7ea8d0c0f7f5fd06953d085c9ff1b8d8505ded80
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Mar 18 16:16:32 2018 +0100
+
+    Closes #182: format handling refactoring
+
+commit 996585d7ac577f255b5dcb8b212b98ceff782cc2
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Mar 18 11:59:33 2018 +0100
+
+    Closes #212: ui issue with parent tags
+
+commit ce115eadbbd4b07e731e4a7ff0a9db9a534ccbc0
+Author: tedstriker <github@meins.org>
+Date:   Sun Mar 18 11:37:59 2018 +0100
+
+     Fixed typos, grammar and meaning in German translation (#211)
+    
+    Fix german translation
+
+commit aebdc9e208bf1df2d959d05a90345240ca5f5527
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Mar 15 12:43:44 2018 +0100
+
+    Order tags in navigation
+
+commit b0bceefc0e83b205f7b5d295fa0f5e1d72845c47
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Mar 15 12:28:55 2018 +0100
+
+    Closes #174, closes #176: add a tag from the navigation
+
+commit bf37c5cb5134325e10ccc95f068f7daf5a6b37b9
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Mar 15 11:55:03 2018 +0100
+
+    #176: Default tag when creating a document with a tag opened
+
+commit 16215dde3bb651737ed092a08f72bd6433abe02d
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Mar 14 20:39:32 2018 +0100
+
+    #207: new temporary thumbnail
+
+commit 2ac10e81278becf09c97dce3375f7430e193d0df
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Mar 14 19:01:28 2018 +0100
+
+    #182: do not cache the temporary thumbnail
+
+commit dcb924abac10b2da53f91c176410c36ee610d6b8
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Mar 14 18:31:06 2018 +0100
+
+    #182: fix tests
+
+commit 94e18146fd3221061f35bdb2c3fc8f6ae4cf5e62
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Mar 14 18:12:19 2018 +0100
+
+    #182: fix thumbnail for orphan files
+
+commit 2a619849f4fd74ef5d732b055877c23a457db948
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Mar 14 15:13:09 2018 +0100
+
+    #182: thumbnail generation asynchronous
+
+commit 1e57ee5fb3b2e1d30af7de7df59c04483472f655
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Mar 14 14:53:41 2018 +0100
+
+    clean up
+
+commit db721a9d103550853e2029bc328ee846162d7c3f
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Mar 14 13:45:37 2018 +0100
+
+    Closes #198: show hierarchy in tag screen
+
+commit 40951e8da0b45334c33db3d6a6e7a121579c3efb
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Mar 13 23:37:26 2018 +0100
+
+    fix tests
+
+commit f44b4bb0e0f8acbc7e4cae88d23ad873d6ea35ea
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Mar 13 23:32:05 2018 +0100
+
+    #201: file processing indicator
+
+commit b330d54ca28cb804383f53266e0bfa4cf671fd9a
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Mar 13 20:07:36 2018 +0100
+
+    Closes #199: manifest.json
+
+commit 2678ff447736f5395e78472b22d38870bbfaa7cf
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Mar 13 14:09:39 2018 +0100
+
+    Closes #205: action: remote tag
+
+commit 995e45d28f6970c7d84d3a340e311443bcd80fae
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Mon Mar 12 22:55:04 2018 +0100
+
+    #202 Actions on route transitions (#204)
+    
+    #202 Actions on route transition
+
+commit 9ca27d7c125976b2ed50ff89f150217ad4e0d1fc
+Merge: 5426be9f 4183dae4
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Mon Mar 12 16:53:09 2018 +0100
+
+    Merge pull request #203 from schemen/master
+    
+    Update some German translations
+
+commit 4183dae458f85fdae8a2ec09dde7bdbc8901f693
+Author: Schemen <eli.ponzio@gmail.com>
+Date:   Mon Mar 12 16:12:29 2018 +0100
+
+    Update some German translations
+
+commit 5426be9fa019a5c04a3f211c3c045e3a006a8456
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Mar 12 14:15:00 2018 +0100
+
+    Closes #193: last updated date (db + search + ui)
+
+commit 9d8034e0102194a9d5c472bff5af4acb4a533dd3
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Mar 12 11:43:11 2018 +0100
+
+    clickable labels
+
+commit 647ad841dfd76c06d2f46bd26645737dd8a96129
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Mar 12 11:12:48 2018 +0100
+
+    #186: ocr pdf if it contains no text
+
+commit a66a1e6f8ed680b8049fdd256414c49b24d8f7e9
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Mar 11 00:02:00 2018 +0100
+
+    i18n cache killer
+
+commit ebfd860458e5d45ffe871a86cf11942aeb9e3555
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Mar 10 17:58:37 2018 +0100
+
+    more tag tests
+
+commit 740476460f8745084e5fe785248657029641f1a8
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Mar 10 17:50:24 2018 +0100
+
+    #176: show children tag
+
+commit 2b6a14a348ed346bb6e008bb4a1f223eb1cb5f30
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Mar 10 17:04:20 2018 +0100
+
+    remove parent tag after tag deletion
+
+commit 77311f42cd9d2ab36896f70e8f48ab7e43b0c07b
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Mar 10 16:36:14 2018 +0100
+
+    #176: navigation by tag
+
+commit a0e89103af0e4fb9756f4db2994996fb452e9f26
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Mar 10 11:24:06 2018 +0100
+
+    cleanup duplicate code
+
+commit 5cdbe9338b23dbdb3ad4b7a015c153f75dd43f82
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Mar 10 10:44:40 2018 +0100
+
+    non crashing pdf font
+
+commit f7b84238dfc01158ed249d2d3ee197b83031eddf
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Mar 10 10:30:15 2018 +0100
+
+    update german translation
+
+commit 8b039c61ed33a9b3f518c26b7aeb1f7c71b0c92e
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 9 22:01:12 2018 +0100
+
+    trim crappy characters
+
+commit f227335e1455ea02bfd8a4d01174cbb376c147ff
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 9 21:54:33 2018 +0100
+
+    update German translation
+
+commit ce7a8590dba6e5bb51ea6fbd8d742a634a54e78b
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 9 21:47:11 2018 +0100
+
+    cache kill + hack to disable firefox autofill
+
+commit d497fa8ed740405eecba2a0b22ff8e728be2f279
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 9 19:55:26 2018 +0100
+
+    recreate a new imap session for each sync
+
+commit 6b940c43662897bbe3ad0e4bed9f8b830871f86c
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 9 19:20:20 2018 +0100
+
+    fix angular scope issue + disable LastPass in some forms
+
+commit f167e8ea0a6b130e62558b26e0e86c63e6885a5d
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 9 17:28:08 2018 +0100
+
+    fix zip export
+
+commit de703531f6bca9ee5c170b7f92af90830d6a1c60
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 9 17:11:50 2018 +0100
+
+    fix for pdf generation and \r\n in description
+
+commit c72f9fbdb1b55257e9fecd32bc4a8055bbdec447
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 9 16:54:30 2018 +0100
+
+    #176: search by tags and all associated children
+
+commit 09eaf18632bd7bdee335987a175c13ddbe58a8af
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 9 16:49:32 2018 +0100
+
+    fix German translation (plural)
+
+commit 5cee20163dc9f3cfe3c97641e111d024ec2f4bf0
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 9 16:44:50 2018 +0100
+
+    update German translation
+
+commit 63c7e9710b8942a774119f9e3070537f39c0c15c
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 9 11:18:19 2018 +0100
+
+    Closes #194: PDF viewer
+
+commit 6f27b9c13f9150c992e648e3896747a118cf1729
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 9 00:01:08 2018 +0100
+
+    update german translation
+
+commit 76e68c09d89c31a1af10d6b51b8365e94e2cf81a
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Mar 8 20:00:47 2018 +0100
+
+    fix icons
+
+commit aea389cd3d1ac524827763814025b5d13c9fcd36
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Mar 8 17:25:58 2018 +0100
+
+    add jpeg 2000 imageIO plugin
+
+commit 9ce18b128e6584f230815cb69a6c7c4ab97ce891
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Mar 8 14:15:19 2018 +0100
+
+    german translation
+
+commit a7c954c6bc7699684ac6941bda98fd6b0d81a50a
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Mar 7 16:31:37 2018 +0100
+
+    Workflow assigned to me on home + Closes #170 + glyphicon -> fa
+
+commit a0880c4a16ad9fa43adaf4432ed64cc2dc42fa02
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Mar 6 13:34:13 2018 +0100
+
+    api doc badge
+
+commit 2c90df2c2d0e8e12c27f0c1bd5eea5169b4397d4
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Mar 6 12:27:45 2018 +0100
+
+    Closes #192: workflow active info + search criteria
+
+commit 71f15e1736ff7d8bf24709e5c0d6555a275f3a0a
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Mar 5 15:59:00 2018 +0100
+
+    cleanup auditlog css
+
+commit 0b14ab503252829a53eaa6bb3b9b857113f41c55
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Mar 5 15:44:14 2018 +0100
+
+    #185: prepare home design for widgets
+
+commit 2771e56357bd738a2c9735d7c8cfa9df5b9d97a0
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Mar 5 14:36:30 2018 +0100
+
+    Closes #188: Quiet mode for the file importer
+
+commit 1479b818ea71851cdb115d33c156a19fae942dbf
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Mar 5 14:11:32 2018 +0100
+
+    Closes #189: Ignore folderclosedexception on imap scanning
+
+commit 4f6de892b50455d9fe828f0a5245bef6209a143e
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Mar 5 11:57:56 2018 +0100
+
+    #189: fire async event after transactionutil.handle
+
+commit e54026037780f79e64063683c4d0ad60c50474cd
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Mar 5 11:06:26 2018 +0100
+
+    Closes #187: requirements on README.md
+
+commit f3f21bbf73618a21b8976c7d953f400effcb50e9
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Mar 4 16:43:40 2018 +0100
+
+    inbox service: fix javax.mail duplicate jar with jetty
+
+commit 44a1389dd75738774ccb12ecb9371fa18767ba46
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Mar 4 16:10:32 2018 +0100
+
+    inbox service: catch all errors to avoid service crash
+
+commit 1b05261a97814c62629a84f0c8134d066a6ead63
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Mar 3 17:33:57 2018 +0100
+
+    inbox service imap(s) timeouts
+
+commit d55334739c6e9407bd56cf7716f14dab6e4374ee
+Merge: c511ed38 b59ecf03
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Mar 3 14:39:33 2018 +0100
+
+    Merge remote-tracking branch 'origin/master'
+
+commit c511ed380e43923e35afd7799da8d9ec1cfd21aa
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Mar 3 14:39:12 2018 +0100
+
+    inbox service logs
+
+commit b59ecf0370e44991cfbf3e44f3e9bc3d97391b4a
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Fri Mar 2 22:25:48 2018 +0100
+
+    Create CODE_OF_CONDUCT.md
+
+commit 65b038afcd322df9537b954de2e58c14afe582b3
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 2 20:36:39 2018 +0100
+
+    ffmpeg less chatty
+
+commit 5fbde0dca032fc5b3fc2ee6aa15943faeef3b33b
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 2 20:13:55 2018 +0100
+
+    fix docker image
+
+commit ab69e502da596fe6a484e67cbd02a1d8732c5e0c
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 2 19:43:28 2018 +0100
+
+    fix travis build
+
+commit 52065dda6b2c12a00b4b21fca26c58a4cdf11956
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 2 19:28:59 2018 +0100
+
+    fix travis build
+
+commit 7cd8e48145a9a3a9c629325f7b0fc34db66da1a2
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 2 19:26:34 2018 +0100
+
+    fix travis build
+
+commit 2a7f143bbf262ee0fd7a89551b66b51d0da74745
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 2 19:22:11 2018 +0100
+
+    fix travis build
+
+commit 4a676b01e1bb9b4e06ae07a4374792307a96435d
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Mar 2 19:05:20 2018 +0100
+
+    Closes #140: video file support
+
+commit 18c983310456a2420cc536a83054b4c0d673d411
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Thu Mar 1 17:35:29 2018 +0100
+
+    Cache clear
+
+commit 7e2787704b3a6f405b0bb462094f5e39ab91b511
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Mar 1 17:13:46 2018 +0100
+
+    responsive fix
+
+commit b13c2ccd321af76e5549f13ccda7d7da6b17c305
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Mar 1 17:10:48 2018 +0100
+
+    login design refresh
+
+commit 4795d8f48c3b869da6370b48d76411e31dd5107b
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Mar 1 16:28:57 2018 +0100
+
+    add logs to inbox scanning
+
+commit 808a06b0af8c5a2312c5ff7ae87d39acb3e46274
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Mar 1 15:14:46 2018 +0100
+
+    bulk file importer infos
+
+commit 70a42afab8d252d3a4910c6dbec59e9d57f00316
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Mar 1 14:34:09 2018 +0100
+
+    next dev iteration
+
+commit ea210d6aac6e69231e835206e0ce0daadcccd83b
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Mar 1 14:18:23 2018 +0100
+
+    v1.5
+
+commit f70cded634b6faa9d4df09b5ec5c39f4fb7529a2
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Mar 1 12:28:29 2018 +0100
+
+    file importer
+
+commit cc6e1b4052fb957d1e18e1927a1dd59d9d3790d5
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Feb 28 22:53:06 2018 +0100
+
+    init files importer
+
+commit 1ce5ba4f0601ba8b98f7b314670cfa09b41da7fe
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Feb 28 13:08:30 2018 +0100
+
+    #180: expain that only unread emails will be imported, fix logo display
+
+commit 2b23a1d0486d47dd1dfd35054429896a0da02500
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Feb 27 20:17:09 2018 +0100
+
+    #180: fix tests
+
+commit 37f262177d82dfd64ec1b76b0bbbfc970a205d33
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Feb 27 20:06:34 2018 +0100
+
+    #180: advertise inbox scanning
+
+commit 7ded51062535cc3e80db02e641dca6d3340afb58
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Feb 27 20:05:10 2018 +0100
+
+    Closes #180: IMAP inbox synching (ui)
+
+commit 797a987e2b8fc3410a562df9d158b76692e6ead2
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Feb 27 19:02:23 2018 +0100
+
+    refresh ui css + init inbox scanning settings
+
+commit 062dee987fe53da3fd989910b8b05e5ce41fe412
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Feb 27 17:11:04 2018 +0100
+
+    #180: last inbox sync infos
+
+commit 1054931e63cb9be2cd2d8f07c933f5c350a711d7
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Feb 27 15:34:20 2018 +0100
+
+    #180: fix tests for travis
+
+commit 3720a881a4228ebfc01fb45af5f7ffca07dbb99a
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Feb 27 14:58:37 2018 +0100
+
+    #180: IMAP inbox synching (api)
+
+commit f379b4e5abc9ecd1fb87730445c984b56d0a014d
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Feb 25 16:55:45 2018 +0100
+
+    #179: default language (ui)
+
+commit 9a9e86829e16989477de6b660833a60e1724b6c2
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Feb 22 12:57:33 2018 +0100
+
+    #179: default language (api)
+
+commit 66cd4abd8bb7e54b74e0f6300a52ee4be0b1330e
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Feb 22 11:42:41 2018 +0100
+
+    #177: truncate data to fit the database
+
+commit ba4470f1559ea4d1cfcd2ee4147c6a56d2ab9786
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Feb 22 11:35:34 2018 +0100
+
+    Closes #177: import document from EML file (UI done)
+
+commit b95ec019de2bc046cb9d43ca1c4e3e4db4476507
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Feb 22 10:46:32 2018 +0100
+
+    #177: import document from EML file (api done)
+
+commit d3a40ebca85c03d2bf75d07f41ed259b1e7bc273
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Feb 21 21:47:57 2018 +0100
+
+    #177: import document from EML file (wip)
+
+commit 5d335049a2a9060c3e0305e6bea3ecb8164142fd
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Feb 15 20:38:03 2018 +0100
+
+    fix api doc + fix translations
+
+commit bd51e2ab557cc8f6144f9a21ad0effe05482b92b
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Feb 14 12:32:50 2018 +0100
+
+    fix password reset button
+
+commit f8278bd44e6c18a443d881776e6e23a0ba381af9
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Feb 2 18:12:14 2018 +0100
+
+    update translations
+
+commit 4797cd1eca71ac18c92d8a2223400aeecb0bcbf6
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Feb 2 17:28:23 2018 +0100
+
+    Closes #139: screenshot on README.md
+
+commit 706d244ff867100153ceca836d0c76aa61fa38d3
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Feb 2 17:18:34 2018 +0100
+
+    Closes #159: cancel routes + email at route step validation
+
+commit 5b8cd1812825637f9e6611a24e954f6c491a69aa
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Feb 2 12:37:56 2018 +0100
+
+    #159: display and validate route steps
+
+commit 8a854bb37d884666a54d406493632bb179c932f7
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Feb 1 23:26:29 2018 +0100
+
+    #159: get routes on a document
+
+commit 6e6f892cb00cfbebf2cd28ce2bf0ed1222173939
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Feb 1 18:26:33 2018 +0100
+
+    fix
+
+commit 2b4ddfa07295f5baae483b4063aa0b4af9ac7080
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Feb 1 18:01:11 2018 +0100
+
+    #159: validate route steps
+
+commit c9adff5a2553b45ea2aebf2f21bf72de8841e1c8
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Feb 1 11:48:02 2018 +0100
+
+    #159: add temporary READ ACL for route step
+
+commit 503cfff82e190b291f72883e0e6dc5e5424a32b5
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Jan 31 22:07:38 2018 +0100
+
+    #159: return the active step in GET /document/id
+
+commit 5e713f0c2a048280bd9390acc2d2cfe336c67941
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Jan 29 23:34:43 2018 +0100
+
+    #159: start a route on a document
+
+commit e0350070700f2a1bdd59bb6d7f17b1e6abf45b4f
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Jan 28 14:52:13 2018 +0100
+
+    #159: route model steps validation
+
+commit 17a94395f30a3dded3e58e340af9103ae9d63344
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Jan 28 12:44:11 2018 +0100
+
+    #159: route model api
+
+commit 0ab6c8e4b09a50120974db0f1d322c237f1c4aa5
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Jan 28 12:24:40 2018 +0100
+
+    #159: workflow steps ui
+
+commit 82841699232fe9aeabd0aee005294adb777811fd
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Jan 27 23:41:57 2018 +0100
+
+    #159: workflow steps ui
+
+commit 5f9094c5408830e491432f99557493626eb3b51d
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Jan 27 17:33:46 2018 +0100
+
+    #159: workflow ui init
+
+commit 332ac9c1091d3290e72610b650fd87fe4a6dd632
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Jan 26 11:26:34 2018 +0100
+
+    #159: workflow db model
+
+commit 9ba49f35ff18f2c23dbcf76cbc0a8a61589ddff6
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Jan 24 15:39:27 2018 +0100
+
+    enable cors
+
+commit d0646f12e6d61505ed9967f279677d049242355d
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Jan 8 12:02:01 2018 +0100
+
+    translations
+
+commit a8817c75b0867799c3c101fb3020a28490904787
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Mon Jan 8 11:51:15 2018 +0100
+
+    Update README.md
+
+commit 7fc50f26298d714cd9138eaea50b9cc419a33863
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Jan 7 19:56:11 2018 +0100
+
+    Closes #164: admin can send a password reset email to users
+
+commit b2d9684738d03f2c13eb676817583cc357a8fc99
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Jan 6 11:50:03 2018 +0100
+
+    russian translation
+
+commit 8ab284ff985822eee92927a83c3e5ec78e08dfdc
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Jan 6 11:44:44 2018 +0100
+
+    russian translation
+
+commit a099d295248a42971eead721b2e6775c1d7807cc
+Merge: cf44af00 b5bf8b65
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Jan 4 16:18:24 2018 +0100
+
+    Merge remote-tracking branch 'origin/master'
+
+commit cf44af00656c9c7edf242a2aed7bd45f7c19a1bb
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Jan 4 16:18:06 2018 +0100
+
+    Closes #169 feedback for username/group name already taken
+
+commit b5bf8b654534f0ed042e4c65b0b0b6693c69da5c
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Thu Jan 4 15:23:55 2018 +0100
+
+    info about Sismics Docs Cloud in README.md
+
+commit 4cc3fa4d89e841a02716f4f16563e891b9bf1d9f
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Jan 2 19:25:41 2018 +0100
+
+    fix zh_TW translation
+
+commit ed50e202d7fa495209003b341c5262564c38b20c
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Jan 2 19:24:32 2018 +0100
+
+    zh_CN/zh_TW translations
+
+commit 6d865af15a458d3ebfe41cc538cb842f0ed6372c
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Jan 1 23:24:24 2018 +0100
+
+    Closes #173: fix pagination default page size
+
+commit 66d331ddb8b2bd657e1b2c63ac056ef1d3af73f2
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Jan 1 17:14:12 2018 +0100
+
+    env var for admin password expected hashed
+
+commit 0903c03a297a2243459bb190bd46662f64952456
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Dec 21 12:51:47 2017 +0100
+
+    new android icon
+
+commit 5f546b6c6de4259e917f9de491a8e72cd07dc180
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Dec 21 12:28:33 2017 +0100
+
+    new logo
+
+commit 9bb73bb35b8fe16491ae6ff6d716f6181bd0f6e5
+Merge: 2ca5b04d e883c1e6
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Dec 11 10:17:19 2017 +0100
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 2ca5b04de288f7e3a1ec286575891b754dae01e4
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Dec 11 10:17:08 2017 +0100
+
+    initial admin password by env variable
+
+commit e883c1e6780a81c8501418c0db450793581a4dbd
+Author: bgamard <benjamin.gamard@sword-group.com>
+Date:   Thu Nov 23 15:40:53 2017 +0100
+
+    Closes #171: strip alpha channel from png
+
+commit 4fc434a22261aa12acd9b2ece5268c69568273a1
+Merge: ecfa747a dc28ebfa
+Author: bgamard <benjamin.gamard@sword-group.com>
+Date:   Thu Nov 23 15:32:31 2017 +0100
+
+    Merge remote-tracking branch 'origin/master'
+
+commit ecfa747a2c0e7daaca6f9dc472fd1752e1a8ad7d
+Author: bgamard <benjamin.gamard@sword-group.com>
+Date:   Thu Nov 23 15:32:20 2017 +0100
+
+    Closes #172: smart images caching
+
+commit dc28ebfa504c618748d69ddf4a78726040d509c5
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Nov 23 01:16:54 2017 +0100
+
+    fix file modal + fix file link in audit log + high quality thumbs
+
+commit 6596eba6caa34f4f194d19969731d480baacaf97
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Nov 21 23:56:32 2017 +0100
+
+    advertise demo app
+
+commit 7194f9aac0c0a20a06c24d05b2c3a6d7672e9dae
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Nov 21 20:23:35 2017 +0100
+
+    update fr translation
+
+commit e4fe1cfa901fc5b5c1ea7004892d1715a0bae056
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Nov 21 19:37:29 2017 +0100
+
+    fix active user count
+
+commit 5bc73548b3ec4d0e92e72e01a664b1ab5022b5ea
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Nov 21 12:01:53 2017 +0100
+
+    Closes #162: feedback box
+
+commit 2156848e4a3b3d524dda6d215408c5bc0fd940ef
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Nov 21 09:49:33 2017 +0100
+
+    GET /app returns document count
+
+commit 3f807b3e51df13144b0b89bf7d832c54c5b4d582
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Nov 20 21:25:52 2017 +0100
+
+    edit -> save
+
+commit d786862a609c692d1b5ddfe66b29c885ee40b006
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Nov 20 21:21:50 2017 +0100
+
+    Closes #167: disable users
+
+commit fb75bafe96ef2a4e4c47327c55e820034dee16fd
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Nov 20 20:34:29 2017 +0100
+
+    Closes #166: global quota
+
+commit 66f781b71696c1c04d87bdc9cc30802514d8aedc
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Nov 18 20:14:50 2017 +0100
+
+    cleanup logs for Travis
+
+commit b3dc409926c7c482cc0b2f824e2f97010130d6df
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Nov 18 20:01:11 2017 +0100
+
+    cleanup logs for Travis + new process for each test
+
+commit 287ed06b6af0ade772566e3be0aa1ad28a406f8f
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Nov 18 19:45:08 2017 +0100
+
+    prevent lastpass autofill in non editable fields
+
+commit df1d013b1ceba14d5edd542fceb521b0a9c6ee44
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Nov 18 19:34:13 2017 +0100
+
+    Closes #165: smtp hostname/port/username/password configurables with env
+
+commit fdb95484c1b7a0bc283eb9724cec25ba90bf810d
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Nov 17 23:47:53 2017 +0100
+
+    fix sending email to an unauthenticated smtp server
+
+commit 4cf1f29e0a778fc990a22a966d0884169581b717
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Nov 17 23:17:05 2017 +0100
+
+    Closes #161: password recovery by email
+
+commit 332fd9d1f698088cc69dbb0a52aba296339bf319
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Nov 17 22:26:20 2017 +0100
+
+    fix tests
+
+commit 039d881a07d8f41120d2ae301748df9ec4c5fb5b
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Nov 17 22:03:54 2017 +0100
+
+    #161: password recovery by email (wip, server part done)
+
+commit b8176a9fe96ba1a00932cf7e7f09dac1aef5c01f
+Author: bgamard <benjamin.gamard@sword-group.com>
+Date:   Fri Nov 17 17:10:05 2017 +0100
+
+    fix tests
+
+commit 65937d6f4c7521cdbb9d7632b59c75eb9ec7f5fa
+Author: bgamard <benjamin.gamard@sword-group.com>
+Date:   Fri Nov 17 17:01:08 2017 +0100
+
+    #161: password recovery by email (wip)
+
+commit 590bf74e98f905d3c4501ed84bb09fb4f41967fd
+Author: bgamard <benjamin.gamard@sword-group.com>
+Date:   Fri Nov 17 15:18:16 2017 +0100
+
+    display two-factor authentication activation in admin area
+
+commit 642a3e10cee926f2696a091a0d500f4bff363c5f
+Author: bgamard <benjamin.gamard@sword-group.com>
+Date:   Fri Nov 17 14:05:19 2017 +0100
+
+    fix for mobile
+
+commit 52a8cf92c87dad5900d43d8ff3f851d0b5d1a707
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Nov 15 23:07:34 2017 +0100
+
+    fix homepage dom
+
+commit fc68ee56d5d6e0f7318fb3bea45578f50da3fefc
+Author: bgamard <benjamin.gamard@sword-group.com>
+Date:   Wed Nov 15 10:49:47 2017 +0100
+
+    fix en translation
+
+commit 644f4803df1042f0a324dea9c159fa92b60d2374
+Merge: eda6106d 3a169106
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Nov 15 00:19:36 2017 +0100
+
+    Merge remote-tracking branch 'origin/master'
+
+commit eda6106de8a9f7cb8d011635fb874505558ae38c
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Nov 15 00:19:12 2017 +0100
+
+    upgrade android build
+
+commit 3a1691066e2fff3ee5ae54e9fd7c94f56dfe1691
+Author: bgamard <benjamin.gamard@sword-group.com>
+Date:   Tue Nov 14 15:44:40 2017 +0100
+
+    Closes #155: localize share app
+
+commit b02039bad4324c65fef8b6b10040f07c993eace7
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Nov 14 01:14:29 2017 +0100
+
+    Fix zh_CN translation
+
+commit 6527a9e9bbce04481d64be64c5796408922529c0
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Nov 14 01:07:16 2017 +0100
+
+    Closes #156: Localize Android app
+
+commit c59ad4d446788f4d7b48aed69766a8e69f658b33
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Nov 13 22:50:21 2017 +0100
+
+    fix pagination
+
+commit f475cbc5d84896c25b2a04b3de38431eefca8de2
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Nov 13 22:44:06 2017 +0100
+
+    oops
+
+commit 00452cc50523ff2e0b92eb99a7d13cd85bea764f
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Nov 13 22:37:03 2017 +0100
+
+    Closes #158: advanced search form
+
+commit 23660961bd686b7089deabbc3fd327fb185000d1
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Nov 13 18:11:54 2017 +0100
+
+    #158: advanced search form (wip)
+
+commit 742ff183bfdfa644dc36a99a736c00a6979a3f84
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Nov 12 23:24:10 2017 +0100
+
+    #158: advanced search form (wip)
+
+commit dca8c28b84adbc29914fcee98cb24c743ddcd07f
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Nov 12 14:49:52 2017 +0100
+
+    Closes #157: Deskew before OCR
+
+commit 46079393d5d6142420b000cbf8678e8bd9de65ff
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Nov 12 02:18:02 2017 +0100
+
+    Fix file modal routing
+
+commit 517e4a45071d258fe60fc51c10d0279babdbbb38
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Nov 12 02:06:41 2017 +0100
+
+    Closes #150: Display file name in audit log
+
+commit 6f3ae6da9d9bf0ad925c483a16ca76b8a2736f9f
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Nov 11 23:25:52 2017 +0100
+
+    Better thumbnails UI
+
+commit 273136ab2307ed8565a976348b88a006a0a0a5e4
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Nov 10 23:43:35 2017 +0100
+
+    Closes #152 closes #154: localize date and time format
+
+commit e74f86e11864801b25d88ba0dc570e3eed6d4274
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Nov 10 22:56:42 2017 +0100
+
+    Closes #153: fix missing localization string
+
+commit 84d4d3b165cad58645ee675964dacf81088e0f72
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Nov 10 22:00:34 2017 +0100
+
+    Closes #151: upgrade JS libraries
+
+commit c355cb8bd51e1b6e8f1e098ba6db4786028da76f
+Author: bgamard <benjamin.gamard@sword-group.com>
+Date:   Thu Nov 9 14:43:37 2017 +0100
+
+    Closes #148: force Qihoo 360 to use webkit rendering
+
+commit 2957034286dfe1e51ab045daa436b45427b932a5
+Author: bgamard <benjamin.gamard@sword-group.com>
+Date:   Thu Nov 9 14:39:25 2017 +0100
+
+    Closes #147: fix IE file upload
+
+commit 36b4fbd303e4cdb843ab59bcf12e9e6d2026abb8
+Author: bgamard <benjamin.gamard@sword-group.com>
+Date:   Thu Nov 9 13:36:41 2017 +0100
+
+    ie fix
+
+commit f57cf463136e48be471a680f2cf08c90d0bf82be
+Author: bgamard <benjamin.gamard@sword-group.com>
+Date:   Thu Nov 9 13:36:10 2017 +0100
+
+    Closes #146: no cache
+
+commit 244ddc7ce2059a672c086b1e09e028fb8a40db9d
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Nov 6 16:45:47 2017 +0100
+
+    Closes #141: Never close full file content in memory
+
+commit 4d161aea072722d48fc9ac4b4b9f3f271dbc69a3
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Nov 6 00:48:55 2017 +0100
+
+    Closes #117: fix templates minification
+
+commit cf9101d157e3b806dbbcd8cbe66d75988f47289b
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Nov 5 22:28:23 2017 +0100
+
+    Closes #143: Select the default language for new documents from browser language
+
+commit 614c8a1d139f04d93321405c4327327dc228cb6c
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Nov 5 21:27:54 2017 +0100
+
+    log to stdout
+
+commit 879ab7951d8a553d701ee8f242fe690bba607ffc
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Nov 5 17:30:45 2017 +0100
+
+    fix build
+
+commit 311b42ad259bb1419ccaf6ea3adcddfd4bd3c45f
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sun Nov 5 16:59:04 2017 +0100
+
+    fix flash on untranslated content
+
+commit 0ebbbac9a65a2a86f621033358dc54d4fb4aa33d
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Nov 4 20:50:57 2017 +0100
+
+    optimize docker image
+
+commit d2f9fcdda01be2c4face9168a92bf7c8cb1d19e5
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Sat Nov 4 20:39:39 2017 +0100
+
+    zh_CN translation + footer fix
+
+commit cfe5690a73ac37d49caa95f56acc2164a592a27b
+Author: bgamard <benjamin.gamard@sword-group.com>
+Date:   Fri Nov 3 14:53:09 2017 +0100
+
+    Closes #142: design cleanup
+
+commit a055b3ff5c0d5d0df6dca314e022c94c19e983a5
+Author: bgamard <benjamin.gamard@sword-group.com>
+Date:   Fri Nov 3 11:13:50 2017 +0100
+
+    #117: more logs + possible fix
+
+commit 18f37ec2a86a5a23a20bed2d8cc14c15c06e7600
+Author: bgamard <benjamin.gamard@sword-group.com>
+Date:   Fri Nov 3 11:05:04 2017 +0100
+
+    Closes #131: validate only dirty forms
+
+commit 14b4e5aeec1792b58d093a3a732968bcbc22b26a
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Fri Nov 3 00:10:17 2017 +0100
+
+    design refresh
+
+commit a980930e6907cccd48092300e4e07010d4ad9cc6
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Nov 2 23:36:38 2017 +0100
+
+    Closes #137: upload files without drag & drop
+
+commit 1b4eb70d8d1f2d5cd01eccffd55637bb57491589
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Nov 2 23:14:00 2017 +0100
+
+    Closes #136 #138: ui fixes
+
+commit 1856ccc3aa92c7f0473023f75e229acd3d96c236
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Nov 2 21:16:47 2017 +0100
+
+    less padding
+
+commit 3217c67ff6d915dc21c05174b4182a89a5c2683d
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Thu Nov 2 21:00:32 2017 +0100
+
+    flat design
+
+commit 54d5f1cb1b7313ec9ef93162d41ceda74179604e
+Author: bgamard <benjamin.gamard@sword-group.com>
+Date:   Thu Nov 2 17:14:34 2017 +0100
+
+    #111: french translation
+
+commit e49d00294163cc4c79d1201c72247e4a529ef657
+Author: bgamard <benjamin.gamard@sword-group.com>
+Date:   Thu Nov 2 15:39:50 2017 +0100
+
+    #111: translate templates
+
+commit 4822b8bf23c33d6f16d1fb9bee8bf29e03f7e2e9
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Wed Nov 1 19:50:42 2017 +0100
+
+    Update README.md
+
+commit 198a6d566501a6b5fd8d9d3e2bd19fdce04017ca
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Nov 1 19:48:50 2017 +0100
+
+    #111: translate templates (wip)
+
+commit c7b9ec3a4cf7089227c679d5a12a386921465d05
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Wed Nov 1 14:34:15 2017 +0100
+
+    #111: translate controllers
+
+commit f46e10e11ccbb18e37b76e42e6d4b9de9d57cdd6
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Oct 31 21:20:22 2017 +0100
+
+    support more languages
+
+commit b9acc4ecf82b6ca566d26165cfed278f939992d2
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Oct 31 21:16:46 2017 +0100
+
+    support more languages
+
+commit 403d094a3d7d218bfaf0ac23f154c605b6ec6553
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Oct 31 21:06:12 2017 +0100
+
+    support more languages
+
+commit 3b1f11e5a857b21c03e377d9d0aa66f4b1e026ba
+Merge: bf89af0d ddba06cc
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Oct 31 21:01:32 2017 +0100
+
+    Merge branch 'master' into sismics_prod
+
+commit ddba06cca302a5c42b8c21c4487760f6337b7704
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Oct 31 21:01:23 2017 +0100
+
+    support more languages
+
+commit bf89af0da92685115931d0715609a3eccc0f4eb8
+Merge: fe8e8f04 5a301648
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Oct 31 20:39:10 2017 +0100
+
+    Merge branch 'master' into sismics_prod
+
+commit 5a301648487eaabb25fc8167b77f7e517637c653
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Oct 31 20:36:55 2017 +0100
+
+    support more languages
+
+commit 0c4e200900aeefbcccb4b35454185ef1b1e57a38
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Oct 31 20:34:54 2017 +0100
+
+    support more languages
+
+commit fe8e8f041ce6b7db9a9fedd0496eac8cd2e6a241
+Merge: 43084d9d 5686de56
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Jul 31 14:49:17 2017 +0200
+
+    Merge remote-tracking branch 'origin/sismics_prod' into sismics_prod
+
+commit 43084d9d86482573135d3df1c5776396f63a21f7
+Merge: 7c247784 e1e1b4e2
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Jul 31 14:48:59 2017 +0200
+
+    Merge branch 'master' into sismics_prod
+
+commit e1e1b4e278a8a315b0497055a6575d5a9794cfdc
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Jul 31 14:40:35 2017 +0200
+
+    embed free monospaced font
+
+commit 14f8239ba3754fa2568e41ec9055edda7411b979
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Jul 31 14:09:56 2017 +0200
+
+    register fonts
+
+commit e660a70d004706eeb3f09958afd6e8311822e834
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Jul 31 13:52:32 2017 +0200
+
+    travis: install microsoft fonts
+
+commit 119d30bb1681bc9b89a95b4ec857cdf8a00b42ab
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Jul 31 12:08:42 2017 +0200
+
+    fix plain text file save
+
+commit 5686de56e266965cfa8887fc9dcdea3acfb68665
+Merge: 7c247784 e0214a6a
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Jul 31 01:51:39 2017 +0200
+
+    Merge branch 'master' into sismics_prod
+
+commit e0214a6a9f969e17fc454f615bb9dae031377203
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Jul 31 01:51:23 2017 +0200
+
+    Closes #118: create pdf from text plain files
+
+commit 330de495dbffa24aa999da13f8fda642a04f5bdc
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sun Jun 11 11:33:30 2017 +0200
+
+    #118: extract text content from text plain files (WIP)
+
+commit dcc7fe55f4711590499000373bbc5ec873600aeb
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 7 01:39:20 2017 +0200
+
+    Closes #125: Confirmation before deleting a comment
+
+commit 3274b4c79ae2b520cc91bc0c2466d2359e8762a4
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 7 01:34:21 2017 +0200
+
+    Closes #130: Fix document language icon
+
+commit cbfa4b1c417c8932cf707feab35facbf47a3acb8
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 7 01:32:55 2017 +0200
+
+    Closes #127: Edit -> Save
+
+commit 5f7d2f2a685bbc876b059376e1de036486fdf206
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 7 01:31:59 2017 +0200
+
+    Closes #129: bigger checkbox
+
+commit e38bdbe50801106e34961ec2e26bf51a460a5458
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 7 01:27:24 2017 +0200
+
+    Closes #128: Delete cursor on comment delete button
+
+commit c352b94b38e55a3e50f68b165b2a02eec800a53f
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 7 01:25:20 2017 +0200
+
+    Closes #126: click to copy
+
+commit 6b0106e3850a09343f4900b11bbc5ce9b7dafc82
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Tue Apr 25 11:09:18 2017 +0200
+
+    update readme with docker instructions
+
+commit 60021e512341e830ffa6ca378ab61d34f3730216
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Apr 25 10:39:58 2017 +0200
+
+    build prod package before pushing to dockerhub
+
+commit 76d315724773dee550ba5a5035ad3823cd8ab127
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Apr 25 10:26:48 2017 +0200
+
+    travis push to dockerhub
+
+commit 7c24778460ae497e92e10f43039bc4974c474f8f
+Merge: 8a8f4bb3 8231db4a
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Tue Mar 21 09:14:19 2017 +0100
+
+    Merge branch 'master' into sismics_prod
+
+commit d43072663e65e978b99fe75d31bbcb55474a4f81
+Merge: eb356256 8231db4a
+Author: Jean-Marc Tremeaux <jm.tremeaux@sismics.com>
+Date:   Tue Mar 21 09:04:20 2017 +0100
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 8231db4a5af64b116d68074c4deb08402ce3bd3b
+Author: Jean-Marc Tremeaux <jm.tremeaux@gmail.com>
+Date:   Tue Mar 21 08:56:00 2017 +0100
+
+    Fix dockerfile
+
+commit eb3562567d36d9acc09857c5a8c61d1ee6246fbd
+Author: Jean-Marc Tremeaux <jm.tremeaux@sismics.com>
+Date:   Tue Mar 21 08:51:58 2017 +0100
+
+    Fix dockerfile
+
+commit fe5dd5e8dcef16d8549fab8eb1110d59072f50eb
+Merge: 58729288 0e8d5fd5
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Jan 24 22:00:35 2017 +0100
+
+    Merge branch 'master' of https://github.com/sismics/docs
+
+commit 58729288123dce4cf4943497181de5f8db2efb5a
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Jan 24 22:00:24 2017 +0100
+
+    Hide filename if not available + upgrade Gradle
+
+commit 8a8f4bb388466b7f4561f20bfdc12163bb2b2df1
+Merge: b9344149 0e8d5fd5
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Tue Jan 3 11:43:54 2017 +0100
+
+    Merge pull request #121 from sismics/master
+    
+    Update Jetty version
+
+commit 0e8d5fd5ec378b92a3b8bc781a513c5f28e255ad
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Tue Jan 3 11:43:31 2017 +0100
+
+    Update Jetty version
+
+commit b9344149b0a7a5b882b6013271f01e966ae3b4b5
+Merge: bb3faca5 5053a685
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Tue Jan 3 11:11:44 2017 +0100
+
+    Merge pull request #120 from sismics/master
+    
+    Update base image
+
+commit 5053a6852f673c41b1f0323068b194e00bbcc947
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Tue Jan 3 11:11:12 2017 +0100
+
+    Update base image
+
+commit bb3faca533eba7aa03cd124b99f06f3f3a35ab97
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Dec 7 01:28:52 2016 +0100
+
+    Closes #119: Keep and display original file name
+
+commit 4f7fcbfdf016385263b01637646c17f5e67daad5
+Merge: fc4380e5 87c1cc88
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Dec 5 19:30:15 2016 +0100
+
+    Merge branch 'master' into sismics_prod
+
+commit 87c1cc88be61efb5068b1e45184e35a2e200f71c
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Dec 5 19:25:52 2016 +0100
+
+    #116: Allow all file types
+
+commit 1d78551f4ca743e9c6025024e84314f3425c4094
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Nov 20 18:52:47 2016 +0100
+
+    Fix tests, add logs for #117
+
+commit b36d08db8e3436fa5beed46f57846e0337f3f76b
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Nov 20 18:41:42 2016 +0100
+
+    Closes #116: Allow all file types
+
+commit c99b1a186721b81b66cbb161dd793eed3e681a9a
+Author: Benjamin Gamard <b.gamard@sismics.com>
+Date:   Mon Oct 24 16:55:56 2016 +0200
+
+    cleanup private scripts
+
+commit fc4380e5ccea3f4795142cd1c7b66791fc0bec01
+Merge: 0f6aa3be 850ed7f7
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Thu Oct 6 15:35:11 2016 +0200
+
+    Merge pull request #115 from sismics/master
+    
+    Edit production domain
+
+commit 850ed7f76b1e3090979b483f1ff56573e27eb390
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Thu Oct 6 15:34:38 2016 +0200
+
+    Edit production domain
+
+commit 0f6aa3befb454a31846655c05314686059ef87a7
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Aug 31 19:34:37 2016 +0200
+
+    Concatenate Angular templates in minified JS file
+
+commit ddd976162c99ebf0970191d8dd4ce9756d2c0d79
+Merge: 05bfaa00 cdd19e18
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Aug 26 22:00:58 2016 +0200
+
+    Merge branch 'master' into sismics_prod
+
+commit cdd19e182b150a0b2c7d2bd81afaddf6ce286bbd
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Aug 26 21:22:27 2016 +0200
+
+    Closes #113: Fire async events after request transaction commit
+
+commit afc22a547e36564f70b58e551e24760191506b09
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Aug 26 20:34:23 2016 +0200
+
+    Closes #112: Don't update auth token on each request
+
+commit 79ca54c5afb9d6f5f5fc2adfadb9255203e35852
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Jul 30 02:52:53 2016 +0200
+
+    Android: Ask permission to write files
+
+commit 0aacf20c1637d120602990a1ea866e45e26a1577
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Jul 9 19:35:05 2016 +0200
+
+    Android: upgrade to Nougat
+
+commit cdfb43dbd88830c0e96a54bb88e50e5a3b550e75
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Jun 28 23:31:59 2016 +0200
+
+    Cleanup Lucene DAO
+
+commit 35ec8b951c6c1abbe27b61a6fc834871e2909aa2
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Jun 16 22:15:54 2016 +0200
+
+    Build fails if grunt fails
+
+commit 05bfaa0035fce778fad5cfea741ea96c6d043c63
+Merge: b870ee8d f5705b11
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Thu Jun 16 21:38:14 2016 +0200
+
+    Merge pull request #110 from sismics/master
+    
+    Push to production
+
+commit f5705b11539afaba0c75636d94b6b8a154db7b1a
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Jun 16 20:31:39 2016 +0200
+
+    Minor UI tweaks
+
+commit ed1353a4eb563da7a3ead7e73815ecf168d0f158
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Jun 16 20:13:34 2016 +0200
+
+    Android: upgrade build tools
+
+commit a79922d7c9b3e72c80d60f1f611b5b4b5d05489a
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Jun 6 20:51:05 2016 +0200
+
+    Android: upgrade okhttp (fix for Android 6)
+
+commit 7a7cbd570c8f6251d5252b7189d425c02e57f460
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 29 18:34:51 2016 +0200
+
+    Closes #85: UI for login as guest
+
+commit d7865cfaf0de81d8233d0154c155a24fc67b4cee
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 29 16:37:26 2016 +0200
+
+    #85: Login as guest
+
+commit ead01ce1d0ca355b5ab8d22724e1b918da75c058
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat May 28 23:09:52 2016 +0200
+
+    #85: Guest login configuration
+
+commit 8aca012c99ae928f806164e71064c14df13959d9
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon May 16 21:21:19 2016 +0200
+
+    Reduce log verbosity
+
+commit 67a4dc63cace8f21ad32d0a2aa4be7ed6fa0c560
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon May 16 21:07:01 2016 +0200
+
+    Closes #106: Header base authentication
+
+commit ce0678784b94925e095bc7b5b43c632eeb9b42c8
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 15 19:50:12 2016 +0200
+
+    #81: Android: Display dublincore metadata
+
+commit cbc4bbb818cf3d847fa98c80394173bfda3f7c28
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat May 14 23:10:29 2016 +0200
+
+    API documentation introduction
+
+commit 1c558a884df5c98dd8f267e170e10cc419b549aa
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat May 14 14:21:00 2016 +0200
+
+    Closes #105: Upgrade grunt dependencies
+
+commit d84d1428b23ad0b5574df9417a9b6c7e7f0cc53a
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat May 14 02:05:03 2016 +0200
+
+    Android: Better layout for read-only documents
+
+commit b870ee8d620c804519918f0c09e2b63a48d9fc67
+Merge: f80cf43a ef18581e
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Fri May 13 00:46:18 2016 +0200
+
+    Merge pull request #104 from sismics/master
+    
+    Push to production
+
+commit ef18581e7178c7a3953d4d4966c9ee735e7c5b95
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri May 13 00:45:08 2016 +0200
+
+    #103: API documentation for /document
+
+commit 177bbceaf441d00080462201715b436c70ec8d84
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu May 12 01:26:02 2016 +0200
+
+    #103: API documentation for all resources except /document
+
+commit a13174ac4d022db68c7522a9cc35c99b97c96a63
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed May 11 00:55:27 2016 +0200
+
+    Android: use GET /tag/list instead of /tag/stats
+
+commit e181b7d24b4e6486ad899ae257fc3f29b86ce5b1
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue May 10 23:30:28 2016 +0200
+
+    #103: API documentation for /user and /vocabulary
+
+commit e631aa0e8a62944f691ca165718af0ed472529cf
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue May 10 21:18:16 2016 +0200
+
+    Closes #101: Allow export buttons for read-only documents
+
+commit 575ad75a0a1436cf2e9c3d841e8c01ef2970ced0
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue May 10 20:00:14 2016 +0200
+
+    Closes #102: Android: Clear all auth tokens on logout
+
+commit 394f667ab0ec174db69865e9f8a0fc0d0cddf0be
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon May 9 22:52:34 2016 +0200
+
+    Prepare 1.5 development cycle
+
+commit c695572b28606e19b48ce46fa2a88f528301a3c9
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon May 9 22:25:12 2016 +0200
+
+    Release 1.4
+
+commit f80cf43ae8a51ebe767b7cebe0f2069f099130f1
+Merge: 6b57d29f 79141edf
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Mon May 9 22:10:49 2016 +0200
+
+    Merge pull request #100 from sismics/master
+    
+    Push to production
+
+commit 79141edf7044eaddf33d1251543b263aebd67d9b
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon May 9 22:09:29 2016 +0200
+
+    Closes #97: Handle write permission in #/tag and #/tag/id
+
+commit b1e58396d19e4764ca74ea4429dc425fd479b0ce
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon May 9 21:53:15 2016 +0200
+
+    Closes #98: Fix inherited permissions table
+
+commit b9cd113dc0a0eb844ead149e87219a5596dfaaa4
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon May 9 19:11:44 2016 +0200
+
+    Closes #99: Update /app/batch/clean_storage & /app/batch/acl_tags
+
+commit 4a512af1786f409ecdac6e92d2350337d60de84c
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon May 9 15:23:02 2016 +0200
+
+    Bump version to 1.4-SNAPSHOT
+
+commit 9506e9b8b42a1b9e704318cc838f8ffaeca00d6f
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon May 9 10:28:20 2016 +0200
+
+    UI: minor spacing
+
+commit 6b57d29f514a195ca2f54fec2755a60fb2ffd9f0
+Merge: f2c4dde5 3ff41d20
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sun May 8 23:40:50 2016 +0200
+
+    Merge pull request #96 from sismics/master
+    
+    Push to production
+
+commit 3ff41d20024c86c12c4d689c28b6ea88c22985aa
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 8 23:40:08 2016 +0200
+
+    Fix inherited ACLs displayed on documents
+
+commit f41dafe76d7d4d07cfc81bb9b1f996c6728dd25f
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 8 23:31:33 2016 +0200
+
+    Theme images expiration date
+
+commit f2c4dde56ecde65ac3b83027bd77e7aa2be02c18
+Merge: 3a221323 6f89a50f
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sun May 8 23:21:36 2016 +0200
+
+    Merge pull request #95 from sismics/master
+    
+    Fix batch for ACLs on tags
+
+commit 6f89a50fe5eddeefaf681e5b6858310b4f5e323a
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 8 23:20:58 2016 +0200
+
+    Fix batch for ACLs on tags
+
+commit 3a2213236347539716aa695c9ecfe60f48cd2dce
+Merge: 767099b7 e234440c
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sun May 8 23:07:43 2016 +0200
+
+    Merge pull request #94 from sismics/master
+    
+    Push to production
+
+commit e234440ce66ea14c521fcf263a0ed01b04dfd57f
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 8 23:05:44 2016 +0200
+
+    Closes #93: Edit tag color and title in #/tag/id
+
+commit 26685334a15e440c706295dd4c70a2a6f4b26aa1
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 8 18:57:32 2016 +0200
+
+    Closes #79: UI: Change background and logo image
+
+commit 4d79dd707676d80fe85c1672b47930191e08f7e6
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 8 17:25:21 2016 +0200
+
+    #79: Change background and logo image
+
+commit f5394534f77cb155f10711116be303e3368fd269
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 8 15:38:47 2016 +0200
+
+    #79: Change custom CSS and app name
+
+commit faa66e01b62fbe71c3baa80aa0cd9d8f6399e1b7
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 8 13:47:35 2016 +0200
+
+    Tag color in #/tag/id
+
+commit bf4cb02de5c50151d0bc86303b4e9ea6e627bf45
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 8 13:45:46 2016 +0200
+
+    Closes #91: Display ACL inherited from tags in document permissions
+
+commit 642b9a63d314338cb7b729dfa7ff03376c2a988c
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 8 12:14:06 2016 +0200
+
+    Cleanup ACL checks
+
+commit 1ed7422171b35b53c816aba90a690168aa279ea4
+Merge: 542ab737 3dd8a52f
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sun May 8 01:11:32 2016 +0200
+
+    Merge pull request #92 from sismics/tags_acl
+    
+    Tags as source for ACL
+
+commit 3dd8a52f7d3a2c9d16026b2aa8d8b5a732704aa3
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 8 01:03:15 2016 +0200
+
+    #83: Fix test for tag parent
+
+commit a55c55bbdb700d9ea6df046a5792c79b733a19da
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 8 00:46:32 2016 +0200
+
+    Closes #83: Edit ACLs for tags in UI + batch for old DB
+
+commit b851fd0ecc5e725c80a166f02154e31cbc08a4a0
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat May 7 18:20:01 2016 +0200
+
+    #83: GET /tag/id
+
+commit c8f7fe15efd44956046da4ba004f87db268409c8
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat May 7 15:53:13 2016 +0200
+
+    #83: Don't return non-visible tag parent
+
+commit 73133f5ba5a87eb29294c3dc569c55daaea1e28a
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat May 7 15:41:19 2016 +0200
+
+    #83: Remove GET /tag/stats
+
+commit eaf2e816b484cc18ba0d6739c00ee2d0a16bb549
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri May 6 00:55:00 2016 +0200
+
+    Imports
+
+commit 62020864ef8736609018c48542de9c5b51e2fbb5
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri May 6 00:49:41 2016 +0200
+
+    #83: Fix ACL resource test
+
+commit f12e3ec663d1963bd5c51e6051737189be41e68b
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri May 6 00:36:54 2016 +0200
+
+    #83: Access documents by a shared tag
+
+commit 5226df53a2fc1fa042091820687cce91d749b884
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu May 5 22:43:18 2016 +0200
+
+    Fix pom.xml after removing docs-parent
+
+commit a59c67d774e011f426c710cb28aba333ab09a652
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu May 5 22:37:27 2016 +0200
+
+    docs-parent folder removed
+
+commit 1b1d5e9b4c6dc4db7984ab017a171131943c9a95
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu May 5 22:36:53 2016 +0200
+
+    #83: Use ACLs for tag operations
+
+commit 37fc2d09bb38247973b8e056a20aafe4fbcaf81b
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu May 5 22:18:07 2016 +0200
+
+    Entropy source for Travis
+
+commit bc94466cf7568bc20a56c350b10a9aacc8f1a85e
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu May 5 22:16:04 2016 +0200
+
+    Entropy source for Travis
+
+commit 6af7b6fce9bb88711eb60ab7e60ae39d8f82d955
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu May 5 21:59:50 2016 +0200
+
+    Reduce tests verbosity
+
+commit f2ae8999380e752b0bcd31b161d7512c43f37601
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu May 5 21:33:31 2016 +0200
+
+    Don't dump entities in JUnit
+
+commit c398a3c4f5b152e751caf4bdd32e0c77c1a9be60
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu May 5 21:12:14 2016 +0200
+
+    #83: Tag name duplicates now allowed
+
+commit 27027ec412926dabbd66667cebfcd32b5f7cfc72
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu May 5 02:34:33 2016 +0200
+
+    #83: Tag DAO refactoring
+
+commit ddf9e83a9b9873ccf45950dc5ae13cf00160287e
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 1 22:03:39 2016 +0200
+
+    #83: Permission check for tags
+
+commit 0f661e5a34107b4b60607ff094823fc849d8257e
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Apr 30 02:17:04 2016 +0200
+
+    #83: Handles tags as source ACL for single document
+
+commit 09a53d5c4e18a492bd3b3b12cbdbb386cb362773
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Apr 30 01:52:24 2016 +0200
+
+    #83: Handles tags as source ACL in GET /document/list
+
+commit 542ab737a24e71c844182aab729864d403345fe1
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Apr 27 00:05:25 2016 +0200
+
+    #79: POST /theme, GET /theme
+
+commit 6e1276293fa51babf40a9f7f2bb2b9040d9bec3b
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Apr 23 23:47:33 2016 +0200
+
+    #79: Change theme color UI
+
+commit 4e768e9103d6e74bc69c1a94b5f7cfd3a4704a9d
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Apr 18 00:00:46 2016 +0200
+
+    #79: POST /theme/color to change the main color
+
+commit 55cdca0c7d42f93b29bff9f75ce2f556d17bbbb2
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Apr 17 23:54:58 2016 +0200
+
+    Android: allow install on sdcard
+
+commit 9b523957866afe844ac8cb8846580a811812d544
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Apr 16 20:54:23 2016 +0200
+
+    Fix dependencies
+
+commit 50b02c800c9640aacd1aca05a681a97f2b1269fc
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Apr 14 20:51:23 2016 +0200
+
+    git ignore
+
+commit 2bdae5ea5ca4afb0acaae714f2eb00faaf7ce78e
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Apr 14 20:49:39 2016 +0200
+
+    cleanup
+
+commit c49827ce25a411de8ecb01ab8f997d13439e0afb
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Apr 14 00:43:29 2016 +0200
+
+    Closes #90: Android: Fill audit log date
+
+commit 64db7014989fa23e42804171ba52b3b197fe172c
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Apr 14 00:37:01 2016 +0200
+
+    Closes #84: Android: Ask a validation code on login
+
+commit e16ce4b4f1ecc3955a4e7da0aa7e2166eb9047bb
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Apr 13 01:30:02 2016 +0200
+
+    Init e2e testing
+
+commit 77d1e87fdbafddc79a1e5cfce4f2ac1dc1b90f57
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Apr 13 01:29:27 2016 +0200
+
+    Android: upgrade Gradle
+
+commit 7d7adeeca0ca6e093952c45a24f0f0110f619d24
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Apr 13 01:29:03 2016 +0200
+
+    #79: CSS generator
+
+commit 8ad9c529b68d1502ba055225da43d60e9f2da0f4
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Apr 9 21:23:55 2016 +0200
+
+    #79: Resource to generate a dynamic CSS
+
+commit 274512a58e52df2852adc314e3eb286409659264
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Mar 24 00:41:31 2016 +0100
+
+    Fix if a file is deleted before text extraction is finished
+
+commit ef16561272dd3c5cf3630e7727b66b4f84f16afc
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Mar 24 00:35:53 2016 +0100
+
+    Fix PDF export if description is null
+
+commit 767099b7ea3a6bb14ede630b72e36b191eccc5ec
+Merge: 6aef7246 98350860
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Thu Mar 24 00:06:52 2016 +0100
+
+    Merge pull request #89 from sismics/master
+    
+    Push to production
+
+commit 98350860eb7a166adc5d5c124f3476d473300eb7
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Mar 24 00:03:29 2016 +0100
+
+    #84: Ask for a TOTP validation code (web UI)
+
+commit 1343948d33cf7237e79b478b5d2b741cfff69a13
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Mar 23 23:48:54 2016 +0100
+
+    #84: Enable/disable TOTP in UI
+
+commit e616add75a788bf6664758939ddbc14b4e9fc0b3
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Mar 23 22:31:09 2016 +0100
+
+    #84: Init 2FA view + controllers refactoring
+
+commit b33b7115efef1725e8c675dacf875d7754356b53
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Mar 23 22:03:45 2016 +0100
+
+    #84: POST /user/disable_totp
+
+commit fb0bb62eaf8e3291f0f6f353fd680310706c8185
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Mar 22 23:08:49 2016 +0100
+
+    #84: TOTP key generation and validation code checking on login
+
+commit 5f84da61c8fd7a6d0829e620e8e43c7770a63685
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Mar 22 22:35:42 2016 +0100
+
+    Closes #88: XHR line loader with ngProgress
+
+commit 6e6babd2e3bac73ffc2a6f6c4aee13eda52fe0c0
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Mar 22 22:15:19 2016 +0100
+
+    #84: Import sources from https://github.com/wstrange/GoogleAuth
+
+commit b28e08e2c7d0cc604e1a1c79cd0a8fa4ae36a9ab
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Tue Mar 22 14:21:10 2016 +0100
+
+    Update README.md
+
+commit 718728a672f099936762354df573a9190fca734d
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Mar 22 01:18:18 2016 +0100
+
+    #84: Generate TOTP secret key
+
+commit 5de77e35dc9bb3e42b0eef33b44d9af022e00eb5
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Mar 22 00:38:56 2016 +0100
+
+    Closes #87: Fix delete vocabulary after adding it
+
+commit 6aef7246a02ff7a167ef88cfb90f7c5ad020ebf6
+Merge: 1f6d9f02 5a41e955
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Mon Mar 21 01:01:14 2016 +0100
+
+    Merge pull request #86 from sismics/master
+    
+    Push to production
+
+commit 5a41e9555e21090af8189e5bd0433b88f6c14596
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Mar 20 22:18:58 2016 +0100
+
+    Closes #82: Add role to groups
+
+commit 6598b585a25122196754a57bca4434882adc97aa
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Mar 20 21:44:53 2016 +0100
+
+    Closes #18: Android: Group profile
+
+commit a81474b40aa9436b10fb33e4d358de9acbb813cc
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Mar 20 19:39:52 2016 +0100
+
+    Fix authentication cookie extraction
+
+commit ee159f5b3615907c88dd2b2795da15f16029f25a
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Mar 20 19:12:38 2016 +0100
+
+    #18: Groups profile (web)
+
+commit ced64a5d1fbea13ad087c1dad5c2576ccad58a24
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Mar 20 17:30:36 2016 +0100
+
+    #18: Add/remove users from groups
+
+commit 689a4e6aae88e1b0a8166a77990643818de9480c
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Mar 20 15:09:34 2016 +0100
+
+    #18: Add/update/delete groups
+
+commit 21b3ba2bf673ab41d466b96ed78ddd16639ffaaa
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Mar 20 12:20:12 2016 +0100
+
+    #18: Handle new audit log for groups, filter users by group
+
+commit 7be2e1b9e538927af806b4e9e09b4e0c29211daa
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Mar 20 01:20:37 2016 +0100
+
+    #18: Add/display group ACL in web UI
+
+commit c1c222893754ebfc4e525da9f4ef5e65d0fd7330
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Mar 19 23:42:36 2016 +0100
+
+    #18: GET /group + fix JUnit
+
+commit 3b9a66d1d884a9bbd9fa467de86c6d3e9ee2c169
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Mar 19 19:56:02 2016 +0100
+
+    #18: administrators group
+
+commit a5ce5bf9ecab9efc103344b4d7d55b0a62551e8a
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Mar 19 19:41:28 2016 +0100
+
+    #18: Group resource, groups handling in ACL, groups returned in users
+
+commit 43a157518754736271e8d11bf3038619ef74fc9e
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Mar 17 01:43:10 2016 +0100
+
+    #18: PUT /group
+
+commit eb5f207cc1416bc36e63e6e6d773e4e50e04c5ae
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Mar 16 22:14:25 2016 +0100
+
+    #18: Group and user group DB model
+
+commit de3f0553237589bbf37479b7aac928a1ff0d03dc
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Mar 15 22:44:50 2016 +0100
+
+    #18: ACL check for groups
+
+commit 6012cdd9a52a4908e51c3d5686203ee73c8ac764
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Mar 15 21:25:47 2016 +0100
+
+    fix junit
+
+commit 0fab8ff935907cb131b11b6d73bf23df5dfa9185
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Mar 15 00:58:55 2016 +0100
+
+    Nullable document metadata can be emptied
+
+commit 00ee2d3bf637f8da8cb3d09797ecdfe853fb48ae
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Mar 15 00:43:27 2016 +0100
+
+    Closes #77: Metadata in PDF export
+
+commit c2a2e9f585aa334ce95b66365ef3eb31fdb556ca
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Mar 14 01:39:29 2016 +0100
+
+    DAO/event refactoring
+
+commit 31fff7e0216942e6f1fd1d259e84d55f1f014522
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Mar 13 23:18:33 2016 +0100
+
+    Update TODO
+
+commit 0dda01269f6634bd09e61917469db873e5eb6d31
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Mar 13 23:13:12 2016 +0100
+
+    Search logs by min level instead of exact level
+
+commit d58b0e8f7480aef8431f4a7df7b15b893b917696
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Mar 13 19:23:52 2016 +0100
+
+    Closes #73: Android: User profile
+
+commit 1bbb21c7c6feac419c80e54931386a8acd1265bd
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Mar 12 23:39:57 2016 +0100
+
+    #73: Android: Display creator
+
+commit 24713f54e21370a8fa6a0c727cb60ffe050c76da
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Mar 12 23:25:31 2016 +0100
+
+    Close #72: Android: Audit log
+
+commit 5e2bd76e107b47bc73210b808abee65ca8bdb38d
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Mar 12 21:27:53 2016 +0100
+
+    Close #71: Android: Advanced search by creator
+
+commit 78d4b5797b045a1c7bb3628166c6ae2d5eb23d76
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Mar 12 20:31:39 2016 +0100
+
+    Information when the current user can't access a document
+
+commit ff91521a67c687e0dc767cc48380c90a09ffe7ae
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Mar 12 20:29:02 2016 +0100
+
+    Closes #67: Relations between document (client-side)
+
+commit 0525754337e38b5cf6817ec0a0dc846ac340bc07
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Mar 6 21:06:23 2016 +0100
+
+    #67: relations between documents (server-side)
+
+commit ca8c525de04350a8ff6cf89c8f664a73bae770d0
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Mar 6 14:51:19 2016 +0100
+
+    Closes #80: Android: Use support design library for FAB
+
+commit 1e7d2fcfd9ebd111026f1735de2c5074d126e6d8
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Mar 5 19:53:41 2016 +0100
+
+    Upgrade jersey, joda-time, hibernate
+
+commit 7e983bebb98f13b9e03ac7af5ae25d34d8d01200
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Mar 3 23:54:48 2016 +0100
+
+    #67: Relations database schema
+
+commit f927193ae94022a74942fa76ffb5e98c0144ba1a
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Mar 3 23:16:50 2016 +0100
+
+    Closes #78: login page design
+
+commit a102bf04f4531f8a167fcd2109b26272ab665af7
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Mar 2 00:52:49 2016 +0100
+
+    #68: Contributors in share UI
+
+commit 1f6d9f02114fd9ec505f7220731c53ee7a63e8ac
+Merge: 3248637e 91994848
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Wed Mar 2 00:43:37 2016 +0100
+
+    Merge pull request #76 from sismics/master
+    
+    Push to production
+
+commit 919948489dbe6daac5710611795a4287127418dd
+Merge: 25a2144b 12efd5c1
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Wed Mar 2 00:38:03 2016 +0100
+
+    Merge pull request #75 from sismics/lucene5
+    
+    Closes #68: Display contributors in UI
+
+commit 12efd5c11fe96fbb28c5693578ee017620af1162
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Mar 2 00:35:38 2016 +0100
+
+    Closes #68: Display contributors in UI
+
+commit 25a2144b31816a54dbf6e4b3859ac844a53b7e73
+Merge: 7deaeca7 59682b5b
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Tue Mar 1 23:54:17 2016 +0100
+
+    Merge pull request #74 from sismics/lucene5
+    
+    Migration to Lucene 5
+
+commit 59682b5ba663cbc094279a3a18c76ecac2732d7b
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Mar 1 23:52:15 2016 +0100
+
+    Closes #62: logs for index checking, explicit commit on close
+
+commit 7deaeca7b5f89fa6c9e4b3d2c3119944fe3bb789
+Author: Jean-Marc Tremeaux <jm.tremeaux@gmail.com>
+Date:   Tue Mar 1 11:32:07 2016 +0100
+
+    Make Docker use a volume instead of a volume container
+
+commit a7a6adfa3423f5d3645152908f7ea2eae1626d53
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Mar 1 01:24:26 2016 +0100
+
+    #62: Rebuild index if too old or corrupted
+
+commit 7f19f8c11260424d788700f06c2e975d08857ad9
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Mar 1 01:01:10 2016 +0100
+
+    #62: Migration to Lucene 5 (without rebuilding old index)
+
+commit 943465a390f0167bcf0c5570361936ebd216b72f
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Feb 21 23:43:35 2016 +0100
+
+    Closes #68: Add contributors list on documents
+
+commit 28248780656b0c637b8b26198a194793dbb1d70a
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Feb 21 15:04:26 2016 +0100
+
+    Android: Upgrade Gradle tools
+
+commit 508a1230e975e60f9f563aa67e64adba0e20f2ef
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Feb 21 14:21:20 2016 +0100
+
+    Document updated event on file create/delete
+
+commit 0ad7ef43d579e99e0e6ae2938da0d234cce4ccbb
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Feb 21 14:11:17 2016 +0100
+
+    #68: User ID available in events fired by a user
+
+commit 67171e05b9310f7571df4d6c561a74301480b286
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Feb 20 23:49:54 2016 +0100
+
+    Closes #70: User profile metadata
+
+commit adebb7ff6d6dd84529b5fe0d47b2c9bc10e4e8aa
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Feb 17 00:28:48 2016 +0100
+
+    #70: User profiles UI
+
+commit 6fbcd46a761b14fb0209bdf05cbe15adc62edb97
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Feb 16 01:12:27 2016 +0100
+
+    #70: Init user profiles UI
+
+commit ef3a592807fb61468fc84e1acfc93a916989399c
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Feb 15 23:09:45 2016 +0100
+
+    Closes #66: Search by creator
+
+commit d8d01b077d53b006b07ed13a73b3825952ddddc3
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Feb 15 22:28:13 2016 +0100
+
+    Closes #69: Save and display originating user in audit log
+
+commit 831e2e60edac4132694189310caa09e7dc7697aa
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Feb 14 23:14:39 2016 +0100
+
+    #65: Update README.md with Dublin Core metadata
+
+commit 2d858e6e112398e2d2c75a9aef95563e29b1bf3c
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Feb 14 23:11:24 2016 +0100
+
+    #65: Limit vocabulary values to 500 characters
+
+commit f9c3715d8d3e2a30a60674a9ca6b95eed72a0f96
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Feb 14 23:08:27 2016 +0100
+
+    Closes #65: Type, coverage, rights metadata
+
+commit 359f5b5f49e8db6980244dfdd71c4c60a222b41e
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Feb 14 22:47:49 2016 +0100
+
+    #65: Publisher, format, source metadata
+
+commit ed51b77b0ec7c3f0acc57e920d019bdc2281ac1a
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Feb 14 21:51:46 2016 +0100
+
+    #65: Vocabulary admin UI
+
+commit 47082ceee9e131365e5fd8b47e49d9e899cb0da7
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Feb 14 21:06:39 2016 +0100
+
+    #65: Vocabulary modification for admin only
+
+commit 98497f2a376299c6cb40193436718326d8d3f069
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Feb 14 21:00:21 2016 +0100
+
+    #65: Vocabulary resource
+
+commit d3a74ed361a1b5c79e7343bcc73a9083575be064
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Feb 14 19:23:44 2016 +0100
+
+    #65: PUT /vocabulary resource
+
+commit 7f2f480b25e895151d4587dd7cd8efbeb6b57a2a
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Feb 14 01:58:32 2016 +0100
+
+    #65: Init vocabulary resource
+
+commit 34d14228685cf07300a2bb55ae70eddbcd4329dc
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Feb 13 18:47:13 2016 +0100
+
+    #65: Add subject and identifier metadata
+
+commit 3248637e8c9afe91504c11ff29f64f36da9a4784
+Merge: bf8e0827 509ab827
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Thu Feb 11 23:41:47 2016 +0100
+
+    Merge pull request #64 from sismics/master
+    
+    Push to production
+
+commit 509ab82745c3f4d786042b4fd8856ded49ba6dca
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Feb 11 23:29:52 2016 +0100
+
+    Closes #55: Android: PDF download
+
+commit 7f325e3eb5c28c8b66f136f278e9f21283ac21f3
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Feb 9 22:44:24 2016 +0100
+
+    Android: EventBus 3
+
+commit e23ca4b8c18e517d3564abe8da2f06e816b393c9
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Feb 6 18:04:33 2016 +0100
+
+    #63: Android: Null check for description in edit activity
+
+commit a0f309c95773feab71c042a0991e819a1db8694a
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Jan 29 01:55:59 2016 +0100
+
+    Upgrade libraries
+
+commit 0db4f1643d6512e2a5269a09f6b2fa2acc9eff76
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Jan 29 00:28:01 2016 +0100
+
+    Bootstrap 3.3.6
+
+commit cfa5888be9bcc8eef2e32295603734a95c542d8c
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Jan 26 00:57:48 2016 +0100
+
+    #57: Android: Remove android-async-http for OkHttp
+
+commit bf8e0827e29305a0e95e038725c33f6014236225
+Merge: ad1e5731 3172a5f2
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sun Jan 24 16:30:50 2016 +0100
+
+    Merge pull request #60 from sismics/master
+    
+    Push to production
+
+commit 3172a5f2161ce4c1c133565760579995ccbbbca2
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Jan 24 15:44:40 2016 +0100
+
+    Closes #59: Use TwelveMonkeys' ImageIO plugin for JPEG
+
+commit 456fc5b9912053a6cde1247c711fdbd5fa806c14
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Jan 23 23:20:09 2016 +0100
+
+    #57: Android: Migrate document resource to OkHttp
+    Closes #58: Android: OkHttpClient and cache as singleton
+
+commit d9509474b0b29a141d67f7ab3314babaff9d9be9
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Jan 21 23:48:40 2016 +0100
+
+    #57: Android: Migrate GET /document/list to OkHttp
+
+commit e7a289ffb56b32f3c05371d8d1d83982dfa83764
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Jan 16 22:06:48 2016 +0100
+
+    Android: switch from AQuery to Picasso (+OkHttp)
+
+commit b9a4f0f1e0f44a068707c7d9a440aa4b67063eba
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Jan 14 00:19:31 2016 +0100
+
+    #55: Android: Export PDF dialog
+
+commit 0f4e5a8f6dbdcfef9d39795e3419045b97939ebc
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Jan 13 23:27:39 2016 +0100
+
+    Build against API 23
+
+commit 83e1191a8a84203357671e06d5e5c4144d43b312
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Jan 1 21:38:25 2016 +0100
+
+    #55: Export document in PDF (Share UI)
+
+commit ad1e57316f336090d3e3782075a95421cea1f453
+Merge: 737b3299 2c791f51
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Fri Jan 1 01:58:32 2016 +0100
+
+    Merge pull request #56 from sismics/master
+    
+    Push to production
+
+commit 2c791f51230564f5a37fc5e98388da0f9b63fa35
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Jan 1 01:56:54 2016 +0100
+
+    #55: Export document in PDF (REST resource + export options UI)
+
+commit 25a17ae2da6fd6938d51f0e63a51801f89b0e49a
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Dec 20 16:52:39 2015 +0100
+
+    #55: Export document in PDF (UI)
+
+commit 0591f8a39fc882e65cc9071d8edb723eba798659
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Dec 20 02:23:35 2015 +0100
+
+    #55: Refactoring
+
+commit eb61b0678468e20e4f72d931df8b9e52689baedb
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Dec 20 02:12:59 2015 +0100
+
+    Android: update Gradle plugin
+
+commit 0d1a4ec7ea32842ce406adcf04c6ffd59dd3377f
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Dec 13 22:29:23 2015 +0100
+
+    #55: Export document in PDF (utilities)
+
+commit 5f827524165ac2fb0525c023333334a2b064e372
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Dec 12 01:56:54 2015 +0100
+
+    Quota updates are not polluting the audit log anymore
+
+commit 332de409b87b7bd1f675941ce0d4ce88ebbb8bae
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Fri Dec 11 22:28:46 2015 +0100
+
+    Update README.md
+
+commit 737b3299ffdef6751915e2887b9de24a46acd9ad
+Merge: 1934bb71 24d8784e
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Fri Dec 11 22:22:44 2015 +0100
+
+    Merge pull request #54 from sismics/master
+    
+    Push to production
+
+commit 24d8784e1b2af70fa52649bf7e6adafce00a2b83
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Dec 11 22:22:21 2015 +0100
+
+    Fix Junit for Unix systems
+
+commit 7708f61343562ba26cdc341083d94963329a5b1b
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Dec 11 22:00:44 2015 +0100
+
+    Closes #53: Build thumbnails for DOCX and ODT files
+
+commit 1a37d97a6179c927c055fc28b12d81b6ac6e8f7f
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Dec 7 23:53:30 2015 +0100
+
+    #53: Handle and extract text content from DOCX and ODT files
+
+commit 046984a447c4012df45b5def14fdedf8e7b46f0b
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Dec 5 20:00:51 2015 +0100
+
+    Closes #51: File sizes displayed in kB or MB
+
+commit 1934bb71f06ae328c869524e2507c4da9ddcd3c0
+Merge: b3ef9b04 5f516047
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Tue Dec 1 01:17:36 2015 +0100
+
+    Merge pull request #52 from sismics/master
+    
+    Push to production
+
+commit 5f516047bda4c2e1f10e137e33cd495d756d9746
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Dec 1 01:16:57 2015 +0100
+
+    #48: Soft delete before hard delete
+
+commit e930ce4d47bc54648549294a96467739b135ffb8
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Dec 1 00:32:57 2015 +0100
+
+    Closes #48: Delete linked data properly + batch to clean orphan data
+
+commit 3dbdf881240c7fc633edbcaa4fe83ef5bd8a1971
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Nov 30 01:02:54 2015 +0100
+
+    Closes #49: T_FILE.FIL_IDUSER_C non nullable
+
+commit b3ef9b0476b6cecf64424e3abb3055971fc6e924
+Merge: 84779204 d428ce16
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Mon Nov 30 00:29:31 2015 +0100
+
+    Merge pull request #50 from sismics/master
+    
+    Push to production
+
+commit d428ce162b813cc8bcb2b98b5b9f97f28aa3cd82
+Merge: bc323e99 ef69feea
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Nov 30 00:29:02 2015 +0100
+
+    Merge branch 'master' of https://github.com/sismics/docs.git
+
+commit bc323e994520e284fc3ec83b351da42a87af6701
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Nov 30 00:28:51 2015 +0100
+
+    #41: Don't update deleted user quota in batch
+
+commit ef69feeae79b300adaa9cb055842dd7d0a8528ff
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Mon Nov 30 00:12:29 2015 +0100
+
+    Update README.md
+
+commit 84779204751b955994e18c8a436e52d0a75ba7b6
+Merge: f98a12b9 e36143b6
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Mon Nov 30 00:10:26 2015 +0100
+
+    Merge pull request #47 from sismics/master
+    
+    Push to production
+
+commit e36143b61c5e8fec9bd81f80dda02e4a2c05dfc7
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Nov 30 00:08:47 2015 +0100
+
+    Closes #41: File upload error handling + used storage updated
+
+commit aa97253ec7ce9d513cc4b030d7da44b9565a864d
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Nov 29 23:14:33 2015 +0100
+
+    #41: Batch to rebuild quota storage + UI: show and edit quota
+
+commit 0fab0e4fc0e4ee6f046550d832e6484d8f0a32c3
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Nov 29 20:22:24 2015 +0100
+
+    RAM Lucene storage for Junit + Surefire 2.18.1 forking mode
+
+commit 90a4949d76985ed224528ab03d1c697eb61ecd9a
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Nov 29 19:42:49 2015 +0100
+
+    #41: Quota increase/decrease when file is added/delete
+    + java.nio-ization
+
+commit 1466fb4d6c74ff593d278980a9e746c212f4d16d
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Nov 29 01:53:16 2015 +0100
+
+    maven central -> jcenter
+
+commit d41172abb665c19559a0e85956b42dd61c711c28
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Nov 29 01:53:03 2015 +0100
+
+    Cleanup
+
+commit 24ca81e91c1cd8ff25bfb5721514b36fb7ff9d1b
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Nov 24 00:31:04 2015 +0100
+
+    #41: Storage quota editable only by admin role
+
+commit 1cae964c09c43c6debb94dc5205de9d3375f1e37
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Nov 24 00:30:01 2015 +0100
+
+    #41: DB: Storage quota and current usage, accessible from /user
+
+commit dd671795e6f2e2cc6f5af8c0f0cde063fe80b8f9
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Nov 23 20:32:32 2015 +0100
+
+    Android Studio 2 + small colors
+
+commit 2948c0c860d4fd6bdde0e15e16a077a8e59283d3
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Nov 23 00:01:39 2015 +0100
+
+    Update README.md
+
+commit 978fbf2cf9fcd52ff7207fed3a750ab1b897be35
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Nov 22 23:59:21 2015 +0100
+
+    Closes #45: Android: Delete comments
+
+commit 60ee000b6ccbafa681b95d0ffc6e55eaa9a5ef48
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Nov 22 20:32:26 2015 +0100
+
+    #45: Android: Add comments
+
+commit 634ab7ec38eafde2aff4477419ff06a8fa1856a0
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Nov 22 13:31:23 2015 +0100
+
+    #45: Android: Show comments
+
+commit f98a12b96f470098e32a2b9162561ad6375668e5
+Merge: bee8a4fc 7e5aa9ae
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sat Nov 21 20:32:16 2015 +0100
+
+    Merge pull request #46 from sismics/master
+    
+    Push to production
+
+commit 7e5aa9aecf11e7356dc3ffe90bcab83fde4d16c5
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Nov 21 20:31:21 2015 +0100
+
+    Closes #44: Comments visible from share app
+    + metadata-complete="true" in web.xml to skip annotations scanning
+    (second try with Jetty 9)
+
+commit 1c7381376ca4c51b23401d3203e810cfc1b78e66
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Nov 21 17:50:10 2015 +0100
+
+    Fix links to quick uploaded files from audit log
+
+commit c7ce42fb3f817b2bd7dac7c988a33bd13eb7e224
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Nov 19 00:10:04 2015 +0100
+
+    Fix: handle deleted tag links in documents search
+
+commit fc3a8bb4ae9ce94c8ea21e262e072325a7aa82ba
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Nov 19 00:05:04 2015 +0100
+
+    Closes #42: Gravatar images in comments
+
+commit bee8a4fcdcd6ed05dfbbc79aa3c37c4b8380cdb3
+Merge: f984595b 82b39586
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Wed Nov 18 23:11:02 2015 +0100
+
+    Merge pull request #43 from sismics/master
+    
+    Push to production
+
+commit 82b39586f038a4a5f9c68731aa1fd6ed5fc90ac0
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Nov 18 01:13:57 2015 +0100
+
+    Closes #32 : Display comments
+
+commit c365c6f6e08020c909801ad267fdcf8cf0eb936d
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Nov 17 02:48:07 2015 +0100
+
+    #32 : Comments layout
+    + fix file viewer navigation
+
+commit 9afd52108bae7f6a6531deb5c83c4b34740bdeef
+Merge: 97252bb5 7eeaeb01
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Nov 16 02:23:00 2015 +0100
+
+    Merge branch 'master' of https://github.com/sismics/docs.git
+
+commit 97252bb5da6d7722dbe9184ad77862e6a44430bf
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Nov 16 02:22:51 2015 +0100
+
+    #32: Comments system (server side)
+
+commit 7eeaeb01a0b40e42fca1a007ca5afe6489efc374
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Fri Nov 13 00:46:00 2015 +0100
+
+    Update README.md
+
+commit b3e44b84d2574eec52a4efc8cf5d03b5f7fcb3fd
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Nov 3 00:04:09 2015 +0100
+
+    Closes #35: Android: Tag depth shown in tags tree
+
+commit f984595b97682a1ec024a4313488735b7474c97b
+Merge: f01d78a9 af23cd49
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Mon Nov 2 23:55:16 2015 +0100
+
+    Merge pull request #40 from sismics/master
+    
+    Push to production
+
+commit af23cd4948370fde719f31f642380430b15badf3
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Nov 2 23:54:07 2015 +0100
+
+    Parent tag in GET /tag/stats
+
+commit dc05ca048429dbccbae70d3daf1c14033ea9c35b
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Nov 2 22:19:58 2015 +0100
+
+    No wrap in tag tree
+
+commit f94e0697925510efa0b7cbb63c5bfb8e37bf4dff
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Nov 2 22:12:26 2015 +0100
+
+    Closes #36: Android: Group ACLs by name
+
+commit f01d78a9ea6f40ae82f412edff08c094c3ef6d32
+Merge: 97f25de0 cd32f452
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Mon Nov 2 21:36:14 2015 +0100
+
+    Merge pull request #39 from sismics/master
+    
+    Push to production
+
+commit cd32f452e96832d124988a2081545defb4b56fc3
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Nov 1 18:10:16 2015 +0100
+
+    Closes #38: Handle JBIG2 images in PDF
+
+commit 66cb7333c1c9159a6e51c114e1481b2d0b8a06e8
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Nov 1 14:48:07 2015 +0100
+
+    Closes #33: subviews for /document/view/id
+
+commit 08633a993dfdd8d3eb99b309cef1ac05eae3d3a2
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Nov 1 13:30:46 2015 +0100
+
+    Closes #34: nothing displayed if no description
+
+commit 2c782a23d855f062039dee15abdd7c8d3c9c2177
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Sep 22 01:34:01 2015 +0200
+
+    Closes #37: Search terms in URL
+    + empty tag tree
+    + transitionTo -> go
+    + audit log message can be empty
+
+commit c7b752718344b006d4b4daeb4d113fb526a9b61f
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Sep 15 23:03:42 2015 +0200
+
+    Closes #23: Tag tree search
+
+commit 80bd11b44ecea451cd07fe98fd9d0237bf74d8c8
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Sep 15 00:14:13 2015 +0200
+
+    #23: Edit tag parent
+
+commit 99a596b2e13539fffac3c32efe5a0b169bf01697
+Merge: cfde218d d8cefdde
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Sep 13 23:54:14 2015 +0200
+
+    Merge branch 'master' of https://github.com/sismics/docs.git
+
+commit cfde218d32cf7715a4ddff1057bd99b631ed1828
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Sep 13 23:54:06 2015 +0200
+
+    #23: Tag tree (server)
+
+commit d8cefddebd4a68afdc6be093cb49ffe982f73f5d
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sat Sep 12 21:31:51 2015 +0200
+
+    Update README.md
+
+commit 50c7066f88039df0ecb556361734c12bdd548146
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Sep 8 22:25:30 2015 +0200
+
+    user agent and ip are nullable
+
+commit 97f25de0dce858e33074adda806f1f23567c7f11
+Merge: 3d1b5a73 a95dcf48
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Tue Sep 8 21:50:12 2015 +0200
+
+    Merge pull request #31 from sismics/master
+    
+    Push to production
+
+commit a95dcf488d4650496db77f3953bf971a55972c67
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Sep 7 23:49:12 2015 +0200
+
+    Closes #30: Delete locale & theme concept
+
+commit 0fe51d355c6cd1d86a32f466f1497de625c4bf40
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Sep 7 21:51:13 2015 +0200
+
+    Closes #29: Upgrade to Jersey 2
+
+commit 97694d5d590513a7b0765ea5da52d1daf5437fb9
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Sep 6 15:21:20 2015 +0200
+
+    Closes #26: Cleanup Maven dependencies
+
+commit 3d1b5a7394846b90cd2ead4a4a0c197d20657fd4
+Merge: df1eaf54 e72fe368
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sat Sep 5 23:12:29 2015 +0200
+
+    Merge pull request #28 from sismics/master
+    
+    #4: Upgrade to unrelease PDFBox 2
+
+commit e72fe3683ce9c5da21874ca918aad2f3e06f72a2
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Sep 5 23:12:01 2015 +0200
+
+    #4: Upgrade to unrelease PDFBox 2
+
+commit df1eaf54c84a22afefab5e9acd736bed97e8f2ad
+Merge: 38514081 44c10b60
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sat Sep 5 21:41:43 2015 +0200
+
+    Merge pull request #27 from sismics/master
+    
+    Push to production
+
+commit 44c10b60cd3303a6965e4c018a14e10919b6ddd0
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Sep 5 20:06:21 2015 +0200
+
+    File update log is useless
+
+commit 467d14bacb9b4075685414798d9225f5bf0fa160
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Sep 5 12:36:01 2015 +0200
+
+    Closes #24: Change to H2 database + indexes tweaks + queries tweaks
+    Tested up to 100k documents
+
+commit 6d73554967f116d26874bf328d152f1fd1191e6e
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Sep 2 01:12:33 2015 +0200
+
+    #24: High performance is not going to happen on HSQLDB
+
+commit 36b5bf3bb25a49f6a37a0b18a4d11afe6452d340
+Merge: d14db1d3 9c97ab14
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Aug 31 22:53:44 2015 +0200
+
+    Merge branch 'master' of https://github.com/sismics/docs.git
+
+commit d14db1d3fbb5beb39a28a8dc1a416a4cafa3dbd1
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Aug 31 22:53:33 2015 +0200
+
+    #24: Quick & dirty stress tester (slow at 60k docs with mem db)
+
+commit 9c97ab14f83bc1d212a29cfacd8c814086a9c184
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Aug 29 01:20:06 2015 +0200
+
+    Catch all Tesseract related errors
+
+commit 6558ff7e05925843080b912167560ad51106d650
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Aug 29 00:14:47 2015 +0200
+
+    tabs -> spaces
+
+commit 86473d5639291801f468f27d5cf0768dc0fe5b34
+Merge: 374310d1 4396ef83
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Aug 29 00:12:40 2015 +0200
+
+    Merge branch 'master' of https://github.com/sismics/docs
+
+commit 374310d13c727afa972928d663c4de3070f7c453
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Aug 29 00:12:15 2015 +0200
+
+    Init stress app
+
+commit 4396ef83a37a74dc4db21706fc2a37fba5a58709
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Fri Aug 28 01:32:29 2015 +0200
+
+    Update README.md
+
+commit 6b9ef4ab3189c2056150f90efdd93067a62654de
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Fri Aug 28 01:18:18 2015 +0200
+
+    Update README.md
+
+commit 385140810009ce18e680c8185bd5b2066f1127ab
+Merge: 794c5012 08e4f6dd
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Fri Aug 28 01:16:33 2015 +0200
+
+    Merge pull request #25 from sismics/master
+    
+    Push to production
+
+commit 08e4f6ddae477faea9338acd886a7989b9fee013
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Aug 28 01:02:33 2015 +0200
+
+    Closes #14: Soft delete on DocumentTag + audit log ordering
+
+commit 86cae53789140f688e2ae7cb5c869c09677083de
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Aug 26 22:11:39 2015 +0200
+
+    Closes #20: Clean error message if document or file does not exist
+
+commit 5cbdb5d87da17df0d004bbf1d698c7dc5071f315
+Merge: f8d889bb 4625f9e4
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Aug 24 22:18:55 2015 +0200
+
+    Merge branch 'master' of https://github.com/sismics/docs.git
+
+commit f8d889bb1ffcb7543899416077caa616e8118ca5
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Aug 24 22:18:47 2015 +0200
+
+    Closes #22: incorrect composite ID for DocumentTag
+
+commit 4625f9e42adbb89cd5d27e36b384946cb02a9928
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Fri Aug 21 00:16:33 2015 +0200
+
+    Tesseract package for japanese language
+
+commit 6add34bb33d588add2f4253fae3cc97f320093f4
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat May 23 19:16:38 2015 +0200
+
+    #20: Display logs on documents
+
+commit ea4e3fd8f297ee41d2072cc6bf5b264741f8493c
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 17 22:20:34 2015 +0200
+
+    #20: Audit log displayed on main screen
+
+commit b2a38cea628c403e87704c89902852d5ecbcd6ac
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri May 15 17:30:21 2015 +0200
+
+    Closes #21: Save IP and UA on login
+
+commit 0228d4344286ddb99c5c4eb3ebcd36829d3dec9e
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon May 11 11:34:49 2015 +0200
+
+    Design fix
+
+commit 060e5e8e24ebaf15a2e14d795ed84d3659cccf90
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 10 21:44:39 2015 +0200
+
+    Android: ACLs in right drawer
+
+commit 566c56378602c11570be96f7f6e0143bb651d48e
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 10 14:44:45 2015 +0200
+
+    Android: metadata in right drawer
+
+commit 794c5012ad0fbc98a6678c69ca2c280e389b9d60
+Merge: 1ba9f7d7 8597eac9
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sun May 10 14:03:44 2015 +0200
+
+    Merge pull request #19 from sismics/master
+    
+    Fix post-ACL system
+
+commit 8597eac9f97dccaae90d7fed12ede164dd8d8b2d
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 10 13:55:49 2015 +0200
+
+    Fix ACL resource
+
+commit b7f920f864591a30d23a7a8abdbbd28d20326081
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 10 13:45:39 2015 +0200
+
+    Native query for GET /document/id
+
+commit 1e3282eff30e6c39d230167e3f6f67d40d16e02d
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 10 13:19:16 2015 +0200
+
+    Fix non-deletable ACL
+
+commit 451d9134428eaa5b0c322153ce08f02bcf3161a5
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 10 13:12:23 2015 +0200
+
+    Simplify adding READ+WRITE ACL
+
+commit e3962c4e3fa8a52b4502f81e4d48b91472ffbda1
+Merge: 25136bc1 c727ac3a
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat May 9 23:35:20 2015 +0200
+
+    Merge branch 'master' of https://github.com/sismics/docs.git
+
+commit 25136bc1468f201634d99e142acd99b7665196ef
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat May 9 23:34:43 2015 +0200
+
+    Refactor, TODO
+
+commit c727ac3a56f0a47e0ed072ea78f25979b85b5382
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat May 9 23:34:43 2015 +0200
+
+    Refactor, TODO
+
+commit 52387d93acb0821df329fc241993ef211e606b3f
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat May 9 21:52:01 2015 +0200
+
+    Closes #13: Don't show tags from other users
+
+commit 072dd7b280b52cdb9093024c9d224956aa15638c
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat May 9 21:51:06 2015 +0200
+
+    Android: handle read-only documents, use ACLs for sharing
+
+commit 1ba9f7d7d962063dbd2b71b2c686e5feb2766d4e
+Merge: 9b4330d6 42320dc9
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sat May 9 18:00:33 2015 +0200
+
+    Merge pull request #17 from sismics/master
+    
+    #13: Fix performance issue
+
+commit 42320dc9b99fec31382e9d85d450a7b1b84989bc
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat May 9 18:00:03 2015 +0200
+
+    #13: Fix performance issue
+
+commit 9b4330d61882fc5e7291fffda89e9a62b1d46f98
+Merge: 3a32b742 ff994ce6
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sat May 9 17:32:04 2015 +0200
+
+    Merge pull request #16 from sismics/master
+    
+    #13: Disable shared status in GET /document/list (too slow)
+
+commit ff994ce63bc68dddc520f210d6bdf4dc6308fd0c
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat May 9 16:48:01 2015 +0200
+
+    #13: Disable shared status in GET /document/list (too slow)
+
+commit 3a32b742e8122d17a1b66ef8eb467b99a482ae55
+Merge: 87b3d25c 82ba0b57
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sat May 9 16:37:13 2015 +0200
+
+    Merge pull request #15 from sismics/master
+    
+    ACL system
+
+commit 82ba0b57615e6287e6f9990e0ec7336c94d91f0d
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat May 9 16:21:59 2015 +0200
+
+    #13: Display the document's creator
+
+commit fc1bb22d8da8fce8e621d7a5b5ea02e71c2eec10
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat May 9 14:44:19 2015 +0200
+
+    #13: ACL system
+
+commit 6ff639baac40296df37469deac08d2b34f335908
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu May 7 01:56:03 2015 +0200
+
+    Android: advanced search (done)
+
+commit 4c24e7921ac266905c1e1f5f7a7b5c1fffaf5d05
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue May 5 23:00:23 2015 +0200
+
+    Android: advanced search UI
+
+commit f7f5f93a9ea21f546309705b664117502a204890
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon May 4 23:05:03 2015 +0200
+
+    Android: advanced search UI
+
+commit f1eb3795d934148c62b196abb62fb2c5c26d61e4
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon May 4 20:51:32 2015 +0200
+
+    Android: login activity design
+
+commit 1f092f7d93a25ee52b978d634bdbeb8795105cc3
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat May 2 19:37:56 2015 +0200
+
+    Android: signing
+
+commit 87b3d25c0ff2721e6cc8a598c832942b63bdb6d3
+Merge: 9f28649a 9b4b13a7
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sat May 2 17:19:30 2015 +0200
+
+    Merge pull request #12 from sismics/master
+    
+    Push to production
+
+commit 9b4b13a721d7bdec5296002b2727369bdc4444ec
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat May 2 17:15:37 2015 +0200
+
+    Convert JS click event to <a/> links
+
+commit a1af1f369fffddaa0e3b068d1dbb52fca29e4cdf
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri May 1 19:44:20 2015 +0200
+
+    Fixes #10: Page size for pagination
+
+commit c283607063f9a70317bd0b15c09368d76f87b0de
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Apr 29 01:28:42 2015 +0200
+
+    Don't crash if a file is deleted before OCR is completed
+
+commit b8061a6a1e0c11b73ce6224c64cae66ef0714bfd
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Apr 22 23:18:14 2015 +0200
+
+    Android: upgrade to AppCompat 22.1
+
+commit 9f28649a3a79241c7b1619b887c8db6a5f2e6ea3
+Merge: 8f9df896 1c416198
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sun Mar 29 16:07:07 2015 +0200
+
+    Merge pull request #9 from sismics/master
+    
+    Upload drag & dropped files sequentially
+
+commit 1c4161981b29d36b78213f6f8cac42d41a1aaef5
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Mar 29 15:56:30 2015 +0200
+
+    Upload drag & dropped files sequentially
+
+commit 8f9df8961b54f3e891ede2473e1c08416b2da8da
+Merge: 9e9217bf 5e3093d0
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sat Mar 28 18:05:01 2015 +0100
+
+    Merge pull request #8 from sismics/master
+    
+    Attach orphan files to a new document
+
+commit 5e3093d0d3b55566cdddfc7d513de83ddd94f83d
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Mar 28 18:02:21 2015 +0100
+
+    Attach orphan files to a new document
+
+commit 0d4643cc93660a30e0383b9f3bf8045a11059749
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Mar 28 00:09:28 2015 +0100
+
+    File modal refactoring + orphan files selection
+
+commit 9e9217bfcbe041938d7f9a2f02afafef046b5b88
+Merge: ffdd5a36 80a2e0d0
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Fri Mar 27 23:11:33 2015 +0100
+
+    Merge pull request #7 from sismics/master
+    
+    Drag & drop
+
+commit 80a2e0d055158aafdda3ff26de187758503e6d40
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Mar 27 23:03:55 2015 +0100
+
+    Drag & drop files to documents
+
+commit 06e97824df1f3909f9b32a8f36ad701effbb78d2
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Fri Mar 27 00:57:40 2015 +0100
+
+    JCE prerequisite
+
+commit 3461804399db15bcec8c7a74fa2247d95ac76874
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Mar 27 00:50:00 2015 +0100
+
+    Drag & drop to upload orphan files
+
+commit bfc70baefba4367d733b4414681f59bc14e10eb9
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Mar 24 23:59:06 2015 +0100
+
+    Fix Junit
+
+commit aa4b73b730fe9b20070fbaed45d19699eb056058
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Mar 24 23:53:28 2015 +0100
+
+    Android: don't fail build on lint errors
+
+commit 07247854ac2e3bb82c7d1887c9fa1d4c13b01a5a
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Mar 24 22:20:54 2015 +0100
+
+    #4 : Upgrade PDFBox
+
+commit 9b5780bbb00ad2065e5a45e56a5794f730869c98
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Mar 24 01:07:32 2015 +0100
+
+    Android: API 22
+
+commit ffdd5a3631da8fa5806f189586f0054ff23b4d45
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Mon Mar 23 17:30:15 2015 +0100
+
+    hook me
+
+commit db4bf8d35a3f5c1d736795ec0b9ddc42d0c6508b
+Merge: 7b2859f9 bad42d96
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Tue Mar 17 00:03:00 2015 +0100
+
+    Merge pull request #5 from sismics/master
+    
+    chmod +x
+
+commit bad42d96f3ae4c9ef590ee7de931a2c8bc50d520
+Author: Jean-Marc Tremeaux <jm.tremeaux@gmail.com>
+Date:   Fri Mar 13 15:58:32 2015 +0100
+
+    chmod +x
+
+commit 7b2859f96eeb55bff27ba935080419b21be2fc40
+Author: Jean-Marc Tremeaux <jm.tremeaux@gmail.com>
+Date:   Wed Mar 11 22:56:56 2015 +0100
+
+    Deploy script
+
+commit 03c5c33ea7e61357a523e8508cb1be0f2dae933e
+Author: Jean-Marc Tremeaux <jm.tremeaux@gmail.com>
+Date:   Wed Mar 11 22:54:42 2015 +0100
+
+    Deploy script
+
+commit 6ff1570b3c11cc4db8cb66b86a10782b41ded6f2
+Author: Jean-Marc Tremeaux <jm.tremeaux@gmail.com>
+Date:   Wed Mar 11 22:51:24 2015 +0100
+
+    Deploy script
+
+commit 24345bc1764fcb73e9b0f54682834b9dd579eacb
+Author: Jean-Marc Tremeaux <jm.tremeaux@gmail.com>
+Date:   Wed Mar 11 22:37:35 2015 +0100
+
+    Deploy script
+
+commit 75cde7e9d6f0d800304e1c241148ea947557a6cd
+Author: Walter <root@walter>
+Date:   Wed Mar 11 14:31:10 2015 +0100
+
+    Docker: Using sismics/data for data image
+
+commit 192c2030d3fd846852eb295ac5e4817b5070aa93
+Author: Walter <root@walter>
+Date:   Wed Mar 11 00:35:42 2015 +0100
+
+    Dockerization + Fix for Tesseract 3.03
+
+commit 18cedaef2cd4a4d8bd592977fd30ad4b16a71418
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Mar 6 22:40:33 2015 +0100
+
+    Orphan files are linked to a specific user
+
+commit d0c259ead2cb3707845149de9438c6afd0a5fe48
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Mar 6 21:23:50 2015 +0100
+
+    List orphan files
+
+commit 2347483676334a494dc14e03bf904795ca00af31
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Mar 6 21:13:09 2015 +0100
+
+    Order of files attached to document
+
+commit 6c976087de6d65bb0b2e1cb387e100a325827a20
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Mar 3 00:26:40 2015 +0100
+
+    Missing file + TODO
+
+commit c36014b46f39d71ec8cf68cc81a2651a378a2534
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Mar 3 00:23:30 2015 +0100
+
+    Ability to upload files without document (no OCR, no Lucene)
+    + New resource to attach a document to a file and OCR/Lucene it
+
+commit 5cf0532db71d58bf08d1fe15ad5df490ef9f706f
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Mar 2 00:07:42 2015 +0100
+
+    Page size selector
+
+commit 6edae27d2629822eefcbd3fbe5709fb0f599bac8
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Jan 25 19:20:49 2015 +0100
+
+    Fixes #3: Race condition on settings screen
+
+commit 9ae8303b1831c03f1d45e6f2bab91162e8e92c04
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Jan 15 01:57:29 2015 +0100
+
+    Android: sort tags by count desc
+
+commit a0356845b144c973448308bedefb11af60e86eb8
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Jan 15 01:49:11 2015 +0100
+
+    Android: event listeners on main thread, files UI polish
+
+commit 6fa0b8494e93000b5e1756b83068828a02eb211d
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Jan 14 23:31:53 2015 +0100
+
+    Android: file delete
+
+commit c9210c39c4a0db4e689cbe8293a588516a2f9976
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Jan 11 01:53:40 2015 +0100
+
+    Android: file upload
+
+commit 790453047dfa77bc6684ea494af8e1397db67f48
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Jan 8 00:34:57 2015 +0100
+
+    Android: file upload background service
+
+commit 5befef2992369f42a54fbd060f5dcf5e2a8bc0e5
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Dec 13 16:27:27 2014 +0100
+
+    Android: Document deleting
+
+commit dd59172a196059e4e895bf8aba2fb54ae93a7ab4
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Dec 11 22:29:04 2014 +0100
+
+    Android: Document form validation
+
+commit 17e5c65d04a1e1080304295f187af0eee3a2f8a2
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Dec 11 22:13:06 2014 +0100
+
+    Android: Document adding/editing
+
+commit a762ce4715f924aaaebf80c8305eb77aca910d3e
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Dec 5 00:12:42 2014 +0100
+
+    Android: Update view after an editing
+
+commit 89d66eca4a18c4e8827b6ecf4a11f734429370a9
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Dec 4 22:32:53 2014 +0100
+
+    Android: Document edit activity filling
+
+commit 323b95ad7ac66ae71989069311f2b6bd3597ef76
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Dec 4 03:41:35 2014 +0100
+
+    Android: language selection
+
+commit b42b195245c00cac565809b85ce9bb76af6b5374
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Dec 4 02:28:44 2014 +0100
+
+    Android: tags autocompletion
+
+commit a7987386e1889f76785b17e7964f6eb70f67469b
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Dec 3 00:28:26 2014 +0100
+
+    Android: tags autocompletion (in progress)
+
+commit a181eac9a57c3b0ccf414c52d6d95e74d154c3d9
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Dec 1 22:20:23 2014 +0100
+
+    Android: settings activity
+
+commit 5662c080d6072c98a4dd43a66ad24a5680435052
+Merge: 745766a2 f44d30d8
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Dec 1 01:21:48 2014 +0100
+
+    Merge branch 'master' of https://github.com/sismics/docs.git
+
+commit 745766a2c34ae2cdd3d01c463e87011d23d169d3
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Dec 1 01:21:38 2014 +0100
+
+    Fix error handling on DELETE /share/id
+
+commit f44d30d8902251619e3e4bab32d54118390e3b0e
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sun Nov 30 23:13:08 2014 +0100
+
+    Update README.md
+
+commit ea0c7982ac4c9db56cbd057c958ee71930a86c31
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sun Nov 30 23:12:28 2014 +0100
+
+    Update README.md
+
+commit 2abf0c6eaba3d836cae93325e7bfaebc1d747c64
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Nov 30 22:49:35 2014 +0100
+
+    Android: drawer background
+
+commit 13e8b828ac1a16f0eb0175b33fba652c35b5f265
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Nov 30 22:02:07 2014 +0100
+
+    Android: filtering intents with an URL to Docs is not possible
+    The Android platform forces to specify a full hostname which is variable in our case
+
+commit 551c10e7a3de1957e24b51087f121f6997846c01
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Nov 30 16:11:35 2014 +0100
+
+    Android: file upload (in progress), title marquee
+
+commit e17abfe41187fa95fefd5cec8646486d130f6b31
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Nov 29 23:50:56 2014 +0100
+
+    Android: share editing
+
+commit 3330acfc7548a790cf1aef5b2aac4d9d3d87bea7
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Nov 28 01:40:54 2014 +0100
+
+    Android: tags caching
+
+commit 2837b21a8654bd95183754ac9663d1ca32caef2c
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Nov 26 23:30:25 2014 +0100
+
+    Android: init document edit activity
+
+commit 5666d9b8b5278a99567a744cd813131e497e63c0
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Nov 26 02:08:20 2014 +0100
+
+    Android: floating action button
+
+commit 824e37b8ea564736a5b5cdc9d52a726c6743518e
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Nov 26 01:01:36 2014 +0100
+
+    Android: swipe refresh on documents list
+
+commit 1d08508e5189a45cf75cfaf35a8d58d575ec586f
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Nov 25 23:53:52 2014 +0100
+
+    Android: empty lists and loading error feedback
+
+commit a84748f075ef2bd100834f76cd8dd96cba0cd8e6
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Nov 25 00:09:12 2014 +0100
+
+    Android: better flags, tags loading feedback
+
+commit a6c123ad03742ab1182acd7940ef2bf9b1c0d94d
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Nov 24 20:07:06 2014 +0100
+
+    Android: display shared status
+
+commit 407564f28c58376427c4821372a601713c2af472
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Nov 23 22:10:24 2014 +0100
+
+    Android: show all documents from drawer
+
+commit 6a9a166670a14f377f8f5bee912530671bc8f0db
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Nov 23 19:55:08 2014 +0100
+
+    Android: tags in drawer
+
+commit 1773998ca06dd66ba9d879843c11aed854a95724
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Nov 23 00:49:56 2014 +0100
+
+    Android: Searching
+
+commit c610364ef772ad230232252402c4f067a1fdbd45
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Nov 22 22:43:31 2014 +0100
+
+    Android: Infinite scrolling
+
+commit bc719b31657cdde493f24d24745276547f6db90c
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Nov 22 22:18:21 2014 +0100
+
+    Android: File(s) download
+
+commit 92b2219bed86d469cb07be1efaa819c9734c80ba
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Nov 22 14:06:08 2014 +0100
+
+    Android: Display tags, language and shared status on document
+
+commit 8c5c54125f720ca64a03213072410b0a58c06454
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Nov 22 01:09:12 2014 +0100
+
+    Android: document details
+
+commit 2ce574922696938b1b5569615ccfbaafda12ed47
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Nov 21 03:18:20 2014 +0100
+
+    Android: documents listing: tags and date
+
+commit 76d195a344d2f3a0ea3cf64bfc564102d2e786f5
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Nov 20 02:11:18 2014 +0100
+
+    Android: documents listing from API
+
+commit 04752cab0c14acde6cfd4c46f77d15edcc3fab81
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Nov 19 01:18:42 2014 +0100
+
+    Android: material design, API 21
+
+commit ffa7d796b53d2308243e4ea1e616150e002b32c8
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue May 27 16:53:15 2014 +0200
+
+    Upgrade Android build tools
+
+commit 5119d32714d3256440165a4e98c22798a7c1f9d4
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon May 26 22:22:13 2014 +0200
+
+    Init login
+
+commit c0a963e845639d7e36002705043710e7493a0ec6
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon May 12 21:39:20 2014 +0200
+
+    Button to clear the search field, bug fix on share modal
+
+commit 20c2b0460b187b75488c79de902fcb478b72dc84
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 11 15:05:06 2014 +0200
+
+    TODO
+
+commit 2ee979c0126ccf3a71c146250dc206f8d2e5e85d
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun May 11 15:02:02 2014 +0200
+
+    TODO
+
+commit bc3683990f858ad51b761686b6f85c38c511b1a9
+Merge: c06e2971 b3aeac8b
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon May 5 23:14:02 2014 +0200
+
+    Merge branch 'master' of https://github.com/sismics/docs
+
+commit c06e2971bc325540c0c91332c61735876d3755c4
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon May 5 23:13:23 2014 +0200
+
+    AS/Gradle upgrade
+
+commit b3aeac8bf46ab42d1bb1380cab04ee44751d3998
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sun Feb 23 14:30:54 2014 +0100
+
+    Update README.md
+
+commit 34e3ac54789685b01dd5131d5a1449046691b0b8
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Feb 23 14:09:41 2014 +0100
+
+    Download all files from a document as ZIP
+
+commit ae566018d655b874c2c9a8a5646f1f6486ddc67d
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Feb 23 02:28:44 2014 +0100
+
+    Gruntification
+
+commit 12c3c4750fe9172efce46c2fcf4828e2bb4223ef
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Feb 2 01:19:17 2014 +0100
+
+    Print a file
+
+commit 42f23ed0d7303ab677a828fdf985af26a2671afb
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Jan 28 14:41:04 2014 +0100
+
+    Git ignore
+
+commit d76b8e32c87c1ae15eb7068e4e626024d592f897
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Jan 19 18:46:07 2014 +0100
+
+    File upload progress
+
+commit 6aaecb473f33b6080a4a7f82842cc592059b86d7
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Jan 13 20:05:17 2014 +0100
+
+    New logo
+
+commit 03976160bf4488c7be5ab91ab5b9189cfb14323f
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Jan 11 21:39:26 2014 +0100
+
+    Migration of /share.html
+
+commit 438a38985ad26d7e7bfa09625bec51ceae167e4b
+Merge: 60beb0e2 9802beaf
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sat Jan 11 11:40:03 2014 -0800
+
+    Merge pull request #1 from sismics/bs3
+    
+    Merge BS3 branch
+
+commit 9802beaf7b46de44bef333bb72facc64d7c83735
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Jan 11 20:39:00 2014 +0100
+
+    Migration of /tags and /settings views
+
+commit 6963fd9770a1ee63bf561e73a258d79454495d35
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Jan 11 16:38:58 2014 +0100
+
+    Migration of /document views
+
+commit 85aa16afba8b708ce68910669c410045915ade65
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Jan 11 00:56:36 2014 +0100
+
+    Angular UI Bootstrap migration
+
+commit 0e99f063108311a67c3fa635a5149bd32dc2b934
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Jan 10 23:54:12 2014 +0100
+
+    Upgrade libs
+
+commit 60beb0e2f5919463e3d87236023e288d72a0814d
+Author: Ben <ben@Ben-PC.(none)>
+Date:   Fri Dec 27 13:27:58 2013 +0100
+
+    Init Android project
+
+commit 77f0368ba589ec64cc72c2d59b8a23f0ed234d82
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Nov 7 01:12:11 2013 +0100
+
+    Hardwire TIFFImageReaderSpi to avoid registering bug (again)
+
+commit 596dd4db13a4ff717f98653457da2bf911eb0849
+Merge: d2ba2912 01cb3e61
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Oct 1 22:24:23 2013 +0200
+
+    Merge branch 'master' of https://github.com/sismics/docs.git
+
+commit d2ba291287d75965a3ef55ff9dfc917a0545cad7
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Oct 1 22:24:12 2013 +0200
+
+    Change package for tess4j
+
+commit 01cb3e611c5d55bda1c5a817a4aaf13af21c29e1
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Mon Sep 23 13:36:58 2013 +0200
+
+    Update README.md
+
+commit bd9e918a62ab1e5390f426d2b9342564132546f2
+Merge: 56f6038c f29ed3e6
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Sep 7 00:27:22 2013 +0200
+
+    Merge branch 'master' of https://github.com/sismics/docs.git
+
+commit 56f6038c0934742160996aa81f96b8867b4006fc
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Sep 7 00:27:13 2013 +0200
+
+    Vertical scroll on file preview for small screens
+
+commit f29ed3e671026e8a9a4ec485ceb1cea140ad40ef
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Fri Sep 6 11:18:30 2013 +0200
+
+    Update README.md
+
+commit 726121d8c8216301c32f1d7cc270339fc768040b
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Sep 5 21:43:45 2013 +0200
+
+    Fix Hibernate entity
+
+commit c40e7e1cc9b7ebc0cb930899b6eb34a69b92cb3b
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Sep 5 19:14:21 2013 +0200
+
+    File upload feedback in title and form state, new favicon
+
+commit b1f9b072f3a9fc36bc78b43d822bdca5d10d2ba1
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Sep 5 17:41:33 2013 +0200
+
+    TODO
+
+commit 22cea20a907832c436f9c25524775ca36fece3e6
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Sep 5 16:10:26 2013 +0200
+
+    Hard coupling between tess4j and imageIO to avoid service registering
+
+commit 8eb5b8066e7bc01ad68620e21b43955467e17540
+Merge: e37eab3b 1db54174
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Sep 5 11:35:00 2013 +0200
+
+    Merge branch 'master' of https://github.com/sismics/docs.git
+
+commit e37eab3b7a5ee0680315d690cd18317fbcd7f19d
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Sep 5 11:34:53 2013 +0200
+
+    All users can access logs
+
+commit 1db54174d46af715abe86c1b5fff5998c19767be
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Sep 5 00:50:23 2013 +0200
+
+    Remove TODO
+
+commit d5fa3a4e3ad01ad095348f05fd6b6366ea1554a3
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Sep 4 18:04:31 2013 +0200
+
+    TODO
+
+commit fc53758eb7f5440f74aac30d0a80e405329e7d5f
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Sep 3 18:03:44 2013 +0200
+
+    Typo, TODO
+
+commit f5079e83cb13801e94f582ec425a28ed7fbe3176
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Sep 3 09:19:47 2013 +0200
+
+    Typo
+
+commit b399e4081ff6b3732c05f87ae4258252e1467683
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Sep 2 23:28:38 2013 +0200
+
+    Typo
+
+commit a80bc27582485d095ab23016f5102d56978364cb
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Sep 2 22:25:58 2013 +0200
+
+    TODO
+
+commit eb57af40295d87f5051b187418a3c82d64eff98d
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Aug 26 22:35:30 2013 +0200
+
+    Fix multi-platform jUnit
+
+commit ac3580fb4ac200d666ff1cddca620d463746e5d5
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Aug 26 22:03:14 2013 +0200
+
+    Fix leak
+
+commit 6e3d2ea97268bdfc01a2112ecdb23904187b11b2
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Aug 22 22:24:14 2013 +0200
+
+    Show file count on documents list (client)
+
+commit 870a44da0d520befbc41e007a63fa468487742f5
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Aug 22 17:59:24 2013 +0200
+
+    Return file count on GET /document/list
+
+commit 62a58407779d2ff403664403f9423dfb248bab8f
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Aug 22 17:41:47 2013 +0200
+
+    Alert in navigation bar if there is a new error in logs
+
+commit a858699391c3f49d2fd2668c0bcf58a891fee1be
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Aug 22 14:44:58 2013 +0200
+
+    Git ignore
+
+commit fb0aec5fee0334fd56095a39968c9e75bea020e2
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Aug 22 01:44:51 2013 +0200
+
+    Fix document scope reset after add, fix wrong web.xml configuration
+    (it broke TIFF image encoding on OCR)
+
+commit 1a495ac948cb76419e173dc96454c8f5adf90110
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Aug 21 01:30:37 2013 +0200
+
+    Fix jUnit on PDF rendering
+
+commit ba083fb57a9453b04e9bfbeef5cb43404b42c9ea
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Aug 21 01:15:52 2013 +0200
+
+    Disable verbose logging
+
+commit 4e22111f38b7caf86fe2ae2fc6e28ede7a903c46
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Aug 21 01:05:59 2013 +0200
+
+    Fix default thumbnail
+
+commit db7a9f0e4aecf9d5f4fb3172f86cf8dcf5dccb93
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Aug 20 21:51:07 2013 +0200
+
+    Encrypt stored files in SHA 256
+
+commit 906de329ae885ee724c327c0babf6f382aa67a15
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Aug 20 18:55:49 2013 +0200
+
+    DB update script 6
+
+commit 00b00f0d0c18d18807bdb3c2c871d2d7adbda78a
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Aug 20 18:06:08 2013 +0200
+
+    File encryption utilities
+
+commit 0bc658a39609a9d2e59be62f8ee5af4792d47b2f
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Aug 20 00:57:22 2013 +0200
+
+    More loading feedback (client)
+
+commit 464d43194b8f8dd31bc86a40c213a530778337e0
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Aug 19 23:57:50 2013 +0200
+
+    File encryption (in progress)
+
+commit 1c606ebf25218559025828ccb0852399b6396714
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Aug 19 15:27:34 2013 +0200
+
+    Delete files when a document is deleted, fix search by date
+
+commit 504c4dd81564ae69e9e25745b0d6fe90ba17ea0f
+Merge: ecb5a7ab cc6d5992
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Aug 19 01:30:27 2013 +0200
+
+    Merge branch 'master' of https://github.com/sismics/docs.git
+
+commit ecb5a7abf6ca2dc06f014f329eefa5e453865ef1
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Aug 19 01:29:59 2013 +0200
+
+    TODO
+
+commit cc6d5992938c138f4378eddf7f6bb0750524851e
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sun Aug 18 16:31:41 2013 +0200
+
+    Update README.md
+
+commit 8a3ca7b0b5adab69ee66fd263d962447f35eae7f
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sun Aug 18 16:23:15 2013 +0200
+
+    License
+
+commit fc6c1359b40273764f4db4a5dbfe31f8b4103aca
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sun Aug 18 16:21:54 2013 +0200
+
+    Update README.md
+
+commit 9989a8967ad4a740018eaa62dc3ee0a68750f556
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Aug 18 14:48:48 2013 +0200
+
+    Send the correct MIME type from /file/id/data
+
+commit 2289f523c4a4838059a4fce080dff28a41930656
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Aug 18 14:25:53 2013 +0200
+
+    Close all PDDocument
+
+commit 2c7083aa43b7e6636614460eb09c1be63bf3bd0e
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Aug 18 14:11:08 2013 +0200
+
+    Force loading of corrupted PDF
+
+commit 77c5a10abab1eb5158158a4a560245e4f769d311
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Aug 18 13:52:29 2013 +0200
+
+    Returns correct file variation from /file/id/data
+
+commit d3f59554f8a6f77fbb6cec2f021363d8f00dc379
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Aug 18 13:48:08 2013 +0200
+
+    Index and generate thumbnails from PDF
+
+commit 4f8076427b9f017ee845bad5ab8e5e0df4a4c6be
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Aug 18 13:02:50 2013 +0200
+
+    Search criterias on full content and specific date
+
+commit fd95ecc4cb04a69b25ce92b7212e9fb09804e5f6
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Aug 18 02:12:48 2013 +0200
+
+    Batch to regenerate all file variations
+
+commit dab6f4b9d1684e7eacae48dc33af88f55acc7ab6
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Aug 18 01:26:34 2013 +0200
+
+    Intermediate thumbnail size more web-friendly
+
+commit 6b5c1b2b51a0aba4276518f82a194539c3b259be
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Aug 18 00:53:01 2013 +0200
+
+    Delete files from storage when necessary,
+    batch to cleanup storage for orphan files,
+    better Lucene directory reader management
+
+commit 00ed2e3c25b6e6ebbfcf3e5c347fc9b11a86b796
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Aug 17 23:16:19 2013 +0200
+
+    Close IndexReader after search
+
+commit e7629eb6a0bd46ce0bf1fbfb9094ee43f74aee8f
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Aug 17 18:38:59 2013 +0200
+
+    Fix multiple criterias Lucene query
+
+commit 5451c7967451aa527d1b1107c1f592b187ca8bcd
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Aug 17 16:59:16 2013 +0200
+
+    Fix OCR all files batch
+
+commit e2bd85da5ff4eb41c385b6a8129df665a2460c67
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Aug 17 16:54:53 2013 +0200
+
+    OCR all files in database asynchronously
+
+commit 234eaf047ef414e9c4a6d2e473d05df5d4a2e2ea
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Aug 17 15:47:07 2013 +0200
+
+    Add logs before OCR
+
+commit 8378b346e9396ee6d078624036d0ee9c8f5eacc4
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Aug 17 15:18:42 2013 +0200
+
+    Null check on Lucene documents, fix documents search query
+
+commit 7ed976b27a8492d8160e00c37a1183e03d0c4525
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Aug 17 14:16:55 2013 +0200
+
+    Index files OCR-ized content and documents, search on index fields
+
+commit 5507d4ca57c98ee14f1242f4151482da5160154d
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Aug 17 02:40:28 2013 +0200
+
+    Support Japanese language
+
+commit 7bb1f48464b749518e3b07f36d135ac8e6be8cc1
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Aug 17 01:48:33 2013 +0200
+
+    Display and edit language on document (client)
+
+commit 82682600df535783203ef4fe5f4ac168d5c77163
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Aug 17 00:36:36 2013 +0200
+
+    Search in OCR content, batch to OCR all files
+
+commit 1f1f02ed41ebc216e0b4663cc2f74230c2b8b177
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Aug 16 23:48:35 2013 +0200
+
+    Document language (server), OCR files and store result in database
+
+commit 70a86dc86f975a398183fea767d71c8b689f6595
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Aug 16 18:01:19 2013 +0200
+
+    More details in tag name validation
+
+commit bd71dbd4452ce0a1950655fcbdb8963ccf7377b9
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Aug 16 17:17:38 2013 +0200
+
+    Loading feedback for GET /app
+
+commit d1644dcbc07f0ad493fd4733f3a71bf0a4b0cce9
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Aug 16 17:14:50 2013 +0200
+
+    Loading feedback
+
+commit 988f55de3fbd2a24cee7b0b4f178aef215d1dbee
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Aug 16 15:01:53 2013 +0200
+
+    Unified documents search, tag validation
+
+commit b4e58212f02f7d1263451bd0614afdf659f310d6
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Aug 16 01:17:39 2013 +0200
+
+    TODO
+
+commit 14bd72494d97c62696a5a190d39020789f085412
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Aug 15 22:55:03 2013 +0200
+
+    Temporary fix for https://github.com/angular/angular.js/issues/2833
+
+commit c36af3c6f7f34a2f81d51af168d27aaf65649f9e
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Aug 15 22:16:03 2013 +0200
+
+    TODO
+
+commit 84cb6c51dc9632418f4f4194ad1c3a9f8f39f110
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Aug 15 19:19:58 2013 +0200
+
+    Update database version after upgrade, fix 403 detection on sharing app
+
+commit 0aa9b444818f4b570d82a9935f25cce1412d211d
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Aug 15 19:08:01 2013 +0200
+
+    Search on shared status,display shared status on documents list (client)
+
+commit c14797bd5ac538bd89d71e32d6d5dd7d3753d3c3
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Aug 15 18:33:58 2013 +0200
+
+    Search on shared status (server)
+
+commit ea1e226b508945dedb8582c774d60c525e783556
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Aug 15 15:23:41 2013 +0200
+
+    Document sharing (client), better state handling for file view
+
+commit ed85909d00de414897ca8e2f8738d5378852eb5f
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Aug 15 00:43:06 2013 +0200
+
+    Init share app, client refactoring
+
+commit ecb2afd6287aacb078a6fc1309c5f0dabd5fbf65
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Aug 14 21:19:22 2013 +0200
+
+    Remove .idea
+
+commit b0ad45a42e2252e17f884a800d5a37e73ad32d6b
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Aug 14 21:18:16 2013 +0200
+
+    Remove .idea
+
+commit 4c1df1b3fe5d9397719818010b4dc489a803aec9
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Aug 14 21:15:45 2013 +0200
+
+    Git ignore .idea
+
+commit 200d7a0001702782e0807246d6bbdbf87308b4f1
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Aug 14 20:51:08 2013 +0200
+
+    Name on share, share document (not file)
+
+commit 4cb5b7fdbbc2bcd80d743ea5612a8bb5cad762d8
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Aug 14 00:47:58 2013 +0200
+
+    File sharing (server done)
+
+commit 5cfc4871939316b259603edb61b0729f81b68855
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Aug 13 23:15:58 2013 +0200
+
+    File sharing (in progress)
+
+commit 99978a12b7bd1a06ff236f681a1772e540a65171
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Aug 13 21:05:14 2013 +0200
+
+    Init file share
+
+commit 7822045ee7f29a68be15cb9f9886b8457a16d5f6
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Aug 13 20:20:28 2013 +0200
+
+    Cleanup code
+
+commit 48d363352cf3195f49228363149c2fc3c645a337
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Aug 13 20:08:14 2013 +0200
+
+    Cleanup imports
+
+commit b6369ed543f5fe4fae82232d814b25c151fa46e2
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Aug 13 02:40:52 2013 +0200
+
+    Code style IDEA
+
+commit e924ac2dd80b522d6350d297f75deab6f2e0561f
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Aug 13 02:33:18 2013 +0200
+
+    Cleanup javadoc
+
+commit fd3597b3d13e89b575c2085acea2ec59fa0bd69f
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Aug 13 01:53:54 2013 +0200
+
+    Cleanup javadoc
+
+commit 460fd00f7f5ad0279886a2a68d35977ebf777913
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Aug 13 01:44:43 2013 +0200
+
+    git ignore
+
+commit 51047ccc05c531ac713fb63ffc967be3f789afbe
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Aug 13 00:56:52 2013 +0200
+
+    .idea directory
+
+commit 7a1a402e6c284ac6020c3fb3026e2d2077318820
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Aug 12 22:16:36 2013 +0200
+
+    TODO, .idea directory
+
+commit 305993e0f97ea84213177daaa7dde55a13a4cf46
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Aug 12 21:32:16 2013 +0200
+
+    Tag stats reflect changes in the tag list
+
+commit c37fb1d4aecee352b09b1c7215554d102203adac
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Aug 12 21:20:34 2013 +0200
+
+    Hide admin only menu in settings tab
+
+commit 10a7be01f5a2335e9b7acab7bfbfea2a277ec171
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Aug 12 19:56:31 2013 +0200
+
+    Cleanup, mobile module
+
+commit 2c430f522c6f5756b2013d32282142c79b9fa4cd
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sun Aug 11 23:09:28 2013 +0200
+
+    TODO
+
+commit 10b31aec293b824aae761c5097ad13cd47a6afe0
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Aug 11 23:06:44 2013 +0200
+
+    Close button on file preview
+
+commit 2fa2d32873c12779153a8ffd1e40bbb0201305d1
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Aug 11 00:26:18 2013 +0200
+
+    TODO
+
+commit ac424b60ccebc12d4b0ea41d0cf1ca9537f7ca04
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sat Aug 10 02:24:31 2013 +0200
+
+    Delete user (client)
+
+commit c48eb7a0feace4dc25ef29babe49e7ae9a9bd691
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Aug 9 00:21:11 2013 +0200
+
+    Users administration (client)
+
+commit 990884137befca8b6d2fd67f46ddf482533b4dcf
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Aug 8 20:17:16 2013 +0200
+
+    Users viewing
+
+commit f328aedccd596aad9fe2c27eceb33fdf6c70f70b
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Aug 8 10:46:15 2013 +0200
+
+    Add default value for new column
+
+commit 6c347ff82668f6369adf16d174bd4016ed5646bd
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Aug 8 01:38:30 2013 +0200
+
+    Tag colors (client)
+
+commit b2ab313d11702c4986d44d6f4ea15acab3193f06
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Aug 7 23:45:47 2013 +0200
+
+    Tag colors (server)
+
+commit 1deda6e993be763d6ff407051334ee65364866bb
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Aug 7 13:51:29 2013 +0200
+
+    Better display for tags in document list
+
+commit 395b528b4b6294e5719e0515cb32c1bf3b43bd58
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Aug 7 12:01:35 2013 +0200
+
+    Display tags on documents list
+
+commit 28fe7c8b02c5f71f2cd304ca64ff98892dcb5e31
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Aug 7 11:42:57 2013 +0200
+
+    Return tags on GET /document/list
+
+commit 0d7045bf24e3797b9fb5456a1f501945881fe24b
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Aug 4 22:25:47 2013 +0200
+
+    TODO
+
+commit 0e330a1cbdaace1aeb25b045811b76f05546becd
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Aug 4 19:21:06 2013 +0200
+
+    Phone responsive design
+
+commit fe44930d99f3c1f0d789b01e1a17c3d0812fb059
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Aug 4 18:59:34 2013 +0200
+
+    Responsive design adjustments
+
+commit b5e3598b485fabb4c983d222d996d5583dfdd02a
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Aug 4 17:15:52 2013 +0200
+
+    Tag stats design
+
+commit b5201b5bdead9f0c1e29811ab5402e3a068bb154
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Aug 4 16:57:43 2013 +0200
+
+    Fix user isolation on tag stats
+
+commit 800f91af635a298b3f76d13e0289644cbc0aaa7d
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Aug 4 16:47:02 2013 +0200
+
+    Typo
+
+commit 363d6eef239da2327aa6c65e0b3b316c5eac16a9
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Aug 4 16:45:37 2013 +0200
+
+    Order tags by name in all requests
+
+commit 0ab480165c35a65fd4f24ab87d802cd59175b3bf
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Aug 4 16:40:06 2013 +0200
+
+    Tag stats (client)
+
+commit 97fa6b10f7fac5f4d538cdbb0f2cf8865d18b48a
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Aug 4 14:19:37 2013 +0200
+
+    Tag stats (server)
+
+commit f5871e89e2b2bebe1b54f56a64009102d53fc6aa
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Aug 3 21:51:15 2013 +0200
+
+    Display server logs
+
+commit c0e7e3437314e98e60a0d00693aff2b7ab3d8c50
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Aug 3 20:19:02 2013 +0200
+
+    Reordering files
+
+commit ae853cf7892a22eef1c673bf8acc1b42a66d0b9b
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Aug 3 17:20:44 2013 +0200
+
+    Diplay opened sessions and close them
+
+commit 487d5385035f835dbb48249d5cf99e86b68d06cd
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Aug 3 00:53:58 2013 +0200
+
+    List and delete active tokens (server)
+
+commit 9fca036edbb9a67bc20d7f6197fdd6ed3cb6e158
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Aug 3 00:07:56 2013 +0200
+
+    Remove duplicate from document title autocomplete
+
+commit 05683ef81eaca3fdc6c8cdf1651477828b0870f3
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Aug 2 23:59:00 2013 +0200
+
+    Autocomplete on document title edition
+
+commit 210f0dcc276e88518986846b6c074585951fbf1d
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Aug 2 23:03:31 2013 +0200
+
+    File data cache header, alert with file count on document added
+
+commit f25faad26292dacdc203d57a661ba89fe4600db6
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Aug 2 18:01:28 2013 +0200
+
+    Meta for mobile viewport
+
+commit 8497817132c1818a69e7e1fc405e768591a4c2bc
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Aug 2 14:02:18 2013 +0200
+
+    TODO
+
+commit 08ad6e25875b164ae5ea0cf42ec91ef8817ded5e
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Aug 2 00:31:12 2013 +0200
+
+    TODO
+
+commit 5ba3fabf7a654b29f6368f02e0d08597a7b950d1
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Fri Aug 2 00:08:05 2013 +0200
+
+    Bugfix tags selection, TODO
+
+commit dcf3e49cb3e55f1ace2df74a8193a467975b09dc
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Aug 1 23:46:02 2013 +0200
+
+    hashCode and equals on embedded entity
+
+commit 19db8f2445499a80d15b5169599b99ebbd7c7c34
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Aug 1 23:32:55 2013 +0200
+
+    Fix string list parameters
+
+commit 0f75faecccf452c53617c47250ab9e0b37cf925e
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Aug 1 22:50:08 2013 +0200
+
+    User settings, alerts on document added
+
+commit 2e958034244d9d4bdc3a1c855ad7aa69ab40ed91
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Aug 1 13:53:52 2013 +0200
+
+    Document count and general data on default page
+
+commit 9e5459cafea1fed8bea236a14b6d0edf237207c7
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Aug 1 13:36:15 2013 +0200
+
+    Document count in GET /app, TODO
+
+commit 4d50b220a21df3b1f43cf33da20d4a5bf267c836
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Aug 1 00:35:27 2013 +0200
+
+    Bugfix, display number of documents found
+
+commit e0bccf712114d337bc72f1c4e9be6ae2404624b5
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Thu Aug 1 00:06:21 2013 +0200
+
+    Bugfix, TODO
+
+commit 3345f3def60071fbc8380d2d988923b790bd2a5f
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Jul 31 23:12:25 2013 +0200
+
+    Fix document add with tags (client)
+
+commit 03e164ea38f0042b938a4f4de30d536d505033ab
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Jul 31 22:36:13 2013 +0200
+
+    Search on tags (client/server)
+
+commit fc5a1f2e7126a63f7db8b554e264728b631a6672
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Jul 31 22:07:42 2013 +0200
+
+    Confirmation on tag deletion
+
+commit b8b08910838a4f6edcabee1e230be020e426d2ac
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Jul 31 22:04:00 2013 +0200
+
+    Edition of existing tag names (client)
+
+commit 6c1354a2f62aaddd960b38553689c3c3105accd6
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Jul 31 21:02:08 2013 +0200
+
+    Edition of tag name (server)
+
+commit 4dc5cb12b345485b3fb34d5dd51ef8676892d870
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Jul 31 20:57:12 2013 +0200
+
+    Search on tags (server)
+
+commit 990a1c3aa5a04b0eb626064f01bcd43c217f7d66
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Jul 31 01:51:03 2013 +0200
+
+    Search on creation date (client)
+
+commit 871e531c4bf2889cb69b78d321a372a8cfdc2b30
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Wed Jul 31 00:07:30 2013 +0200
+
+    Search on creation date (server), edit creation date (client)
+
+commit a8b91483596499f3ae8660372b1996efa208d95c
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Jul 30 21:00:16 2013 +0200
+
+    Edition and display of tags on documents
+
+commit 779c45a1e2384da14390d5349a7406ab0c6e5421
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Jul 30 10:08:30 2013 +0200
+
+    pom.xml to Java 7
+
+commit db8ff759a61fa8b04b2ae48733bc5f099033f0fc
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Tue Jul 30 01:34:30 2013 +0200
+
+    Client side creation and removal of tags
+
+commit b9f26929cc08633e1e8772d07772a35fa19af8c6
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Jul 29 23:34:16 2013 +0200
+
+    TODO list
+
+commit 62b651299697207bfd79fe806cc0fe17f8cd6ac1
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Jul 29 22:55:32 2013 +0200
+
+    Server side tag system
+
+commit 74132103bb5883c8dcb8c7ca47660f18ea5e8b4c
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Jul 29 01:57:18 2013 +0200
+
+    File sorting (client side)
+
+commit cd97382f60fc2e916fdadb7f28f97f36cfcd4dc0
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Mon Jul 29 00:04:34 2013 +0200
+
+    Sequential files upload, basic search system
+
+commit 51434752f5a29dece6185e043a5fc71eb1553ad2
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Jul 28 18:29:38 2013 +0200
+
+    Default thumbnail for PDF
+
+commit 471933ca8c60a29392e485279ffec25e9806ff03
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Jul 28 18:29:03 2013 +0200
+
+    PDF handling, file upload progression
+
+commit 19000d095f246466edde05cd39319d7f4fd3c605
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Jul 28 02:06:00 2013 +0200
+
+    Isolate jUnit tests with separate users
+
+commit 21495f45098d7d49c7718d04e11535319d723be0
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Jul 28 01:58:22 2013 +0200
+
+    Fix document resource jUnit
+
+commit c9fdb6def5d733080f5c80638f8a9fe936bfd087
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Jul 28 01:55:32 2013 +0200
+
+    Pass file stream directly to GET /file/:id/data
+
+commit 3a2ffec4974723ba6fcaf8f371d7caf8d2ce5646
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sun Jul 28 01:07:04 2013 +0200
+
+    Edit document, add files, display files
+
+commit 9b74bd8194125d5ade62b16673ec6b364be04a1c
+Author: jendib <benjamin.gam@gmail.com>
+Date:   Sat Jul 27 18:33:20 2013 +0200
+
+    Initial commit
+
+commit 41cb6dd9aed15a8b90942cde1056fd8d18f4ec87
+Author: Benjamin Gamard <benjamin.gam@gmail.com>
+Date:   Sat Jul 27 09:20:09 2013 -0700
+
+    Initial commit
