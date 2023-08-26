@@ -45,13 +45,11 @@
       <list>
         <option value="$PROJECT_DIR$/case_tomcat/pom.xml" />
         <option value="$PROJECT_DIR$/jmh_performance/pom.xml" />
-        <option value="$PROJECT_DIR$/jmh_eliminate_locks/pom.xml" />
         <option value="$PROJECT_DIR$/case_monitor/pom.xml" />
         <option value="$PROJECT_DIR$/jcstress_ordering/pom.xml" />
         <option value="$PROJECT_DIR$/case_thirdpart/pom.xml" />
         <option value="$PROJECT_DIR$/case_java7/pom.xml" />
         <option value="$PROJECT_DIR$/case_java8/pom.xml" />
-        <option value="$PROJECT_DIR$/test/pom.xml" />
         <option value="$PROJECT_DIR$/JUC_learn/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMVC/pom.xml" />
         <option value="$PROJECT_DIR$/tikaTest/pom.xml" />

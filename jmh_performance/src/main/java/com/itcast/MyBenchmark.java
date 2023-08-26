@@ -28,6 +28,7 @@ package com.itcast;
 import org.openjdk.jmh.annotations.*;
 
 import java.util.Arrays;
+import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
 @Fork(1)
@@ -40,7 +41,7 @@ public class MyBenchmark {
         Arrays.fill(ARRAY, 1);
     }
     @Benchmark
-    public int c() throws Exception {
+    public int c() throws ExecutionException, InterruptedException {
         int[] array = ARRAY;
         FutureTask<Integer> t1 = new FutureTask<>(()->{
             int sum = 0;
@@ -77,7 +78,7 @@ public class MyBenchmark {
         return t1.get() + t2.get() + t3.get()+ t4.get();
     }
     @Benchmark
-    public int d() throws Exception {
+    public int d() throws ExecutionException, InterruptedException {
         int[] array = ARRAY;
         FutureTask<Integer> t1 = new FutureTask<>(()->{
             int sum = 0;

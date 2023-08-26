@@ -1,3 +1,11 @@
+dontinline,com/itcast/BenchmarkLocks.a_avgt_jmhLoop
+dontinline,com/itcast/BenchmarkLocks.a_sample_jmhLoop
+dontinline,com/itcast/BenchmarkLocks.a_ss_jmhStub
+dontinline,com/itcast/BenchmarkLocks.a_thrpt_jmhLoop
+dontinline,com/itcast/BenchmarkLocks.b_avgt_jmhLoop
+dontinline,com/itcast/BenchmarkLocks.b_sample_jmhLoop
+dontinline,com/itcast/BenchmarkLocks.b_ss_jmhStub
+dontinline,com/itcast/BenchmarkLocks.b_thrpt_jmhLoop
 dontinline,com/itcast/MyBenchmark.c_avgt_jmhLoop
 dontinline,com/itcast/MyBenchmark.c_sample_jmhLoop
 dontinline,com/itcast/MyBenchmark.c_ss_jmhStub
@@ -6,6 +14,8 @@ dontinline,com/itcast/MyBenchmark.d_avgt_jmhLoop
 dontinline,com/itcast/MyBenchmark.d_sample_jmhLoop
 dontinline,com/itcast/MyBenchmark.d_ss_jmhStub
 dontinline,com/itcast/MyBenchmark.d_thrpt_jmhLoop
+inline,com/itcast/BenchmarkLocks.a
+inline,com/itcast/BenchmarkLocks.b
 inline,com/itcast/MyBenchmark.c
 inline,com/itcast/MyBenchmark.d
 inline,org/openjdk/jmh/infra/Blackhole.clearSinks

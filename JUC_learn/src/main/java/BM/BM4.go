@@ -4,5 +4,8 @@ import "fmt"
 
 func main() {
 
-	fmt.Println("Hello, BM4")
+	var str string
+	fmt.Scanln(&str)
+	fmt.Println(str)
+
 }

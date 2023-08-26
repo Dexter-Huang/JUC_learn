@@ -1,0 +1,3 @@
+cd "dir"
+mvn clean package
+java -jar target/benchmarks.jar
