@@ -1,6 +1,7 @@
 package AccJUC;
 
 import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class PrintABC_AtomicInteger {
@@ -18,7 +19,7 @@ public class PrintABC_AtomicInteger {
     }
 
     public static void main(String[] args) {
-        ExecutorService executorService = java.util.concurrent.Executors.newFixedThreadPool(3);
+        ExecutorService executorService = Executors.newFixedThreadPool(3);
         executorService.execute(() -> {
             run(0, "A");
         });

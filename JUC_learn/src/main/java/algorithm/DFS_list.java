@@ -52,11 +52,7 @@ public class DFS_list {
             int[] arr = Arrays.stream(in.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
             list[arr[0]].add(arr[1]);
         }
-
         path.add(1);
-
         dfs(1);
-
-
     }
 }
