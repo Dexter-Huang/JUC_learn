@@ -11,6 +11,7 @@ import org.apache.tika.parser.Parser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
 import org.xml.sax.SAXException;
@@ -19,22 +20,8 @@ import org.xml.sax.SAXException;
  * tika配置类  1212
  */
 @Configuration
+@EnableAspectJAutoProxy(proxyTargetClass = true, exposeProxy = true)
 public class MyTransactionalConfig {
 
-    @Autowired
-    private ResourceLoader resourceLoader;
-
-    @Bean
-    public Tika tika() throws TikaException, IOException, SAXException {
-
-        Resource resource = resourceLoader.getResource("classpath:tika-config.xml");
-        InputStream inputStream = resource.getInputStream();
-
-        TikaConfig config = new TikaConfig(inputStream);
-        Detector detector = config.getDetector();
-        Parser autoDetectParser = new AutoDetectParser(config);
-
-        return new Tika(detector, autoDetectParser);
-    }
 }
 

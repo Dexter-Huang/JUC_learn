@@ -19,12 +19,12 @@ public class MyBatisPlus {
                     builder // 设置作者
                             .fileOverride() // 覆盖已生成文件
                             .disableOpenDir() //禁止打开输出目录
-                            .outputDir("D:\\Desktop\\2022_interview\\interview\\mycode\\Test\\src\\main\\java\\com\\example\\tikatest"); // 指定输出目录
+                            .outputDir("D:\\Desktop\\2022_interview\\interview\\mycode\\Spring15种事务失效场景\\src\\main\\java\\com\\example\\tikatest"); // 指定输出目录
                 })
                 .packageConfig(builder -> {
                     builder.parent("com.example.tikatest") // 设置父包名
                             .moduleName(null) // 设置父包模块名
-                            .pathInfo(Collections.singletonMap(OutputFile.mapperXml, "D:\\Desktop\\2022_interview\\interview\\mycode\\Test\\src\\main\\resources\\mapper\\")); // 设置mapperXml生成路径
+                            .pathInfo(Collections.singletonMap(OutputFile.mapperXml, "D:\\Desktop\\2022_interview\\interview\\mycode\\Spring15种事务失效场景\\src\\main\\resources\\mapper\\")); // 设置mapperXml生成路径
                 })
                 .strategyConfig(builder -> {
                     builder.entityBuilder().enableLombok(); //启动lombok
