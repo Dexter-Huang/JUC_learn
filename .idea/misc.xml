@@ -55,6 +55,7 @@
         <option value="$PROJECT_DIR$/tikaTest/pom.xml" />
         <option value="$PROJECT_DIR$/Test/pom.xml" />
         <option value="$PROJECT_DIR$/DesignPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring15种事务失效场景/pom.xml" />
       </list>
     </option>
   </component>

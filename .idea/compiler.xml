@@ -10,9 +10,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Test1" />
+        <module name="Test0" />
         <module name="case_monitor" />
         <module name="jmh_performance" />
-        <module name="Test" />
         <module name="JUC_learn" />
         <module name="case_java7" />
         <module name="case_thirdpart" />
@@ -25,7 +26,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Test" options="-parameters" />
+      <module name="Test0" options="-parameters" />
+      <module name="Test1" options="-parameters" />
       <module name="case_monitor" options="-parameters" />
       <module name="case_thirdpart" options="-parameters" />
     </option>
