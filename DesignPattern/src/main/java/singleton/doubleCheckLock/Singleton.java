@@ -1,4 +1,4 @@
-package singleton;
+package singleton.doubleCheckLock;
 
 import java.io.Serializable;
 

@@ -1,6 +1,5 @@
-package singleton;
+package singleton.doubleCheckLock;
 
-import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.lang.reflect.Constructor;
