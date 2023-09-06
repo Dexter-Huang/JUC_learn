@@ -16,10 +16,10 @@ import org.springframework.core.io.ResourceLoader;
 import org.xml.sax.SAXException;
 
 /**
- * tika配置类
+ * tika配置类  1212
  */
 @Configuration
-public class MyTikaConfig {
+public class MyTransactionalConfig {
 
     @Autowired
     private ResourceLoader resourceLoader;
