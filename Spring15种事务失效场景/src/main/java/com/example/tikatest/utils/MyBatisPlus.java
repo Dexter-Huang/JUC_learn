@@ -14,7 +14,8 @@ public class MyBatisPlus {
         String url="jdbc:mysql://localhost:3306/test?serverTimezone=GMT%2b8";
         String username="root";
         String password="1234";
-        FastAutoGenerator.create(url, username, password)
+        FastAutoGenerator
+                .create(url, username, password)
                 .globalConfig(builder -> {
                     builder // 设置作者
                             .fileOverride() // 覆盖已生成文件
