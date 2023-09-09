@@ -29,32 +29,32 @@ public class Ac844_走迷宫 {
     static Pair[][] prev = new Pair[N][N];
     static int[] dx={-1,1,0,0};
     static int[] dy={ 0,0,-1,1};
-    static Queue<Pair> queue = new LinkedList<>();
+static Queue<Pair> queue = new LinkedList<>();
 
-    static int bfs(){
-        dist[0][0]=0;//起点
-        queue.add(new Pair(0,0));
-        while (!queue.isEmpty()){
-            Pair t = queue.poll();
-            for (int i = 0; i <4 ; i++) {
-                int x = t.x+dx[i],y=t.y+dy[i];
-                if(x>=0&&x<n&&y>=0&&y<m&&graph[x][y]==0&&dist[x][y]==-1){
-                    dist[x][y]=dist[t.x][t.y]+1;
-                    queue.add(new Pair(x,y));
-                    prev[x][y]=t;
+static int bfs(){
+    dist[0][0]=0;//起点
+    queue.add(new Pair(0,0));
+    while (!queue.isEmpty()){
+        Pair t = queue.poll();
+        for (int i = 0; i <4 ; i++) {
+            int x = t.x+dx[i],y=t.y+dy[i];
+            if(x>=0&&x<n&&y>=0&&y<m&&graph[x][y]==0&&dist[x][y]==-1){
+                dist[x][y]=dist[t.x][t.y]+1;
+                queue.add(new Pair(x,y));
+                prev[x][y]=t;
 
-                }
             }
         }
-        int x =n-1,y=m-1;
-        while (!(x==0&&y==0)){
-            out.println(x+" "+y);
-            Pair t = prev[x][y];
-            x=t.x;y=t.y;
-        }
-
-        return dist[n-1][m-1];
     }
+    int x =n-1,y=m-1;
+    while (!(x==0&&y==0)){
+        out.println(x+" "+y);
+        Pair t = prev[x][y];
+        x=t.x;y=t.y;
+    }
+
+    return dist[n-1][m-1];
+}
 
     public static void main(String[] args) throws IOException {
         n = read();m =read();

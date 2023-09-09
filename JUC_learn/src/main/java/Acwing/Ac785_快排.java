@@ -8,23 +8,23 @@ public class Ac785_快排 {
     static BufferedWriter out = new BufferedWriter(new OutputStreamWriter(System.out));
 
     static void quickSort(int[] arr, int l,int r){
-        if(l>=r)
-            return;
-        int i = l-1,j=r+1,midVal=arr[l+r>>1];
-        while (i<j){
-            while (arr[++i]<midVal);
-            while (arr[--j]>midVal);
+if(l>=r)
+    return;
+int i = l-1,j=r+1,midVal=arr[l+r>>1];
+while (i<j){
+    while (arr[++i]<midVal);
+    while (arr[--j]>midVal);
 
-            if(i<j)
-            {
-                int tmp = arr[i];
-                arr[i] = arr[j];
-                arr[j]=tmp;
-            }
-        }
+    if(i<j)
+    {
+        int tmp = arr[i];
+        arr[i] = arr[j];
+        arr[j]=tmp;
+    }
+}
 
-        quickSort(arr,l,j);
-        quickSort(arr,j+1,r);
+quickSort(arr,l,j);
+quickSort(arr,j+1,r);
     }
 
     public static void main(String[] args) throws IOException {

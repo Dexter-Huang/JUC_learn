@@ -58,10 +58,6 @@ public class Ac4310_树的DFS {
             else
                 out.printf("%d\n",p.get(a[u]+k-1));
         }
-
-
-
-
         out.flush();
     }
 }

@@ -1,8 +1,8 @@
-package Acwing;
+package Acwing.Ac3_01背包1v;
 
 import java.io.*;
 
-public class Ac3_01背包_1 {
+public class Main {
     static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     static StreamTokenizer st = new StreamTokenizer(in);
     static int read() throws IOException {
@@ -17,21 +17,19 @@ public class Ac3_01背包_1 {
 
 
     public static void main(String[] args) throws IOException {
-        n = read();m=read();
-        for (int i = 1; i <= n ; i++) {
-            v[i]=read();w[i]=read();
-        }
+n = read();m=read();
+for (int i = 1; i <= n ; i++) {
+    v[i]=read();w[i]=read();
+}
 
-        for (int i = 1; i <= n ; i++) {
-            for (int j = 1; j <= m ; j++) {
-                f[i][j]=f[i-1][j];
-                if(j>=v[i])
-                    f[i][j]=Math.max(f[i][j],f[i-1][j-v[i]]+w[i]);
-            }
-        }
-
-        out.println(f[n][m]);
+for (int i = 1; i <= n ; i++) {
+    for (int j = 1; j <= m ; j++) {
+        f[i][j]=f[i-1][j];
+        if(j>=v[i])
+            f[i][j]=Math.max(f[i][j],f[i-1][j-v[i]]+w[i]);
+    }
+}
+out.println(f[n][m]);
         out.flush();
-
     }
 }

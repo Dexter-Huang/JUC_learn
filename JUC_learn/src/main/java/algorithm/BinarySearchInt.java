@@ -86,7 +86,6 @@ public class BinarySearchInt {
             test2(target,arr,n);
             test3(target,arr,n);
             test4(target,arr,n);
-
         }
 
     }

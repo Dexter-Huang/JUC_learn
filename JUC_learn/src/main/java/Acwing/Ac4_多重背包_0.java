@@ -17,22 +17,22 @@ public class Ac4_多重背包_0 {
     static int[][] f = new int[N][N];
 
     public static void main(String[] args) throws IOException {
-        n = read();m = read();
-        for (int i = 1; i <= n ; i++) {
-            v[i]=read();w[i]=read();s[i]=read();
-        }
+n = read();m = read();
+for (int i = 1; i <= n ; i++) {
+    v[i]=read();w[i]=read();s[i]=read();
+}
 
-        for (int i = 1; i <= n ; i++) {
-            for (int j = 1; j <= m ; j++) {
-                f[i][j]=f[i-1][j];
-                for (int k = 1; k <= s[i] ; k++) {
-                    if(j>=k*v[i])
-                        f[i][j]=Math.max(f[i][j],f[i-1][j-k*v[i]]+k*w[i]);
-                }
-            }
+for (int i = 1; i <= n ; i++) {
+    for (int j = 1; j <= m ; j++) {
+        f[i][j]=f[i-1][j];
+        for (int k = 1; k <= s[i] ; k++) {
+            if(j>=k*v[i])
+                f[i][j]=Math.max(f[i][j],f[i-1][j-k*v[i]]+k*w[i]);
         }
+    }
+}
 
-        out.println(f[n][m]);
+out.println(f[n][m]);
 
         out.flush();;
     }
