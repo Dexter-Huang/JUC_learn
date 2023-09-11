@@ -4,9 +4,6 @@ import java.io.*;
 import java.lang.reflect.Constructor;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-
-
-
 public class EscapeSingletonUtil {
 
     public static void reflectTest (Object obj) {
@@ -28,7 +25,7 @@ public class EscapeSingletonUtil {
             Constructor<?> constructor = obj.getClass().getDeclaredConstructor();
             constructor.setAccessible(true);
             Object obj2 = constructor.newInstance();
-            System.out.println(obj == obj2);// false
+            System.out.println(obj == obj2?"反射Test下单例模式未被破坏":"反射Test下单例模式被破坏");// false
         } catch (Exception e) {
             e.printStackTrace();
         } // try-with-resources 不需要写finally
@@ -41,7 +38,7 @@ public class EscapeSingletonUtil {
             ) {
             oos.writeObject(obj);
             Object obj2 = ois.readObject();
-            System.out.println(obj == obj2);// false
+            System.out.println(obj == obj2?"序列化Test下单例未被破坏":"序列化Test下单例被破坏");// false
         } catch (Exception e) {
             e.printStackTrace();
         } // try-with-resources 不需要写finally
