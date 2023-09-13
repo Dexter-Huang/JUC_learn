@@ -10,24 +10,24 @@ public class Ac786_找第k大的数 {
     static int n,k;
 
     static int findKth(int[] arr,int l,int r){
-if(l>=r)
-    return arr[k];
-int i = l-1,j=r+1,midVal =arr[l+r>>1];
-while (i<j){
-    while (arr[++i]<midVal);
-    while (arr[--j]>midVal);
-    if(i<j){
-        int tmp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = tmp;
-    }
-}
+        if(l>=r)
+            return arr[k];
+        int i = l-1, j=r+1, midVal =arr[l+r>>1];
+        while (i<j){
+            while (arr[++i]<midVal);
+            while (arr[--j]>midVal);
+            if(i<j){
+                int tmp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = tmp;
+            }
+        }
 
-if(k<=j)
-    return findKth(arr,l,j);
-else{
-    return findKth(arr,j+1,r);
-}
+        if(k<=j)
+            return findKth(arr,l,j);
+        else{
+            return findKth(arr,j+1,r);
+        }
 
     }
 
