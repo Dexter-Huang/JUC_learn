@@ -57,6 +57,8 @@
         <option value="$PROJECT_DIR$/DesignPattern/pom.xml" />
         <option value="$PROJECT_DIR$/Spring15种事务失效场景/pom.xml" />
         <option value="$PROJECT_DIR$/FlinkCDC/pom.xml" />
+        <option value="$PROJECT_DIR$/case_java17/pom.xml" />
+        <option value="$PROJECT_DIR$/Algorithm/pom.xml" />
       </list>
     </option>
   </component>
@@ -80,7 +82,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="SuppressionsComponent">
