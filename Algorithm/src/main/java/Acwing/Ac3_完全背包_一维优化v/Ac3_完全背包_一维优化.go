@@ -28,5 +28,4 @@ func main() {
 		}
 	}
 	fmt.Println(f[m])
-
 }
