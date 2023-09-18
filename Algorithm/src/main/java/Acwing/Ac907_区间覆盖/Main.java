@@ -52,20 +52,13 @@ public class Main {
         for(int i=0;i<n;i++){
             arr[i]=new Range(nextInt(),nextInt());
         }
-//        Arrays.sort(arr,0,arr.length);
-//        Arrays.stream(arr).forEach(System.out::println);
-//        System.out.println("-----");
-        arr= Arrays.stream(arr).filter(o->o.r>=s&&o.l<=t).sorted().toArray(Range[]::new);
-//        Arrays.sort(arr,0,arr.length);
-//        Arrays.stream(arr).forEach(System.out::println);
 
+        arr= Arrays.stream(arr).filter(o->o.r>=s&&o.l<=t).sorted().toArray(Range[]::new);
         int res = 0;
         boolean isOk = false;
         int tag = s;
 
-
         for(int i=0;i<arr.length;){
-//            System.out.println(i);
             int j = i,curTag = tag;
             if(tag<arr[j].l){
                 break;
@@ -74,8 +67,6 @@ public class Main {
                 curTag = Math.max(curTag,arr[j].r);
                 j++;
             }
-
-
             res++;
             if(curTag>=t){
                 isOk = true;
@@ -89,8 +80,5 @@ public class Main {
             System.out.println(-1);
         else
             System.out.println(res);
-
-
-
     }
 }
