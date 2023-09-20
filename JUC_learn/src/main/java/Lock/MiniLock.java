@@ -1,6 +1,5 @@
 package Lock;
 
-import jdk.internal.misc.Unsafe;
 
 import java.util.concurrent.locks.LockSupport;
 
