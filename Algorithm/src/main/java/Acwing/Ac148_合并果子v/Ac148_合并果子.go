@@ -5,13 +5,8 @@ import (
 	"container/heap"
 	"fmt"
 	"os"
-	"sort"
 	"strconv"
 )
-
-type Edge struct {
-	l, r int
-}
 
 type MinHeap []int
 
@@ -28,7 +23,7 @@ func (el MinHeap) Swap(i, j int) {
 }
 
 func (el *MinHeap) Push(x interface{}) {
-	*el = append(*el, x.(Edge).r)
+	*el = append(*el, x.(int))
 }
 
 func (el *MinHeap) Pop() interface{} {
@@ -46,43 +41,20 @@ func nextInt() int {
 	ans, _ := strconv.Atoi(scanner.Text())
 	return ans
 }
-
 func main() {
 	scanner.Split(bufio.ScanWords)
-
 	n := nextInt()
-	arr := make([]Edge, n)
+	arr := make(MinHeap, 0)
 	for i := 0; i < n; i++ {
-		l := nextInt()
-		r := nextInt()
-		arr[i] = Edge{l, r}
+		arr.Push(nextInt())
 	}
-
-	sort.Slice(arr[:n], func(i, j int) bool {
-		return arr[i].l < arr[j].l
-	})
-	//fmt.Println(arr)
-	minHeap := &MinHeap{}
-	heap.Init(minHeap)
-
-	for i := 0; i < n; i++ {
-		l := arr[i].l
-		r := arr[i].r
-		if minHeap.Len() == 0 || l <= (*minHeap)[0] {
-			heap.Push(minHeap, Edge{l, r})
-		} else {
-			min_r := (*minHeap)[0]
-			heap.Pop(minHeap)
-			heap.Push(minHeap, Edge{l, max(min_r, r)})
-		}
+	heap.Init(&arr)
+	ans := 0
+	for len(arr) > 1 {
+		a := heap.Pop(&arr).(int)
+		b := heap.Pop(&arr).(int)
+		ans += a + b
+		heap.Push(&arr, a+b)
 	}
-
-	fmt.Println(minHeap.Len())
-}
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
+	fmt.Println(ans)
 }
