@@ -3,7 +3,7 @@ Author: traccytian <646576956@qq.com>
 Date:   Mon Feb 6 16:31:48 2023 +0800
 
     Update README.md
-    
+
     修改依赖项信息
 
 commit d51dfd6636ba676a8deb9e8d23bd4ce9667e3c7a
@@ -53,7 +53,7 @@ Author: Uli <email@kiot.eu>
 Date:   Thu May 5 17:48:45 2022 +0200
 
     Allow the . (dot) and @ (at) character in usernames (#637)
-    
+
     Co-authored-by: Uli Koeth <uli@kiot.eu>
 
 commit c6a685d7c04ce6c3d632016240648142ec46d956
@@ -116,7 +116,7 @@ Author: StaryVena <StaryVena@users.noreply.github.com>
 Date:   Wed Jan 26 15:27:14 2022 +0100
 
     Add OCR support for Czech language (#613)
-    
+
     Co-authored-by: Vaclav Uher <vaclav.uher@bruker.com>
 
 commit bbe5f199974f4c8d736f2d229cbba25636a04515
@@ -124,7 +124,7 @@ Author: Dan Schaper <dan.schaper@pi-hole.net>
 Date:   Tue Jan 25 01:37:47 2022 -0800
 
     Tag latest on master, tag version on github tag. (#612)
-    
+
     Signed-off-by: Dan Schaper <dan.schaper@pi-hole.net>
 
 commit f33650c099ce62a7f30f30c4cfc09c57105a3f41
@@ -144,9 +144,9 @@ Author: Dan Schaper <dan.schaper@pi-hole.net>
 Date:   Fri Jan 21 04:35:39 2022 -0800
 
     Add build tags and labels (#608)
-    
+
     Fixes Docker images always build as 'latest' #607
-    
+
     Signed-off-by: Dan Schaper <dan.schaper@pi-hole.net>
 
 commit 3637b832e56b66da0d5fe5a153e626a6bea4b764
@@ -184,7 +184,7 @@ Author: Dan Schaper <dan@glacialmagma.com>
 Date:   Wed Jan 12 14:49:34 2022 -0800
 
     Actions workflow (#601)
-    
+
     Signed-off-by: Dan Schaper <dan@glacialmagma.com>
 
 commit 0a927fd3204d2f95ade8bbb18d89e8a811b6face
@@ -223,7 +223,7 @@ Author: Roland Illig <roland.illig@gmx.de>
 Date:   Sat Nov 20 20:34:36 2021 +0100
 
     proofread German translation (#566)
-    
+
     * plural forms
     * spelling of composed words
     * spaces between numbers and measurement units
@@ -246,7 +246,7 @@ Author: Dan Schaper <dan.schaper@pi-hole.net>
 Date:   Thu Sep 30 04:23:58 2021 -0700
 
     Remove duplicate tesseact language and alphabetize (#579)
-    
+
     Signed-off-by: Dan Schaper <dan@glacialmagma.com>
 
 commit f20a56243945fd75e1221c99c259a64b6072c72f
@@ -278,7 +278,7 @@ Author: Somebodyisnobody <35230554+Somebodyisnobody@users.noreply.github.com>
 Date:   Wed Mar 31 19:08:58 2021 +0200
 
     Update de.json (#532)
-    
+
     Fix typo
 
 commit c60c9a8f742f8a8818dd38cfd9c682014b7ad76d
@@ -385,7 +385,7 @@ Author: Benjamin Gamard <b.gamard@sismics.com>
 Date:   Wed Dec 30 23:45:57 2020 +0100
 
     Merge pull request #489 from Vec7or/fix-color-bug
-    
+
     Fix tag-colors inside inherited acl
 
 commit 1d66b47f5fe7cc364b486312a947ccaa393ddc5c
@@ -405,7 +405,7 @@ Author: Evil McJerkface <evil@scary.town>
 Date:   Thu Nov 19 03:15:40 2020 -0600
 
     Added support for TLS & STARTTLS for SMTP connections. If port 465 is configured, TLS will be assumed. If port 587 is used, STARTTLS is assumed. (#478)
-    
+
     Closes #353: Added support for TLS & STARTTLS for SMTP connections
 
 commit 5b2833350c09e93c0c579916b6b7e264f1d7eea8
@@ -456,7 +456,7 @@ Author: Benjamin Gamard <b.gamard@sismics.com>
 Date:   Wed Oct 14 22:49:57 2020 +0200
 
     Merge pull request #463 from kazelot/dev-language-pl
-    
+
     Add  polish language
 
 commit 69905cdc555678ddedbdd4eb8e9bc0f532bfaf86
@@ -517,7 +517,7 @@ Author: Benjamin Gamard <b.gamard@sismics.com>
 Date:   Thu Oct 8 12:52:43 2020 +0200
 
     Merge pull request #454 from vmario89/patch-3
-    
+
     Update de.json
 
 commit 1584c0cbb2d6047d08d2ea4fea3ff42b4da9fbf9
@@ -525,7 +525,7 @@ Author: Mario Voigt <opensource@leyghis.de>
 Date:   Thu Oct 8 09:52:38 2020 +0200
 
     Update de.json
-    
+
     Small lang fix in de.json
 
 commit 22f0f1abf4dbee523f1f87ea60e6aa34eabe10c4
@@ -572,7 +572,7 @@ Author: Benjamin Gamard <b.gamard@sismics.com>
 Date:   Tue Sep 8 02:02:59 2020 +0200
 
     Merge pull request #449 from muhsinkutay/patch-1
-    
+
     Fix typo in English translation
 
 commit 50e6c4d965a6ef77ed4a58d638d98c1c411550c7
@@ -580,7 +580,7 @@ Author: muhsinkutay <33558081+muhsinkutay@users.noreply.github.com>
 Date:   Tue Sep 8 02:51:53 2020 +0300
 
     Update en.json
-    
+
     Line 6: Misspelling
 
 commit 3ad0554a7daa47a3c604e520ffe964c3f2140f09
@@ -679,7 +679,7 @@ Author: Cornelicorn <40914430+Cornelicorn@users.noreply.github.com>
 Date:   Fri May 22 15:18:19 2020 +0200
 
     Improve the file importer (#415)
-    
+
     Improve the bulk importer (tags by filename, document language, Docker container)
 
 commit 3f67bd471bc4a9c2a28a192b306c5895d4a347b7
@@ -730,7 +730,7 @@ Author: cadast <37808546+cadast@users.noreply.github.com>
 Date:   Thu May 14 13:59:11 2020 +0200
 
     Improve Inbox Scanning (#407)
-    
+
     closes #386: delete emails after import + closes #405: auto tag documents imported by email
 
 commit 0d058b9c9cb13d96594cba3e38ab7b0adcf7f39a
@@ -889,7 +889,7 @@ Author: junpet <junpet@users.noreply.github.com>
 Date:   Wed Jan 29 15:44:44 2020 +0100
 
     Add Hungarian Language Support (#369)
-    
+
     Add Hungarian language support
 
 commit 6f31a2c228fbac5eeba7df2fba5c09dff6eaaa7a
@@ -946,7 +946,7 @@ Author: Mario Voigt <mariovoigt89@t-online.de>
 Date:   Sat May 25 18:53:02 2019 +0200
 
     Update de.json (#322)
-    
+
     Added missing german translation strings
 
 commit 38939e5d05cb9bbeebd1c69cfe40d285f18a42b2
@@ -1132,7 +1132,7 @@ Author: Burak Sormageç <bsormagec@users.noreply.github.com>
 Date:   Thu Mar 7 22:34:02 2019 +0300
 
     Turkish Language Support (#304)
-    
+
     Add turkish language support
 
 commit d935e0799025a4aa0e84ce58c8ceaf34f819f3fa
@@ -1304,7 +1304,7 @@ Author: Mario Voigt <mariovoigt89@t-online.de>
 Date:   Thu Jan 24 11:53:45 2019 +0100
 
     Fixed some spelling mistakes + added translated properties for german… (#266)
-    
+
     german fixes
 
 commit 8a5e90e56237c4a0e059aadd211ba339b3b60e10
@@ -1312,7 +1312,7 @@ Author: Freekers <1370857+Freekers@users.noreply.github.com>
 Date:   Thu Jan 24 11:52:44 2019 +0100
 
     Added OCR support for Dutch (Nederlands) (#286)
-    
+
     Dutch support for OCR
 
 commit c7c7badaf04fcf8663c38997657b43bacd4b88e5
@@ -1332,7 +1332,7 @@ Author: Mario Voigt <mariovoigt89@t-online.de>
 Date:   Thu Jan 24 11:38:17 2019 +0100
 
     Open jdk11 (#287)
-    
+
     Java 11 compat
 
 commit 5169deb005b1324af9e44d729a920d37bf993ef6
@@ -1340,7 +1340,7 @@ Author: Benjamin Gamard <b.gamard@sismics.com>
 Date:   Wed Dec 5 17:23:19 2018 +0100
 
     fix workflow form
-    
+
     (cherry picked from commit db4f5f9011c5222f665b4caecccb99474f2a5d58)
 
 commit 98fa89bd809044eb13da85a198fe9d62041cef5c
@@ -1348,7 +1348,7 @@ Author: Benjamin Gamard <b.gamard@sismics.com>
 Date:   Wed Nov 28 13:09:20 2018 +0100
 
     css fix
-    
+
     (cherry picked from commit 33aaf8afd28c73ca4f72dd57da301ac296d3e3f1)
 
 commit db4f5f9011c5222f665b4caecccb99474f2a5d58
@@ -1574,7 +1574,7 @@ Author: James Smith <psych0ticus.aus@gmail.com>
 Date:   Wed Jul 18 19:35:17 2018 +1000
 
     Added required environment variable to startup (#240)
-    
+
     Added DOCS_BASE_URL to the environment variables in the Docker documentation
 
 commit 8f1dddb8a35dd6b72f14219c3ef09c7cf65c7204
@@ -1918,7 +1918,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Sun Mar 18 22:21:31 2018 +0100
 
     Java 8, Tesseract 4, Ubuntu (#214)
-    
+
     Java 8, Tesseract 4, Ubuntu 18.04
 
 commit 7ea8d0c0f7f5fd06953d085c9ff1b8d8505ded80
@@ -1938,7 +1938,7 @@ Author: tedstriker <github@meins.org>
 Date:   Sun Mar 18 11:37:59 2018 +0100
 
      Fixed typos, grammar and meaning in German translation (#211)
-    
+
     Fix german translation
 
 commit aebdc9e208bf1df2d959d05a90345240ca5f5527
@@ -2030,7 +2030,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Mon Mar 12 22:55:04 2018 +0100
 
     #202 Actions on route transitions (#204)
-    
+
     #202 Actions on route transition
 
 commit 9ca27d7c125976b2ed50ff89f150217ad4e0d1fc
@@ -2039,7 +2039,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Mon Mar 12 16:53:09 2018 +0100
 
     Merge pull request #203 from schemen/master
-    
+
     Update some German translations
 
 commit 4183dae458f85fdae8a2ec09dde7bdbc8901f693
@@ -3303,7 +3303,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Tue Jan 3 11:43:54 2017 +0100
 
     Merge pull request #121 from sismics/master
-    
+
     Update Jetty version
 
 commit 0e8d5fd5ec378b92a3b8bc781a513c5f28e255ad
@@ -3318,7 +3318,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Tue Jan 3 11:11:44 2017 +0100
 
     Merge pull request #120 from sismics/master
-    
+
     Update base image
 
 commit 5053a6852f673c41b1f0323068b194e00bbcc947
@@ -3370,7 +3370,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Thu Oct 6 15:35:11 2016 +0200
 
     Merge pull request #115 from sismics/master
-    
+
     Edit production domain
 
 commit 850ed7f76b1e3090979b483f1ff56573e27eb390
@@ -3434,7 +3434,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Thu Jun 16 21:38:14 2016 +0200
 
     Merge pull request #110 from sismics/master
-    
+
     Push to production
 
 commit f5705b11539afaba0c75636d94b6b8a154db7b1a
@@ -3515,7 +3515,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Fri May 13 00:46:18 2016 +0200
 
     Merge pull request #104 from sismics/master
-    
+
     Push to production
 
 commit ef18581e7178c7a3953d4d4966c9ee735e7c5b95
@@ -3572,7 +3572,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Mon May 9 22:10:49 2016 +0200
 
     Merge pull request #100 from sismics/master
-    
+
     Push to production
 
 commit 79141edf7044eaddf33d1251543b263aebd67d9b
@@ -3611,7 +3611,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Sun May 8 23:40:50 2016 +0200
 
     Merge pull request #96 from sismics/master
-    
+
     Push to production
 
 commit 3ff41d20024c86c12c4d689c28b6ea88c22985aa
@@ -3632,7 +3632,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Sun May 8 23:21:36 2016 +0200
 
     Merge pull request #95 from sismics/master
-    
+
     Fix batch for ACLs on tags
 
 commit 6f89a50fe5eddeefaf681e5b6858310b4f5e323a
@@ -3647,7 +3647,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Sun May 8 23:07:43 2016 +0200
 
     Merge pull request #94 from sismics/master
-    
+
     Push to production
 
 commit e234440ce66ea14c521fcf263a0ed01b04dfd57f
@@ -3698,7 +3698,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Sun May 8 01:11:32 2016 +0200
 
     Merge pull request #92 from sismics/tags_acl
-    
+
     Tags as source for ACL
 
 commit 3dd8a52f7d3a2c9d16026b2aa8d8b5a732704aa3
@@ -3917,7 +3917,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Thu Mar 24 00:06:52 2016 +0100
 
     Merge pull request #89 from sismics/master
-    
+
     Push to production
 
 commit 98350860eb7a166adc5d5c124f3476d473300eb7
@@ -3986,7 +3986,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Mon Mar 21 01:01:14 2016 +0100
 
     Merge pull request #86 from sismics/master
-    
+
     Push to production
 
 commit 5a41e9555e21090af8189e5bd0433b88f6c14596
@@ -4187,7 +4187,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Wed Mar 2 00:43:37 2016 +0100
 
     Merge pull request #76 from sismics/master
-    
+
     Push to production
 
 commit 919948489dbe6daac5710611795a4287127418dd
@@ -4196,7 +4196,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Wed Mar 2 00:38:03 2016 +0100
 
     Merge pull request #75 from sismics/lucene5
-    
+
     Closes #68: Display contributors in UI
 
 commit 12efd5c11fe96fbb28c5693578ee017620af1162
@@ -4211,7 +4211,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Tue Mar 1 23:54:17 2016 +0100
 
     Merge pull request #74 from sismics/lucene5
-    
+
     Migration to Lucene 5
 
 commit 59682b5ba663cbc094279a3a18c76ecac2732d7b
@@ -4358,7 +4358,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Thu Feb 11 23:41:47 2016 +0100
 
     Merge pull request #64 from sismics/master
-    
+
     Push to production
 
 commit 509ab82745c3f4d786042b4fd8856ded49ba6dca
@@ -4403,7 +4403,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Sun Jan 24 16:30:50 2016 +0100
 
     Merge pull request #60 from sismics/master
-    
+
     Push to production
 
 commit 3172a5f2161ce4c1c133565760579995ccbbbca2
@@ -4417,7 +4417,7 @@ Author: jendib <benjamin.gam@gmail.com>
 Date:   Sat Jan 23 23:20:09 2016 +0100
 
     #57: Android: Migrate document resource to OkHttp
-    Closes #58: Android: OkHttpClient and cache as singleton
+    Closes #58: Android: OkHttpClient and cache as 单例模式
 
 commit d9509474b0b29a141d67f7ab3314babaff9d9be9
 Author: jendib <benjamin.gam@gmail.com>
@@ -4455,7 +4455,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Fri Jan 1 01:58:32 2016 +0100
 
     Merge pull request #56 from sismics/master
-    
+
     Push to production
 
 commit 2c791f51230564f5a37fc5e98388da0f9b63fa35
@@ -4506,7 +4506,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Fri Dec 11 22:22:44 2015 +0100
 
     Merge pull request #54 from sismics/master
-    
+
     Push to production
 
 commit 24d8784e1b2af70fa52649bf7e6adafce00a2b83
@@ -4539,7 +4539,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Tue Dec 1 01:17:36 2015 +0100
 
     Merge pull request #52 from sismics/master
-    
+
     Push to production
 
 commit 5f516047bda4c2e1f10e137e33cd495d756d9746
@@ -4566,7 +4566,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Mon Nov 30 00:29:31 2015 +0100
 
     Merge pull request #50 from sismics/master
-    
+
     Push to production
 
 commit d428ce162b813cc8bcb2b98b5b9f97f28aa3cd82
@@ -4594,7 +4594,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Mon Nov 30 00:10:26 2015 +0100
 
     Merge pull request #47 from sismics/master
-    
+
     Push to production
 
 commit e36143b61c5e8fec9bd81f80dda02e4a2c05dfc7
@@ -4682,7 +4682,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Sat Nov 21 20:32:16 2015 +0100
 
     Merge pull request #46 from sismics/master
-    
+
     Push to production
 
 commit 7e5aa9aecf11e7356dc3ffe90bcab83fde4d16c5
@@ -4717,7 +4717,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Wed Nov 18 23:11:02 2015 +0100
 
     Merge pull request #43 from sismics/master
-    
+
     Push to production
 
 commit 82b39586f038a4a5f9c68731aa1fd6ed5fc90ac0
@@ -4764,7 +4764,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Mon Nov 2 23:55:16 2015 +0100
 
     Merge pull request #40 from sismics/master
-    
+
     Push to production
 
 commit af23cd4948370fde719f31f642380430b15badf3
@@ -4791,7 +4791,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Mon Nov 2 21:36:14 2015 +0100
 
     Merge pull request #39 from sismics/master
-    
+
     Push to production
 
 commit cd32f452e96832d124988a2081545defb4b56fc3
@@ -4864,7 +4864,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Tue Sep 8 21:50:12 2015 +0200
 
     Merge pull request #31 from sismics/master
-    
+
     Push to production
 
 commit a95dcf488d4650496db77f3953bf971a55972c67
@@ -4891,7 +4891,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Sat Sep 5 23:12:29 2015 +0200
 
     Merge pull request #28 from sismics/master
-    
+
     #4: Upgrade to unrelease PDFBox 2
 
 commit e72fe3683ce9c5da21874ca918aad2f3e06f72a2
@@ -4906,7 +4906,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Sat Sep 5 21:41:43 2015 +0200
 
     Merge pull request #27 from sismics/master
-    
+
     Push to production
 
 commit 44c10b60cd3303a6965e4c018a14e10919b6ddd0
@@ -4984,7 +4984,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Fri Aug 28 01:16:33 2015 +0200
 
     Merge pull request #25 from sismics/master
-    
+
     Push to production
 
 commit 08e4f6ddae477faea9338acd886a7989b9fee013
@@ -5060,7 +5060,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Sun May 10 14:03:44 2015 +0200
 
     Merge pull request #19 from sismics/master
-    
+
     Fix post-ACL system
 
 commit 8597eac9f97dccaae90d7fed12ede164dd8d8b2d
@@ -5124,7 +5124,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Sat May 9 18:00:33 2015 +0200
 
     Merge pull request #17 from sismics/master
-    
+
     #13: Fix performance issue
 
 commit 42320dc9b99fec31382e9d85d450a7b1b84989bc
@@ -5139,7 +5139,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Sat May 9 17:32:04 2015 +0200
 
     Merge pull request #16 from sismics/master
-    
+
     #13: Disable shared status in GET /document/list (too slow)
 
 commit ff994ce63bc68dddc520f210d6bdf4dc6308fd0c
@@ -5154,7 +5154,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Sat May 9 16:37:13 2015 +0200
 
     Merge pull request #15 from sismics/master
-    
+
     ACL system
 
 commit 82ba0b57615e6287e6f9990e0ec7336c94d91f0d
@@ -5205,7 +5205,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Sat May 2 17:19:30 2015 +0200
 
     Merge pull request #12 from sismics/master
-    
+
     Push to production
 
 commit 9b4b13a721d7bdec5296002b2727369bdc4444ec
@@ -5238,7 +5238,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Sun Mar 29 16:07:07 2015 +0200
 
     Merge pull request #9 from sismics/master
-    
+
     Upload drag & dropped files sequentially
 
 commit 1c4161981b29d36b78213f6f8cac42d41a1aaef5
@@ -5253,7 +5253,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Sat Mar 28 18:05:01 2015 +0100
 
     Merge pull request #8 from sismics/master
-    
+
     Attach orphan files to a new document
 
 commit 5e3093d0d3b55566cdddfc7d513de83ddd94f83d
@@ -5274,7 +5274,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Fri Mar 27 23:11:33 2015 +0100
 
     Merge pull request #7 from sismics/master
-    
+
     Drag & drop
 
 commit 80a2e0d055158aafdda3ff26de187758503e6d40
@@ -5331,7 +5331,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Tue Mar 17 00:03:00 2015 +0100
 
     Merge pull request #5 from sismics/master
-    
+
     chmod +x
 
 commit bad42d96f3ae4c9ef590ee7de931a2c8bc50d520
@@ -5752,7 +5752,7 @@ Author: Benjamin Gamard <benjamin.gam@gmail.com>
 Date:   Sat Jan 11 11:40:03 2014 -0800
 
     Merge pull request #1 from sismics/bs3
-    
+
     Merge BS3 branch
 
 commit 9802beaf7b46de44bef333bb72facc64d7c83735
