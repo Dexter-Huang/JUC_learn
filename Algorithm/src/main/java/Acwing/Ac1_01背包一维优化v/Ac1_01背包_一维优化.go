@@ -37,10 +37,3 @@ func nextInt(scanner *bufio.Scanner) int {
 	num, _ := strconv.Atoi(scanner.Text())
 	return num
 }
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}

@@ -1,0 +1,173 @@
+\usepackage{float}
+\documentclass[sigplan,screen]{acmart}
+
+\settopmatter{printacmref=false} % Removes citation information below abstract
+\renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference information in first column
+\pagestyle{plain} % removes running headers
+
+\begin{document}
+
+
+\title{Knowledge-based Question and Answer System Application Development built on the LLM}
+
+\author{Minglang Huang, Honglie Li, Yukun Yang}
+\email{12011828@mail.sustech.edu.cn,  12112106@mail.sustech.edu.cn, 12112123@mail.sustech.edu.cn}
+\affiliation{%
+  \institution{Southern University of Science and Technology}
+  \city{Shenzhen}
+  \country{China}
+}
+
+
+\begin{abstract}
+
+  Knowledge-based QA (Question Answering) systems have gained significant attention in recent years due to their ability to provide accurate and efficient answers to user queries. These systems utilize large language models (LLMs) such as ChatGPT-4 to understand and respond to user questions. Considering repetitive question from cluster users often require manual answer, leading to increased workload and decreased efficiency, This research proposal aims to develop a Knowledge-based QA system application built on the LLMs to automate the process of answering these queries and improve users' experience.
+\end{abstract}
+
+
+\keywords{Large Language Model, Knowledge-based System, LLM-tuning}
+
+
+\maketitle
+
+\section{Introduction}
+
+
+\subsection{Definition and Application of Knowledge-based Question Answering System}
+
+Knowledge-based question answering system is a type of artificial intelligence technology that is designed to understand and respond to questions posed by users by utilizing a vast amount of knowledge stored in a knowledge base.
+
+In this research, we will use KQA to represent Knowledge-based Question Answering System.
+
+In recent years, the development of KQA systems has gained significant attention due to their potential applications in various domains. These systems have the capability to process and analyze large volumes of structured and unstructured data, such as text documents, databases, and online resources, to extract relevant information and generate precise answers.
+
+The application of KQA systems is diverse and spans across multiple industries.
+\begin{itemize}
+    \item {\verb|Note Application|}:
+    In Note Application's development, KQA system can help people to find the information they need in a timely manner, improving their productivity and efficiency, like YuQue, Notion, etc.
+    \item{\verb|Education|}:
+    KQA systems can support students in finding accurate and reliable information for their research projects and assignments.
+
+    \item{\verb|Customer Services|}:
+    KQA systems also can be utilized in customer support services, where they can provide instant and accurate responses to customer queries, improving overall customer satisfaction.
+\end{itemize}
+
+\subsection{Limitations of existing knowledge QA Systems}
+
+A mature Domain specific Knowledge Q&A system need to include requirements like:
+
+\begin{itemize}
+    \item {\verb|Interaction|}:
+Interact with users through natural language Q&A, while supporting both Chinese and English.
+    \item{\verb|Comprehension|}:
+Understand different forms of user questions and find answers that match them. You can perform secondary processing on the answers, such as deduplicating and summarizing multiple related knowledge points.
+
+    \item{\verb|Context Supporting|}:
+Support context. Some issues may be more complex, or the original knowledge cannot be covered, and information needs to be extracted from historical conversations.
+
+    \item{\verb|Accuracy|}:System should not give plausible or meaningless answers.
+\end{itemize}
+
+However, existing knowledge QA systems have several limitations that hinder their effectiveness and accuracy. Some of these limitations include:
+
+1. Limited domain knowledge: Existing KQA systems are often designed to answer questions within a specific domain or topic. They may struggle to answer questions outside of their predefined knowledge base, limiting their usefulness in providing comprehensive and diverse information.
+
+2. Lack of long context understanding: KQA systems often struggle to understand the context of a question and provide relevant answers. They may not be able to interpret ambiguous queries, leading to inaccurate or irrelevant responses.
+
+
+3. Difficulty in handling unstructured data: Knowledge QA systems typically rely on structured data sources such as databases or knowledge graphs. They may struggle to handle unstructured data sources such as text documents or web pages, which limits their ability to provide comprehensive and up-to-date information.
+
+4. Lack of real-time updates: Existing knowledge QA systems often rely on static knowledge bases that are not regularly updated. This can lead to outdated or incorrect information being provided as answers, especially in rapidly evolving domains.
+
+
+\subsection{Purpose of This Research}
+
+As an institution providing high-performance computing services, the Supercomputing Center of Southern University of Science and Technology is facing the needs and problems of a large number of user clusters. However, as the number of users increases, we have found many repetitive issues, which not only waste the time and energy of users and technical support teams, but also reduce user experience and work efficiency.
+
+To address this issue, we plan to develop a knowledge Q&A system application based on the Large Language Model (LLM) to provide efficient and accurate question answering and technical support.
+
+\section{System Design and Implementation}
+
+\subsection{System architecture and module division}
+
+Our KQA system can be as below:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=3.0in]{fastgpt.png}
+\caption{QA System Functional Architecture Design}
+\label{fig_data}
+\end{figure}
+
+\begin{itemize}
+\item \textbf{Frontend Module}:
+For the Frontend Module, we use NextJS to build the user interface and handle client-side rendering. NextJS is a lightweight server-side rendering framework based on React, which enables us to quickly develop efficient frontend pages and routes.
+\item \textbf{Large Language Model's API Module}: The Large Language Model (LLM) API Module is the core module of the system, responsible for answering user queries. We build an API interface using Python to easily call and request the online LLM. To ensure security in the HPC center, we plan to use open-source LLMs like ChatGLM2-6B, ChatGLM3-6B, Baichuan2-13B, instead of commercial LLMs like GPT.
+\item \textbf{Vector Embedding Module}: The Vector Embedding Module converts natural language into vector representations. We can utilize pre-trained language models such as BERT, ELMo, and GPT to transform input natural language into vector form.
+\item \textbf{Data Storage Module}: The Data Storage Module is responsible for storing the data required by the system. We can use traditional databases like MySQL or PostgreSQL, or choose distributed storage systems like Hadoop or Spark.
+\item \textbf{Function Call Module}: The Function Call Module manages the functions within the system. We can use containerization technologies like Docker to package functions into containers and manage them on container orchestration platforms like Kubernetes.
+\item \textbf{Dataset Organization Module}: The Dataset Organization Module organizes the datasets used by the system. We can store datasets in cloud storage or local storage in the HPC center, and use distributed file systems like HDFS, Ceph, or GlusterFS for unified management.
+\item \textbf{LLM Online Training Module}: The LLM Online Training Module is responsible for training large language models online. We can develop this module using deep learning frameworks like TensorFlow or PyTorch, and support distributed training. After training, we can export the trained models for subsequent inference tasks.
+\end{itemize}
+
+\subsection{Training and optimization of the LLM model}
+
+There are several solutions for building a question and answer system based on LLM:
+
+\begin{itemize}
+    \item {\verb|Fine Tuning|}:
+
+    1. P-tuning
+
+    2. LoRA
+
+    3.
+    \item{\verb|Prompt Engineering|}:
+    \item{\verb|Combining with regular search|}:
+
+    such as ElasticSearch
+
+\end{itemize}
+
+\subsection{User interface design and interaction flow}
+
+% \section{Research Content and Methods}
+
+% \subsection{Basic concepts and techniques of knowledge graphs and semantic representation}
+% \subsection{Design approach for a knowledge-based QA system built on the LLM}
+% \subsection{Methods and processes for system development}
+% \section{Experimental Design and Evaluation}
+% \subsection{Selection and preprocessing of datasets}
+% \subsection{Experimental setup and selection of evaluation metrics}
+% \subsection{Performance evaluation and comparative experiments}
+% \section{Expected Results and Innovation}
+% \subsection{Expected functionality and performance of the knowledge-based QA system}
+% \subsection{Comparative analysis with existing systems}
+% \subsection{Innovation and research value}
+
+\section{Plan and Schedule}
+\subsection{Timeline for system development and experimental design}
+\subsection{Tasks and milestones for each phase}
+\subsection{Estimated research progress and completion time}
+
+
+
+\begin{thebibliography}{1}
+\bibliographystyle{IEEEtran}
+
+\bibitem{ref1}
+Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2019). BERT: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805.
+
+\bibitem{ref2}
+Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., & Sutskever, I. (2019). Language Models are Unsupervised Multitask Learners.
+
+\bibitem{ref3}
+
+\bibitem{ref4}
+
+\end{thebibliography}
+
+
+\end{document}
+\endinput
+

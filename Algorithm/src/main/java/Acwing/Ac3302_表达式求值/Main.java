@@ -3,63 +3,71 @@ package Acwing.Ac3302_表达式求值;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.HashMap;
 import java.util.Stack;
 
 public class Main {
     static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-    static char[] nextStr() throws IOException {
-        return in.readLine().toCharArray();
-    }
-    static Stack<Character> synStack = new Stack<>();
     static Stack<Integer> numStack = new Stack<>();
-    static char[] arr;
-    static void priorityCal(char syn,int post){
-        if(syn=='*'){
-            numStack.push(numStack.pop()*post);
-        } else if (syn == '/') {
-            numStack.push(numStack.pop()/post);
+    static Stack<Character> opStack = new Stack<>();
+    static HashMap<Character,Integer> opMap = new HashMap<>();
+    static {
+        opMap.put('(',0);
+        opMap.put('+',1);
+        opMap.put('-',1);
+        opMap.put('*',2);
+        opMap.put('/',2);
+    }
+    public static void eval(){
+        int a = numStack.pop(), b = numStack.pop();
+        char op = opStack.pop();
+        int r = 0;
+        switch (op){
+            case '+':
+                numStack.push(b+a);break;
+            case '-':
+                numStack.push(b-a);break;
+            case '*':
+                numStack.push(b*a);break;
+            case '/':
+                numStack.push(b/a);break;
         }
     }
 
-    static void cal(){
-        char syn;
-        while (!synStack.isEmpty()&&(syn=synStack.pop())!='('){
-            switch (syn){
-                case '+':
-                    numStack.push(numStack.pop()+numStack.pop());
-                    break;
-                case '-':
-                    int a = numStack.pop(), b = numStack.pop();
-                    numStack.push(b-a);
-                    break;
-//                case '*':
-//                    numStack.push(numStack.pop()*numStack.pop());
-//                    break;
-//                case '/':
-//                    int a1 = numStack.pop(), b1 = numStack.pop();
-//                    numStack.push(b1/a1);
-//                    break;
-                default:
-                    break;
-            }
-        }
-    }
     public static void main(String[] args) throws IOException {
-        arr = nextStr();
-        int len = arr.length;
-        for(int i=0;i<len;i++){
-            System.out.println(arr[i]);
-            if(Character.isDigit(arr[i])){
-                numStack.push(Integer.parseInt(String.valueOf(arr[i])));
-            } else if(arr[i]==')'){
-                cal();
-            } else if (arr[i]=='*'||arr[i]=='/') {
-                priorityCal(arr[i],Integer.parseInt(String.valueOf(arr[++i])));
-            } else{
-                synStack.push(arr[i]);
+        char[] arr = in.readLine().toCharArray();
+        for(int i=0;i<arr.length;i++){
+            if(Character.isDigit(arr[i])){ // 判断是数字
+                int ans = 0, j =i;
+                while (j<arr.length&&Character.isDigit(arr[j])){
+                    ans = ans *10 + arr[j] - '0';
+                    j++;
+                }
+                numStack.push(ans);
+                i = j-1;
+            } else if(arr[i]=='('){  // 判断是 (
+                opStack.push('(');
+            } else if (arr[i] == ')') { // 判断是 )
+                while (opStack.peek()!='('){
+                    eval();
+                }
+                opStack.pop();
+            } else {   // +-*/
+//                System.out.println(arr[i]);
+//                System.out.println(opStack.peek());
+                while (
+                        !opStack.isEmpty()
+                                && opMap.get(opStack.peek())>=opMap.get(arr[i])
+                )
+                    eval();
+                opStack.push(arr[i]);
             }
         }
-        cal();
-        System.out.println(numStack.pop());
+        while (!opStack.isEmpty()){
+            eval();
+        }
+        System.out.println(numStack.peek());
+
+
     }
 }

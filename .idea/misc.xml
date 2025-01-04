@@ -69,11 +69,14 @@
         <option value="$PROJECT_DIR$/xhy-web/xhy-web/pom.xml" />
       </list>
     </option>
+    <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
   <component name="PDMPlugin">
     <option name="customRuleSets">
       <list>
         <option value="C:\Users\27225\Desktop\rule.xml" />
+        <option value="D:\Sustech\Sustech4\software\team-project-211\SUSRES\numberOfPackages.xml" />
+        <option value="D:\Sustech\Sustech4\software\team-project-211\SUSRES\linesOfCodes.xml" />
       </list>
     </option>
     <option name="skipTestSources" value="false" />
